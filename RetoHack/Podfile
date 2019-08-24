@@ -6,5 +6,6 @@ target 'RetoHack' do
   use_frameworks!
 
   # Pods for RetoHack
+pod 'DesignSystem'
 
 end
