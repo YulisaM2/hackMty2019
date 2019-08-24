@@ -1,0 +1,823 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		073D343EEEACFDA89780DCE95769A50E /* UIFont+SLDSFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A2C89E1B269E5DEDC23DDE8D21DDEB4 /* UIFont+SLDSFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D8530D4B78326B5E3BD8C397D1C884B /* SalesforceSans-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 307AB3398C7759F7FB218E8D6BA68DD2 /* SalesforceSans-ThinItalic.ttf */; };
+		115A78BE15A3F15AB0E945D9BBB0803D /* SalesforceSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B08A5A953DD25C8B47FE84ECF735B4FD /* SalesforceSans-Bold.ttf */; };
+		121C189271C9F3D1180A3FF9715DB23A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23621862A99429490F9C983069F078BB /* Foundation.framework */; };
+		162AAF855D5AA07208CCFB6EE6C98B04 /* License-for-SalesforceDesignSystemIcons.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0DC4CA0204EC2DADB79794C9F25C8AE1 /* License-for-SalesforceDesignSystemIcons.txt */; };
+		19440105B45C4BE73204409AEC43799F /* SLDSFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E4FE189CEABE6ED18051A51C187BD21 /* SLDSFont.m */; };
+		1A3A87DD8E56E48CAE85C44F394B917E /* NSString+SLDSName.h in Headers */ = {isa = PBXBuildFile; fileRef = 961106D8ACA528E08CB1CCF589438DCC /* NSString+SLDSName.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		232966267BA12993093E08352A36AE11 /* Pods-RetoHack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FB7815CDC461B7455F0846FE69511F /* Pods-RetoHack-dummy.m */; };
+		3464620FFFB3CCF66B7FE6CFE6FCC76A /* SLDSColor.h in Headers */ = {isa = PBXBuildFile; fileRef = BD6E53F63E6E66FBFFD47771C41C3CE7 /* SLDSColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4279DB5C94F6C56F9A028547DDD2E776 /* SalesforceDesignSystemIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F51C37519407327C53C1B799FCBFF007 /* SalesforceDesignSystemIcons.ttf */; };
+		46E55C75E6BE6ABB99E36CD672397AC0 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C9A0B672B6CDCA33D84AB895D938167 /* CoreText.framework */; };
+		4C3DDFE4CB774D75552A1E394C50B4EA /* NSString+SLDSName.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1ADCFE9D4FE4C6896721D55116A521 /* NSString+SLDSName.m */; };
+		4DB90413256916F98F6FB63202C38B3E /* DesignSystem-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1433E22118CE94835500AE198373BD7E /* DesignSystem-dummy.m */; };
+		5344B3846FCBB1162C374B9742C8E57D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032F67321D34EE01369F5810E71B7660 /* UIKit.framework */; };
+		59D67693AB4306E87C85B27663AF2DB1 /* SalesforceDesignSystem.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0CD49C046E4524295F025E0560C3E93B /* SalesforceDesignSystem.bundle */; };
+		5E90CB5A339D6499C90BD06BFF3A719B /* UIImage+SLDSIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A0003A195B3AFE950DE10D3FFBF1DB /* UIImage+SLDSIcon.m */; };
+		6628691BC07F5EECCE0D23EF4B729445 /* UIImage+SLDSIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E4D92BEAF751D082A76AD41EA99FDE2 /* UIImage+SLDSIcon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B6A747CB99568D9ACEC68C05EB3B83B /* SLDSIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB2D5128BB49A0B82C9829BD00B24E8 /* SLDSIcon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C07C8A8A330BF8CD9CCC63BF9CCF99E /* SalesforceDesignSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = B220F723AE3C95159D9AD8C97C998E08 /* SalesforceDesignSystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79955882008184DFCF51608ECF131B5C /* SalesforceSans-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21B074C09AF740ED949785685AD8035E /* SalesforceSans-Thin.ttf */; };
+		7D8CC30E243022613180D750332153A4 /* SalesforceSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 442FDEEE38DF5F19DE16998472C389A1 /* SalesforceSans-LightItalic.ttf */; };
+		8A9BFC7B1AE588A5250939C6DCD942FB /* Pods-RetoHack-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C49AA1FE4B6E33A8ADF412616B984DF /* Pods-RetoHack-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9940BC101FD00700E94C5F7F2F8954D5 /* SLDSFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 4033613AB8A3280576B2B3C5396483EC /* SLDSFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99439C5B89356B37E585D57DCF8E5932 /* SalesforceSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C35E910BA34A37C9BA701A91C8E5EE04 /* SalesforceSans-Regular.ttf */; };
+		A05802F09889541EF48AE14A22A5CC3C /* UIFont+SLDSFont.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AF788A761762638AB7E73A6355C445 /* UIFont+SLDSFont.m */; };
+		A637882B16ACD4906E095D551D7EF487 /* DesignSystem-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67D5A72C2639A102A93C27DAAE95F6B0 /* DesignSystem-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF098BBA615913A1B0FB172C82A2BFA1 /* SalesforceSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB6C4A3BBB24424E5B25F7237F74630E /* SalesforceSans-Italic.ttf */; };
+		B212341EE74897111E03647B718EA023 /* SLDSName.h in Headers */ = {isa = PBXBuildFile; fileRef = 39470D454E27BFD46BA2F525011B6E18 /* SLDSName.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B643A6D667BFB7DFA40644FABB518018 /* License-for-SalesforceSans-font.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9DA36E05E91BACA47EF66375E34365AF /* License-for-SalesforceSans-font.txt */; };
+		C9153F1B94F15DE9C62B9DAD650AB4C0 /* SalesforceDesignSystemNames.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A1523FD21D51D3977079800E37D7538 /* SalesforceDesignSystemNames.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEA33803E36CFFE7ADF1649FAB843433 /* UIColor+SLDSColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3E1F0D7EA6FC6843A2198BBBD4C6DE /* UIColor+SLDSColor.m */; };
+		E5456260AE3A13E82AE35CED134D933F /* SalesforceSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE046A6E221E5E73AD9FC4A20177C2DA /* SalesforceSans-Light.ttf */; };
+		E9B03A242138D8FD520C93F6D8DBB558 /* UIColor+SLDSColor.h in Headers */ = {isa = PBXBuildFile; fileRef = BBAB8187C6787099555935B0DD445E25 /* UIColor+SLDSColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFAD3104D6E767659C667D36776B569D /* SalesforceSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0E0049C20C8BD3BE5F7D340FFF9074E /* SalesforceSans-BoldItalic.ttf */; };
+		FED3BA15A8BD10811D575480CC41B18E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23621862A99429490F9C983069F078BB /* Foundation.framework */; };
+		FF978A9436274501EFCB42832E5769AF /* SLDSSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B71B5769B238EDAAD0E95725AD012B4 /* SLDSSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52534DCCE07D8132D0B9B38FBF6E5EAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 194A56F2B926B90E05CF289C5AA5A248;
+			remoteInfo = DesignSystem;
+		};
+		873FA63D730763FF9FD1D8FE5352CCFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 828F14A5FC34AAA0EBB198E49E27BB99;
+			remoteInfo = "DesignSystem-SalesforceDesignSystem";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		032F67321D34EE01369F5810E71B7660 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		0B3E1F0D7EA6FC6843A2198BBBD4C6DE /* UIColor+SLDSColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+SLDSColor.m"; path = "SalesforceDesignSystem/Generated/Extensions/UIColor+SLDSColor.m"; sourceTree = "<group>"; };
+		0B71B5769B238EDAAD0E95725AD012B4 /* SLDSSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLDSSize.h; path = SalesforceDesignSystem/Generated/SLDSSize.h; sourceTree = "<group>"; };
+		0C9A0B672B6CDCA33D84AB895D938167 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		0CD49C046E4524295F025E0560C3E93B /* SalesforceDesignSystem.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SalesforceDesignSystem.bundle; path = "DesignSystem-SalesforceDesignSystem.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DC4CA0204EC2DADB79794C9F25C8AE1 /* License-for-SalesforceDesignSystemIcons.txt */ = {isa = PBXFileReference; includeInIndex = 1; name = "License-for-SalesforceDesignSystemIcons.txt"; path = "SalesforceDesignSystem.bundle/License-for-SalesforceDesignSystemIcons.txt"; sourceTree = "<group>"; };
+		10A0003A195B3AFE950DE10D3FFBF1DB /* UIImage+SLDSIcon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+SLDSIcon.m"; path = "SalesforceDesignSystem/Generated/Extensions/UIImage+SLDSIcon.m"; sourceTree = "<group>"; };
+		1433E22118CE94835500AE198373BD7E /* DesignSystem-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DesignSystem-dummy.m"; sourceTree = "<group>"; };
+		18034BE93636D73186D5565F11990DC7 /* DesignSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DesignSystem.framework; path = DesignSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EB2D5128BB49A0B82C9829BD00B24E8 /* SLDSIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLDSIcon.h; path = SalesforceDesignSystem/Generated/SLDSIcon.h; sourceTree = "<group>"; };
+		21B074C09AF740ED949785685AD8035E /* SalesforceSans-Thin.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "SalesforceSans-Thin.ttf"; path = "SalesforceDesignSystem.bundle/SalesforceSans-Thin.ttf"; sourceTree = "<group>"; };
+		22790F2AAFD2F26238E5E7A1E348631F /* Pods-RetoHack.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RetoHack.modulemap"; sourceTree = "<group>"; };
+		23621862A99429490F9C983069F078BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2D20A2740F633CC7D2678823EA525761 /* Pods-RetoHack-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RetoHack-frameworks.sh"; sourceTree = "<group>"; };
+		307AB3398C7759F7FB218E8D6BA68DD2 /* SalesforceSans-ThinItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "SalesforceSans-ThinItalic.ttf"; path = "SalesforceDesignSystem.bundle/SalesforceSans-ThinItalic.ttf"; sourceTree = "<group>"; };
+		327C58AC0530E07DECCFF448B6D02395 /* Pods-RetoHack-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RetoHack-acknowledgements.markdown"; sourceTree = "<group>"; };
+		39470D454E27BFD46BA2F525011B6E18 /* SLDSName.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLDSName.h; path = SalesforceDesignSystem/Generated/SLDSName.h; sourceTree = "<group>"; };
+		3C8299BD5BAE5E2115A16A92E947201E /* DesignSystem-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DesignSystem-prefix.pch"; sourceTree = "<group>"; };
+		4033613AB8A3280576B2B3C5396483EC /* SLDSFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLDSFont.h; path = SalesforceDesignSystem/Generated/SLDSFont.h; sourceTree = "<group>"; };
+		4046CAEF50FB27209C67242363D0D16D /* DesignSystem.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DesignSystem.modulemap; sourceTree = "<group>"; };
+		442FDEEE38DF5F19DE16998472C389A1 /* SalesforceSans-LightItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "SalesforceSans-LightItalic.ttf"; path = "SalesforceDesignSystem.bundle/SalesforceSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		46096FF1763C851C576541CE62B373FC /* Pods-RetoHack-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RetoHack-acknowledgements.plist"; sourceTree = "<group>"; };
+		5A1523FD21D51D3977079800E37D7538 /* SalesforceDesignSystemNames.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SalesforceDesignSystemNames.h; path = SalesforceDesignSystem/SalesforceDesignSystemNames.h; sourceTree = "<group>"; };
+		67D5A72C2639A102A93C27DAAE95F6B0 /* DesignSystem-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DesignSystem-umbrella.h"; sourceTree = "<group>"; };
+		6A2C89E1B269E5DEDC23DDE8D21DDEB4 /* UIFont+SLDSFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+SLDSFont.h"; path = "SalesforceDesignSystem/Generated/Extensions/UIFont+SLDSFont.h"; sourceTree = "<group>"; };
+		78FB7815CDC461B7455F0846FE69511F /* Pods-RetoHack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RetoHack-dummy.m"; sourceTree = "<group>"; };
+		7C49AA1FE4B6E33A8ADF412616B984DF /* Pods-RetoHack-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RetoHack-umbrella.h"; sourceTree = "<group>"; };
+		890440FF6BCB415E4F25641F0F8D7DB8 /* Pods-RetoHack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RetoHack.release.xcconfig"; sourceTree = "<group>"; };
+		90AEC00910801362E05CBE20EEE74EAD /* Pods_RetoHack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RetoHack.framework; path = "Pods-RetoHack.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9600CE76284094944C40CF0843C6334B /* DesignSystem-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DesignSystem-Info.plist"; sourceTree = "<group>"; };
+		961106D8ACA528E08CB1CCF589438DCC /* NSString+SLDSName.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+SLDSName.h"; path = "SalesforceDesignSystem/Generated/Extensions/NSString+SLDSName.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DA36E05E91BACA47EF66375E34365AF /* License-for-SalesforceSans-font.txt */ = {isa = PBXFileReference; includeInIndex = 1; name = "License-for-SalesforceSans-font.txt"; path = "SalesforceDesignSystem.bundle/License-for-SalesforceSans-font.txt"; sourceTree = "<group>"; };
+		9E4D92BEAF751D082A76AD41EA99FDE2 /* UIImage+SLDSIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+SLDSIcon.h"; path = "SalesforceDesignSystem/Generated/Extensions/UIImage+SLDSIcon.h"; sourceTree = "<group>"; };
+		9E4FE189CEABE6ED18051A51C187BD21 /* SLDSFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLDSFont.m; path = SalesforceDesignSystem/Generated/SLDSFont.m; sourceTree = "<group>"; };
+		A7AF788A761762638AB7E73A6355C445 /* UIFont+SLDSFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+SLDSFont.m"; path = "SalesforceDesignSystem/Generated/Extensions/UIFont+SLDSFont.m"; sourceTree = "<group>"; };
+		AA1ADCFE9D4FE4C6896721D55116A521 /* NSString+SLDSName.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+SLDSName.m"; path = "SalesforceDesignSystem/Generated/Extensions/NSString+SLDSName.m"; sourceTree = "<group>"; };
+		AB6C4A3BBB24424E5B25F7237F74630E /* SalesforceSans-Italic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "SalesforceSans-Italic.ttf"; path = "SalesforceDesignSystem.bundle/SalesforceSans-Italic.ttf"; sourceTree = "<group>"; };
+		B08A5A953DD25C8B47FE84ECF735B4FD /* SalesforceSans-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "SalesforceSans-Bold.ttf"; path = "SalesforceDesignSystem.bundle/SalesforceSans-Bold.ttf"; sourceTree = "<group>"; };
+		B0E0049C20C8BD3BE5F7D340FFF9074E /* SalesforceSans-BoldItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "SalesforceSans-BoldItalic.ttf"; path = "SalesforceDesignSystem.bundle/SalesforceSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		B220F723AE3C95159D9AD8C97C998E08 /* SalesforceDesignSystem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SalesforceDesignSystem.h; path = SalesforceDesignSystem/SalesforceDesignSystem.h; sourceTree = "<group>"; };
+		B269EE0680738EA76040A848A536BBAD /* ResourceBundle-SalesforceDesignSystem-DesignSystem-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SalesforceDesignSystem-DesignSystem-Info.plist"; sourceTree = "<group>"; };
+		BBAB8187C6787099555935B0DD445E25 /* UIColor+SLDSColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+SLDSColor.h"; path = "SalesforceDesignSystem/Generated/Extensions/UIColor+SLDSColor.h"; sourceTree = "<group>"; };
+		BD6E53F63E6E66FBFFD47771C41C3CE7 /* SLDSColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLDSColor.h; path = SalesforceDesignSystem/Generated/SLDSColor.h; sourceTree = "<group>"; };
+		BF43A39396C29A495E5754A4762A7BDB /* Pods-RetoHack-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RetoHack-Info.plist"; sourceTree = "<group>"; };
+		C35E910BA34A37C9BA701A91C8E5EE04 /* SalesforceSans-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "SalesforceSans-Regular.ttf"; path = "SalesforceDesignSystem.bundle/SalesforceSans-Regular.ttf"; sourceTree = "<group>"; };
+		DE046A6E221E5E73AD9FC4A20177C2DA /* SalesforceSans-Light.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "SalesforceSans-Light.ttf"; path = "SalesforceDesignSystem.bundle/SalesforceSans-Light.ttf"; sourceTree = "<group>"; };
+		E5F0CE1068CD886A4CB9E274B992C89F /* DesignSystem.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DesignSystem.xcconfig; sourceTree = "<group>"; };
+		F51C37519407327C53C1B799FCBFF007 /* SalesforceDesignSystemIcons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = SalesforceDesignSystemIcons.ttf; path = SalesforceDesignSystem.bundle/SalesforceDesignSystemIcons.ttf; sourceTree = "<group>"; };
+		FB76DD363845206EF66ACF921B37DE80 /* Pods-RetoHack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RetoHack.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84AD0E3A2290E6C8A99BAEDA1FF09330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED3BA15A8BD10811D575480CC41B18E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9905D5C23390B8591209E065C53D4FBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E148FB7A54FA1862684F66B926E26230 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46E55C75E6BE6ABB99E36CD672397AC0 /* CoreText.framework in Frameworks */,
+				121C189271C9F3D1180A3FF9715DB23A /* Foundation.framework in Frameworks */,
+				5344B3846FCBB1162C374B9742C8E57D /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				092FD875F565846165BF2D8B053941F7 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		092FD875F565846165BF2D8B053941F7 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0C9A0B672B6CDCA33D84AB895D938167 /* CoreText.framework */,
+				23621862A99429490F9C983069F078BB /* Foundation.framework */,
+				032F67321D34EE01369F5810E71B7660 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		0E1917D591772B95AE74AC7424BB6DA5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				400BF3D13C56DA867F9018BFC76A8D56 /* DesignSystem */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		18F158BECAAD5048DA0705424BA3B6AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18034BE93636D73186D5565F11990DC7 /* DesignSystem.framework */,
+				90AEC00910801362E05CBE20EEE74EAD /* Pods_RetoHack.framework */,
+				0CD49C046E4524295F025E0560C3E93B /* SalesforceDesignSystem.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FC8D07C484053DBF55B04C5B9D6992B /* Pods-RetoHack */ = {
+			isa = PBXGroup;
+			children = (
+				22790F2AAFD2F26238E5E7A1E348631F /* Pods-RetoHack.modulemap */,
+				327C58AC0530E07DECCFF448B6D02395 /* Pods-RetoHack-acknowledgements.markdown */,
+				46096FF1763C851C576541CE62B373FC /* Pods-RetoHack-acknowledgements.plist */,
+				78FB7815CDC461B7455F0846FE69511F /* Pods-RetoHack-dummy.m */,
+				2D20A2740F633CC7D2678823EA525761 /* Pods-RetoHack-frameworks.sh */,
+				BF43A39396C29A495E5754A4762A7BDB /* Pods-RetoHack-Info.plist */,
+				7C49AA1FE4B6E33A8ADF412616B984DF /* Pods-RetoHack-umbrella.h */,
+				FB76DD363845206EF66ACF921B37DE80 /* Pods-RetoHack.debug.xcconfig */,
+				890440FF6BCB415E4F25641F0F8D7DB8 /* Pods-RetoHack.release.xcconfig */,
+			);
+			name = "Pods-RetoHack";
+			path = "Target Support Files/Pods-RetoHack";
+			sourceTree = "<group>";
+		};
+		400BF3D13C56DA867F9018BFC76A8D56 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				961106D8ACA528E08CB1CCF589438DCC /* NSString+SLDSName.h */,
+				AA1ADCFE9D4FE4C6896721D55116A521 /* NSString+SLDSName.m */,
+				B220F723AE3C95159D9AD8C97C998E08 /* SalesforceDesignSystem.h */,
+				5A1523FD21D51D3977079800E37D7538 /* SalesforceDesignSystemNames.h */,
+				BD6E53F63E6E66FBFFD47771C41C3CE7 /* SLDSColor.h */,
+				4033613AB8A3280576B2B3C5396483EC /* SLDSFont.h */,
+				9E4FE189CEABE6ED18051A51C187BD21 /* SLDSFont.m */,
+				1EB2D5128BB49A0B82C9829BD00B24E8 /* SLDSIcon.h */,
+				39470D454E27BFD46BA2F525011B6E18 /* SLDSName.h */,
+				0B71B5769B238EDAAD0E95725AD012B4 /* SLDSSize.h */,
+				BBAB8187C6787099555935B0DD445E25 /* UIColor+SLDSColor.h */,
+				0B3E1F0D7EA6FC6843A2198BBBD4C6DE /* UIColor+SLDSColor.m */,
+				6A2C89E1B269E5DEDC23DDE8D21DDEB4 /* UIFont+SLDSFont.h */,
+				A7AF788A761762638AB7E73A6355C445 /* UIFont+SLDSFont.m */,
+				9E4D92BEAF751D082A76AD41EA99FDE2 /* UIImage+SLDSIcon.h */,
+				10A0003A195B3AFE950DE10D3FFBF1DB /* UIImage+SLDSIcon.m */,
+				9ED9F2CBA9289D6DCB3AC3FAE8F4ED7C /* Resources */,
+				D009A59D61DC95917741A56CE009B22D /* Support Files */,
+			);
+			name = DesignSystem;
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		4EEA04E03B51BE8496FA5E27DE95F2B3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FC8D07C484053DBF55B04C5B9D6992B /* Pods-RetoHack */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9ED9F2CBA9289D6DCB3AC3FAE8F4ED7C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0DC4CA0204EC2DADB79794C9F25C8AE1 /* License-for-SalesforceDesignSystemIcons.txt */,
+				9DA36E05E91BACA47EF66375E34365AF /* License-for-SalesforceSans-font.txt */,
+				F51C37519407327C53C1B799FCBFF007 /* SalesforceDesignSystemIcons.ttf */,
+				B08A5A953DD25C8B47FE84ECF735B4FD /* SalesforceSans-Bold.ttf */,
+				B0E0049C20C8BD3BE5F7D340FFF9074E /* SalesforceSans-BoldItalic.ttf */,
+				AB6C4A3BBB24424E5B25F7237F74630E /* SalesforceSans-Italic.ttf */,
+				DE046A6E221E5E73AD9FC4A20177C2DA /* SalesforceSans-Light.ttf */,
+				442FDEEE38DF5F19DE16998472C389A1 /* SalesforceSans-LightItalic.ttf */,
+				C35E910BA34A37C9BA701A91C8E5EE04 /* SalesforceSans-Regular.ttf */,
+				21B074C09AF740ED949785685AD8035E /* SalesforceSans-Thin.ttf */,
+				307AB3398C7759F7FB218E8D6BA68DD2 /* SalesforceSans-ThinItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				0E1917D591772B95AE74AC7424BB6DA5 /* Pods */,
+				18F158BECAAD5048DA0705424BA3B6AE /* Products */,
+				4EEA04E03B51BE8496FA5E27DE95F2B3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D009A59D61DC95917741A56CE009B22D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4046CAEF50FB27209C67242363D0D16D /* DesignSystem.modulemap */,
+				E5F0CE1068CD886A4CB9E274B992C89F /* DesignSystem.xcconfig */,
+				1433E22118CE94835500AE198373BD7E /* DesignSystem-dummy.m */,
+				9600CE76284094944C40CF0843C6334B /* DesignSystem-Info.plist */,
+				3C8299BD5BAE5E2115A16A92E947201E /* DesignSystem-prefix.pch */,
+				67D5A72C2639A102A93C27DAAE95F6B0 /* DesignSystem-umbrella.h */,
+				B269EE0680738EA76040A848A536BBAD /* ResourceBundle-SalesforceDesignSystem-DesignSystem-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DesignSystem";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		358351F9B8B00C26603B06BCF78DFB9C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A637882B16ACD4906E095D551D7EF487 /* DesignSystem-umbrella.h in Headers */,
+				1A3A87DD8E56E48CAE85C44F394B917E /* NSString+SLDSName.h in Headers */,
+				6C07C8A8A330BF8CD9CCC63BF9CCF99E /* SalesforceDesignSystem.h in Headers */,
+				C9153F1B94F15DE9C62B9DAD650AB4C0 /* SalesforceDesignSystemNames.h in Headers */,
+				3464620FFFB3CCF66B7FE6CFE6FCC76A /* SLDSColor.h in Headers */,
+				9940BC101FD00700E94C5F7F2F8954D5 /* SLDSFont.h in Headers */,
+				6B6A747CB99568D9ACEC68C05EB3B83B /* SLDSIcon.h in Headers */,
+				B212341EE74897111E03647B718EA023 /* SLDSName.h in Headers */,
+				FF978A9436274501EFCB42832E5769AF /* SLDSSize.h in Headers */,
+				E9B03A242138D8FD520C93F6D8DBB558 /* UIColor+SLDSColor.h in Headers */,
+				073D343EEEACFDA89780DCE95769A50E /* UIFont+SLDSFont.h in Headers */,
+				6628691BC07F5EECCE0D23EF4B729445 /* UIImage+SLDSIcon.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BD16F18CB7A58391DDA41495ABF0096 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A9BFC7B1AE588A5250939C6DCD942FB /* Pods-RetoHack-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		194A56F2B926B90E05CF289C5AA5A248 /* DesignSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74586EAC33A0E402EABA9A3B52E8D16A /* Build configuration list for PBXNativeTarget "DesignSystem" */;
+			buildPhases = (
+				358351F9B8B00C26603B06BCF78DFB9C /* Headers */,
+				2CE6161B0239D90A2BF9A25124FAB715 /* Sources */,
+				E148FB7A54FA1862684F66B926E26230 /* Frameworks */,
+				C75EC5F172BDB6A9C98F2647EF31B78C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7E7A305B0C0FC5D86BFE0D28A747B03 /* PBXTargetDependency */,
+			);
+			name = DesignSystem;
+			productName = DesignSystem;
+			productReference = 18034BE93636D73186D5565F11990DC7 /* DesignSystem.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4A479B580AE6076AFD51D5A0AB8E3734 /* Pods-RetoHack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC18E8FAD85AB3FEB7BA5CB7FAECD60C /* Build configuration list for PBXNativeTarget "Pods-RetoHack" */;
+			buildPhases = (
+				7BD16F18CB7A58391DDA41495ABF0096 /* Headers */,
+				A5B83298D81B984984E0A9B84B6DE07C /* Sources */,
+				84AD0E3A2290E6C8A99BAEDA1FF09330 /* Frameworks */,
+				FE996716207FD0923C3EC0CE33E46602 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4651873C6ED049EFC2FD38147E7B6D9A /* PBXTargetDependency */,
+			);
+			name = "Pods-RetoHack";
+			productName = "Pods-RetoHack";
+			productReference = 90AEC00910801362E05CBE20EEE74EAD /* Pods_RetoHack.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		828F14A5FC34AAA0EBB198E49E27BB99 /* DesignSystem-SalesforceDesignSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB8EA70D69953DF18860D0F8914EEDF6 /* Build configuration list for PBXNativeTarget "DesignSystem-SalesforceDesignSystem" */;
+			buildPhases = (
+				6707DA533189D787DF1040294797E941 /* Sources */,
+				9905D5C23390B8591209E065C53D4FBE /* Frameworks */,
+				C59BBA2D62582C1A4268C4A8FD08B91A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DesignSystem-SalesforceDesignSystem";
+			productName = "DesignSystem-SalesforceDesignSystem";
+			productReference = 0CD49C046E4524295F025E0560C3E93B /* SalesforceDesignSystem.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 18F158BECAAD5048DA0705424BA3B6AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				194A56F2B926B90E05CF289C5AA5A248 /* DesignSystem */,
+				828F14A5FC34AAA0EBB198E49E27BB99 /* DesignSystem-SalesforceDesignSystem */,
+				4A479B580AE6076AFD51D5A0AB8E3734 /* Pods-RetoHack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C59BBA2D62582C1A4268C4A8FD08B91A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162AAF855D5AA07208CCFB6EE6C98B04 /* License-for-SalesforceDesignSystemIcons.txt in Resources */,
+				B643A6D667BFB7DFA40644FABB518018 /* License-for-SalesforceSans-font.txt in Resources */,
+				4279DB5C94F6C56F9A028547DDD2E776 /* SalesforceDesignSystemIcons.ttf in Resources */,
+				115A78BE15A3F15AB0E945D9BBB0803D /* SalesforceSans-Bold.ttf in Resources */,
+				EFAD3104D6E767659C667D36776B569D /* SalesforceSans-BoldItalic.ttf in Resources */,
+				AF098BBA615913A1B0FB172C82A2BFA1 /* SalesforceSans-Italic.ttf in Resources */,
+				E5456260AE3A13E82AE35CED134D933F /* SalesforceSans-Light.ttf in Resources */,
+				7D8CC30E243022613180D750332153A4 /* SalesforceSans-LightItalic.ttf in Resources */,
+				99439C5B89356B37E585D57DCF8E5932 /* SalesforceSans-Regular.ttf in Resources */,
+				79955882008184DFCF51608ECF131B5C /* SalesforceSans-Thin.ttf in Resources */,
+				0D8530D4B78326B5E3BD8C397D1C884B /* SalesforceSans-ThinItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C75EC5F172BDB6A9C98F2647EF31B78C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59D67693AB4306E87C85B27663AF2DB1 /* SalesforceDesignSystem.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE996716207FD0923C3EC0CE33E46602 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CE6161B0239D90A2BF9A25124FAB715 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DB90413256916F98F6FB63202C38B3E /* DesignSystem-dummy.m in Sources */,
+				4C3DDFE4CB774D75552A1E394C50B4EA /* NSString+SLDSName.m in Sources */,
+				19440105B45C4BE73204409AEC43799F /* SLDSFont.m in Sources */,
+				CEA33803E36CFFE7ADF1649FAB843433 /* UIColor+SLDSColor.m in Sources */,
+				A05802F09889541EF48AE14A22A5CC3C /* UIFont+SLDSFont.m in Sources */,
+				5E90CB5A339D6499C90BD06BFF3A719B /* UIImage+SLDSIcon.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6707DA533189D787DF1040294797E941 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5B83298D81B984984E0A9B84B6DE07C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				232966267BA12993093E08352A36AE11 /* Pods-RetoHack-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4651873C6ED049EFC2FD38147E7B6D9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DesignSystem;
+			target = 194A56F2B926B90E05CF289C5AA5A248 /* DesignSystem */;
+			targetProxy = 52534DCCE07D8132D0B9B38FBF6E5EAF /* PBXContainerItemProxy */;
+		};
+		A7E7A305B0C0FC5D86BFE0D28A747B03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "DesignSystem-SalesforceDesignSystem";
+			target = 828F14A5FC34AAA0EBB198E49E27BB99 /* DesignSystem-SalesforceDesignSystem */;
+			targetProxy = 873FA63D730763FF9FD1D8FE5352CCFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		026FEA42E3124F3C7AAEFB9825BBFC24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB76DD363845206EF66ACF921B37DE80 /* Pods-RetoHack.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RetoHack/Pods-RetoHack-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RetoHack/Pods-RetoHack.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1C5CF5B3C7439EFBA150F97C204329BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5F0CE1068CD886A4CB9E274B992C89F /* DesignSystem.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DesignSystem/DesignSystem-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DesignSystem/DesignSystem-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DesignSystem/DesignSystem.modulemap";
+				PRODUCT_MODULE_NAME = DesignSystem;
+				PRODUCT_NAME = DesignSystem;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		464A24792147FA1F629FCDF247EE02F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 890440FF6BCB415E4F25641F0F8D7DB8 /* Pods-RetoHack.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RetoHack/Pods-RetoHack-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RetoHack/Pods-RetoHack.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B37775A862192FA842286803D0F6AE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5F0CE1068CD886A4CB9E274B992C89F /* DesignSystem.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DesignSystem";
+				INFOPLIST_FILE = "Target Support Files/DesignSystem/ResourceBundle-SalesforceDesignSystem-DesignSystem-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SalesforceDesignSystem;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		93F4B2F7C3FD424F8E6AEC82173DE229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5F0CE1068CD886A4CB9E274B992C89F /* DesignSystem.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DesignSystem/DesignSystem-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DesignSystem/DesignSystem-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DesignSystem/DesignSystem.modulemap";
+				PRODUCT_MODULE_NAME = DesignSystem;
+				PRODUCT_NAME = DesignSystem;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E3BC68102F9EE65130D17DD3D73F6387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5F0CE1068CD886A4CB9E274B992C89F /* DesignSystem.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DesignSystem";
+				INFOPLIST_FILE = "Target Support Files/DesignSystem/ResourceBundle-SalesforceDesignSystem-DesignSystem-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SalesforceDesignSystem;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */,
+				3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74586EAC33A0E402EABA9A3B52E8D16A /* Build configuration list for PBXNativeTarget "DesignSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93F4B2F7C3FD424F8E6AEC82173DE229 /* Debug */,
+				1C5CF5B3C7439EFBA150F97C204329BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB8EA70D69953DF18860D0F8914EEDF6 /* Build configuration list for PBXNativeTarget "DesignSystem-SalesforceDesignSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3BC68102F9EE65130D17DD3D73F6387 /* Debug */,
+				8B37775A862192FA842286803D0F6AE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC18E8FAD85AB3FEB7BA5CB7FAECD60C /* Build configuration list for PBXNativeTarget "Pods-RetoHack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				026FEA42E3124F3C7AAEFB9825BBFC24 /* Debug */,
+				464A24792147FA1F629FCDF247EE02F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
