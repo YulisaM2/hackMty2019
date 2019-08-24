@@ -1,0 +1,6 @@
+framework module DesignSystem {
+  umbrella header "DesignSystem-umbrella.h"
+
+  export *
+  module * { export * }
+}

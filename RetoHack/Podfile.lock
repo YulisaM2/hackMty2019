@@ -1,0 +1,16 @@
+PODS:
+  - DesignSystem (3.1.2)
+
+DEPENDENCIES:
+  - DesignSystem
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DesignSystem
+
+SPEC CHECKSUMS:
+  DesignSystem: 4ddd41c78164bba388856a8345509784ecb42a5f
+
+PODFILE CHECKSUM: 1ceeae6ebc111e08317d869c6c16baa271dbf5ff
+
+COCOAPODS: 1.7.5
