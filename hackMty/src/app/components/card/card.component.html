@@ -1,3 +1,85 @@
-<p>
-  card works!
-</p>
+<div *ngIf="position == 'horizontal'">
+  <div *ngIf="color == 'purple'">
+    <div class="card-shadow bg-purple" style="width: 20pc ;max-width: fit-content; display: flex">
+      <div style="flex-direction: column; margin-right: 16px">
+        <i class="fa fa-4x fa-money text-white rounded-b-full"></i>
+      </div>
+      <div style="flex-direction: column">
+        <h1 class="h3 text-white">{{title}}</h1>
+        <p class="text-white">{{subtitle}}</p>
+      </div>
+    </div>
+  </div>
+
+  <div *ngIf="color == 'white'">
+    <div class="card-shadow bg-white" style="width: 20pc ;max-width: fit-content; display: flex">
+      <div style="flex-direction: column; margin-right: 16px">
+        <i class="fa fa-4x fa-money text-black rounded-b-full"></i>
+      </div>
+      <div style="flex-direction: column">
+        <h1 class="h3 text-black">{{title}}</h1>
+        <p class="text-black">{{subtitle}}</p>
+      </div>
+    </div>
+  </div>
+
+  <div *ngIf="color == 'green'">
+    <div class="card-shadow bg-green-darker" style="width: 20pc ;max-width: fit-content; display: flex">
+      <div style="flex-direction: column; margin-right: 16px">
+        <i class="fa fa-4x fa-money text-white rounded-b-full"></i>
+      </div>
+      <div style="flex-direction: column">
+        <h1 class="h3 text-white">{{title}}</h1>
+        <p class="text-white">{{subtitle}}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div *ngIf="position == 'vertical'">
+  <div *ngIf="color == 'purple'">
+    <div class="card bg-purple flex flex-col" style="width: 20pc ;max-width: fit-content">
+      <div style="margin-right: 16px" class="self-center mb-1">
+        <i class="fa fa-4x fa-money text-white rounded-b-full"></i>
+      </div>
+      <div class="text-center mb-1">
+        <h1 class="h3 text-white">{{title}}</h1>
+        <p class="h5 text-white">{{subtitle}}</p>
+      </div>
+      <div>
+        <p class="text-white">{{body}}</p>
+      </div>
+    </div>
+  </div>
+
+  <div *ngIf="color == 'green'">
+    <div class="card bg-green-darker flex flex-col" style="width: 20pc ;max-width: fit-content">
+      <div style="margin-right: 16px" class="self-center mb-1">
+        <i class="fa fa-4x fa-money text-white rounded-b-full"></i>
+      </div>
+      <div class="text-center mb-1">
+        <h1 class="h3 text-white">{{title}}</h1>
+        <p class="h5 text-white">{{subtitle}}</p>
+      </div>
+      <div>
+        <p class="text-white">{{body}}</p>
+      </div>
+    </div>
+  </div>
+
+  <div *ngIf="color == 'white'">
+    <div class="card bg-white flex flex-col" style="width: 20pc ;max-width: fit-content">
+      <div style="margin-right: 16px" class="self-center mb-1">
+        <i class="fa fa-4x fa-money text-black rounded-b-full"></i>
+      </div>
+      <div class="text-center mb-1">
+        <h1 class="h3 text-black">{{title}}</h1>
+        <p class="h5 text-black">{{subtitle}}</p>
+      </div>
+      <div>
+        <p class="text-white">{{body}}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
