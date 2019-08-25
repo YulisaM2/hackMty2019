@@ -56,15 +56,7 @@ class IVAViewController: UIViewController, UITableViewDelegate, UITableViewDataS
         cell.configure(title: titles[indexPath.row], description: descriptions[indexPath.row])
        
         
-        switch indexPath.row {
-        case 0:
-            
-        case 1:
-        case 2:
-            
-        default:
-            <#code#>
-        }
+        
         return cell
     }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
