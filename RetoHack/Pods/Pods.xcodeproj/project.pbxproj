@@ -3,55 +3,82 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		073D343EEEACFDA89780DCE95769A50E /* UIFont+SLDSFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A2C89E1B269E5DEDC23DDE8D21DDEB4 /* UIFont+SLDSFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D8530D4B78326B5E3BD8C397D1C884B /* SalesforceSans-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 307AB3398C7759F7FB218E8D6BA68DD2 /* SalesforceSans-ThinItalic.ttf */; };
-		115A78BE15A3F15AB0E945D9BBB0803D /* SalesforceSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B08A5A953DD25C8B47FE84ECF735B4FD /* SalesforceSans-Bold.ttf */; };
-		121C189271C9F3D1180A3FF9715DB23A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23621862A99429490F9C983069F078BB /* Foundation.framework */; };
-		162AAF855D5AA07208CCFB6EE6C98B04 /* License-for-SalesforceDesignSystemIcons.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0DC4CA0204EC2DADB79794C9F25C8AE1 /* License-for-SalesforceDesignSystemIcons.txt */; };
-		19440105B45C4BE73204409AEC43799F /* SLDSFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E4FE189CEABE6ED18051A51C187BD21 /* SLDSFont.m */; };
-		1A3A87DD8E56E48CAE85C44F394B917E /* NSString+SLDSName.h in Headers */ = {isa = PBXBuildFile; fileRef = 961106D8ACA528E08CB1CCF589438DCC /* NSString+SLDSName.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		232966267BA12993093E08352A36AE11 /* Pods-RetoHack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FB7815CDC461B7455F0846FE69511F /* Pods-RetoHack-dummy.m */; };
-		3464620FFFB3CCF66B7FE6CFE6FCC76A /* SLDSColor.h in Headers */ = {isa = PBXBuildFile; fileRef = BD6E53F63E6E66FBFFD47771C41C3CE7 /* SLDSColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4279DB5C94F6C56F9A028547DDD2E776 /* SalesforceDesignSystemIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F51C37519407327C53C1B799FCBFF007 /* SalesforceDesignSystemIcons.ttf */; };
-		46E55C75E6BE6ABB99E36CD672397AC0 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C9A0B672B6CDCA33D84AB895D938167 /* CoreText.framework */; };
-		4C3DDFE4CB774D75552A1E394C50B4EA /* NSString+SLDSName.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1ADCFE9D4FE4C6896721D55116A521 /* NSString+SLDSName.m */; };
-		4DB90413256916F98F6FB63202C38B3E /* DesignSystem-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1433E22118CE94835500AE198373BD7E /* DesignSystem-dummy.m */; };
-		5344B3846FCBB1162C374B9742C8E57D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032F67321D34EE01369F5810E71B7660 /* UIKit.framework */; };
+		073D343EEEACFDA89780DCE95769A50E /* UIFont+SLDSFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EB80AF5819B2E3372082078F3D5399E /* UIFont+SLDSFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07EC05367FB06380F8534C2019A4B573 /* PieChartDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6B0FE94CE769B3FD793E46D792B017 /* PieChartDelegate.swift */; };
+		0C9E8BCCB172BB6150E5E700AE6DD12A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE13B138FD921D8E970240AA5C132281 /* CoreGraphics.framework */; };
+		0D8530D4B78326B5E3BD8C397D1C884B /* SalesforceSans-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DBAFE405AFB803F20F56733152AF82AE /* SalesforceSans-ThinItalic.ttf */; };
+		115A78BE15A3F15AB0E945D9BBB0803D /* SalesforceSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1EB28AEE05702D59A52AAAF7347ED834 /* SalesforceSans-Bold.ttf */; };
+		121C189271C9F3D1180A3FF9715DB23A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27EA1DC23C311FC1A0EB15680F92E9F8 /* Foundation.framework */; };
+		162AAF855D5AA07208CCFB6EE6C98B04 /* License-for-SalesforceDesignSystemIcons.txt in Resources */ = {isa = PBXBuildFile; fileRef = EC39F2345BE9B1A37373DE68E23F26CC /* License-for-SalesforceDesignSystemIcons.txt */; };
+		18B8C262593617A927666E1B87BB1CF4 /* PieChartLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289B0F5F2CD1A047AA4D6AADAD229001 /* PieChartLayer.swift */; };
+		19440105B45C4BE73204409AEC43799F /* SLDSFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B074D40A0F0569045C182F7B53FC7FA /* SLDSFont.m */; };
+		1A3A87DD8E56E48CAE85C44F394B917E /* NSString+SLDSName.h in Headers */ = {isa = PBXBuildFile; fileRef = EBF1BA3D9AD6ED1451A344D996B3D80E /* NSString+SLDSName.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D67A0A73260039185F93F72DFB1A7F7 /* Pods-RetoHack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FB7815CDC461B7455F0846FE69511F /* Pods-RetoHack-dummy.m */; };
+		20E16DE5FDF2D53ED64BF2AF40D57031 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27EA1DC23C311FC1A0EB15680F92E9F8 /* Foundation.framework */; };
+		3464620FFFB3CCF66B7FE6CFE6FCC76A /* SLDSColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 85D9383A567F3BCB7905E573A18515A3 /* SLDSColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3727D81A8E60CB1969513D03205F4D1F /* AlphaPieViewLayerAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F81782C55AC6D2D1B4D12640F172BE3 /* AlphaPieViewLayerAnimator.swift */; };
+		4279DB5C94F6C56F9A028547DDD2E776 /* SalesforceDesignSystemIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DDFA62A58A0165ABC0AB697546DAE13E /* SalesforceDesignSystemIcons.ttf */; };
+		42B32CE21013F7E5FC7689DC44DF91EA /* Pods-RetoHack-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C49AA1FE4B6E33A8ADF412616B984DF /* Pods-RetoHack-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46E55C75E6BE6ABB99E36CD672397AC0 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8D9584CB5E4920DD1FFF12D73C6544 /* CoreText.framework */; };
+		4C3DDFE4CB774D75552A1E394C50B4EA /* NSString+SLDSName.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F730A21AB7F9BBD6A092D2DAFA29F6 /* NSString+SLDSName.m */; };
+		4DB90413256916F98F6FB63202C38B3E /* DesignSystem-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B062B047E24CDF41915A825C9127440 /* DesignSystem-dummy.m */; };
+		4F1482B381CE2F3CCC62015F22F2CD86 /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1423778C962A9FB86ACA8B49747B029 /* PieChart.swift */; };
+		5344B3846FCBB1162C374B9742C8E57D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 216E580938062956F95E2351E732C614 /* UIKit.framework */; };
 		59D67693AB4306E87C85B27663AF2DB1 /* SalesforceDesignSystem.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0CD49C046E4524295F025E0560C3E93B /* SalesforceDesignSystem.bundle */; };
-		5E90CB5A339D6499C90BD06BFF3A719B /* UIImage+SLDSIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A0003A195B3AFE950DE10D3FFBF1DB /* UIImage+SLDSIcon.m */; };
-		6628691BC07F5EECCE0D23EF4B729445 /* UIImage+SLDSIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E4D92BEAF751D082A76AD41EA99FDE2 /* UIImage+SLDSIcon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6B6A747CB99568D9ACEC68C05EB3B83B /* SLDSIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB2D5128BB49A0B82C9829BD00B24E8 /* SLDSIcon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6C07C8A8A330BF8CD9CCC63BF9CCF99E /* SalesforceDesignSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = B220F723AE3C95159D9AD8C97C998E08 /* SalesforceDesignSystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79955882008184DFCF51608ECF131B5C /* SalesforceSans-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21B074C09AF740ED949785685AD8035E /* SalesforceSans-Thin.ttf */; };
-		7D8CC30E243022613180D750332153A4 /* SalesforceSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 442FDEEE38DF5F19DE16998472C389A1 /* SalesforceSans-LightItalic.ttf */; };
-		8A9BFC7B1AE588A5250939C6DCD942FB /* Pods-RetoHack-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C49AA1FE4B6E33A8ADF412616B984DF /* Pods-RetoHack-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9940BC101FD00700E94C5F7F2F8954D5 /* SLDSFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 4033613AB8A3280576B2B3C5396483EC /* SLDSFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		99439C5B89356B37E585D57DCF8E5932 /* SalesforceSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C35E910BA34A37C9BA701A91C8E5EE04 /* SalesforceSans-Regular.ttf */; };
-		A05802F09889541EF48AE14A22A5CC3C /* UIFont+SLDSFont.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AF788A761762638AB7E73A6355C445 /* UIFont+SLDSFont.m */; };
-		A637882B16ACD4906E095D551D7EF487 /* DesignSystem-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67D5A72C2639A102A93C27DAAE95F6B0 /* DesignSystem-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AF098BBA615913A1B0FB172C82A2BFA1 /* SalesforceSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB6C4A3BBB24424E5B25F7237F74630E /* SalesforceSans-Italic.ttf */; };
-		B212341EE74897111E03647B718EA023 /* SLDSName.h in Headers */ = {isa = PBXBuildFile; fileRef = 39470D454E27BFD46BA2F525011B6E18 /* SLDSName.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B643A6D667BFB7DFA40644FABB518018 /* License-for-SalesforceSans-font.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9DA36E05E91BACA47EF66375E34365AF /* License-for-SalesforceSans-font.txt */; };
-		C9153F1B94F15DE9C62B9DAD650AB4C0 /* SalesforceDesignSystemNames.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A1523FD21D51D3977079800E37D7538 /* SalesforceDesignSystemNames.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CEA33803E36CFFE7ADF1649FAB843433 /* UIColor+SLDSColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3E1F0D7EA6FC6843A2198BBBD4C6DE /* UIColor+SLDSColor.m */; };
-		E5456260AE3A13E82AE35CED134D933F /* SalesforceSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE046A6E221E5E73AD9FC4A20177C2DA /* SalesforceSans-Light.ttf */; };
-		E9B03A242138D8FD520C93F6D8DBB558 /* UIColor+SLDSColor.h in Headers */ = {isa = PBXBuildFile; fileRef = BBAB8187C6787099555935B0DD445E25 /* UIColor+SLDSColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EFAD3104D6E767659C667D36776B569D /* SalesforceSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0E0049C20C8BD3BE5F7D340FFF9074E /* SalesforceSans-BoldItalic.ttf */; };
-		FED3BA15A8BD10811D575480CC41B18E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23621862A99429490F9C983069F078BB /* Foundation.framework */; };
-		FF978A9436274501EFCB42832E5769AF /* SLDSSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B71B5769B238EDAAD0E95725AD012B4 /* SLDSSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E90CB5A339D6499C90BD06BFF3A719B /* UIImage+SLDSIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFA23B84D6945984E82F9D390D1ABAC /* UIImage+SLDSIcon.m */; };
+		5FDBACE328D82B6557E164F4C21A7B1F /* PieCustomViewsLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164F364444A60807BD2E7A22559DA8D7 /* PieCustomViewsLayer.swift */; };
+		6628691BC07F5EECCE0D23EF4B729445 /* UIImage+SLDSIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = 96C0C90902E5AF26B2FE203BE834287F /* UIImage+SLDSIcon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6817252EC3EEB201A9A25F15E1E2579C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 216E580938062956F95E2351E732C614 /* UIKit.framework */; };
+		6B6A747CB99568D9ACEC68C05EB3B83B /* SLDSIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = BDE69E12C187D64F3DF796FD9C7AC856 /* SLDSIcon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C07C8A8A330BF8CD9CCC63BF9CCF99E /* SalesforceDesignSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = F0FBBA7EE355F4F0A60CD44608850989 /* SalesforceDesignSystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D42FD4C06FBECD4D0076BA0F164E3D7 /* AlphaPieLineTextLayerAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA33CE04CAC3325C42703C3E902AFD3 /* AlphaPieLineTextLayerAnimator.swift */; };
+		78FAD6E2B3FE9DD871270AF82D20D4DA /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897D26A72C13810DF85440E6D1A3031A /* Globals.swift */; };
+		79955882008184DFCF51608ECF131B5C /* SalesforceSans-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2354D1B3F931B69767EC8E82BE260FC /* SalesforceSans-Thin.ttf */; };
+		7D8CC30E243022613180D750332153A4 /* SalesforceSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9AA9E0559DC77AD38F1FD2381740A88F /* SalesforceSans-LightItalic.ttf */; };
+		913AF8577C52A01F3C0DCAF27FDE9AA5 /* PieSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F4FEEEE110E47E2182260CBBDF979 /* PieSlice.swift */; };
+		945F66CC57EB589300296B053DE94D2C /* PieSliceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85C87E15181102E3C7B865811DD516 /* PieSliceLayer.swift */; };
+		9940BC101FD00700E94C5F7F2F8954D5 /* SLDSFont.h in Headers */ = {isa = PBXBuildFile; fileRef = B9B0DE60F04D02963CD11315B0C7EC9E /* SLDSFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99439C5B89356B37E585D57DCF8E5932 /* SalesforceSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 880044441B63EF5B727B7B10D4CECD4D /* SalesforceSans-Regular.ttf */; };
+		9D42D95CF916C54F70AB417E50ABCFD2 /* PieLineTextLayerAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6772559AB3C3B48784BD5294C2BE079A /* PieLineTextLayerAnimator.swift */; };
+		A05802F09889541EF48AE14A22A5CC3C /* UIFont+SLDSFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AD2967455210D8A1A6D2E5B3E1CBD0 /* UIFont+SLDSFont.m */; };
+		A637882B16ACD4906E095D551D7EF487 /* DesignSystem-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31D60A3A1E348D1F0444BBDB78B1D526 /* DesignSystem-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A885151A6F1300266EDE677E27EA8CF7 /* PieSliceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF49923304256CF35B2FC75EA53E0E9 /* PieSliceModel.swift */; };
+		AF098BBA615913A1B0FB172C82A2BFA1 /* SalesforceSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBBAFE4E40BE43A7B13BD54B4E178670 /* SalesforceSans-Italic.ttf */; };
+		AF63525C26B16ECA99775FEEB5D9DAFB /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF7DED1FDB790B7FC188BA93870F7F9 /* CGPoint.swift */; };
+		B03E8E2F62190B19257A70EAABA5B97C /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0453A14D6970CBEBE9CDD8D07CCBA87D /* Int.swift */; };
+		B212341EE74897111E03647B718EA023 /* SLDSName.h in Headers */ = {isa = PBXBuildFile; fileRef = B3394D1DF04A1920FF17F24CCEDC1ABB /* SLDSName.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2AC85E53FA4319F6FF7D0CC6BBFB40D /* PieViewLayerAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8919AC186F61D4FCC7E708DC459806 /* PieViewLayerAnimator.swift */; };
+		B643A6D667BFB7DFA40644FABB518018 /* License-for-SalesforceSans-font.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8118466AA7A20EA8A8E954D4551397CE /* License-for-SalesforceSans-font.txt */; };
+		BBAF931620A2C7B622EC073B2FA16F89 /* PieCharts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF5E5E42E698D73581851B9C3D7E46C /* PieCharts-dummy.m */; };
+		BCD6AA5DAAC2C1EF829F74DEC81D9308 /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = E372848DAC890DACED60A6250547E83F /* CGRect.swift */; };
+		C76BF61E4968CD16E92EC3F5A47A4F64 /* PieSliceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D96B67C851DA426DB1E60D1F2C8F6D /* PieSliceDelegate.swift */; };
+		C8E0D25B4B31731E2D9AE57508C5458C /* CGSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DA670CF4697CC948E484F290185FA5 /* CGSize.swift */; };
+		C9153F1B94F15DE9C62B9DAD650AB4C0 /* SalesforceDesignSystemNames.h in Headers */ = {isa = PBXBuildFile; fileRef = 25EAEA3E918E49FA971E398D4C553037 /* SalesforceDesignSystemNames.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD683A40B68E215866CEE0ED609C5EFD /* PieLineTextLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803A1443D9A53C1E324BB08CA7C66AFF /* PieLineTextLayer.swift */; };
+		CEA33803E36CFFE7ADF1649FAB843433 /* UIColor+SLDSColor.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC34C153C748DFD7D2A0A3119307149 /* UIColor+SLDSColor.m */; };
+		CFED1D8E117462229AD408C055556D88 /* PieSliceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A11732912F0AD7ABC7D0B28435FBB31 /* PieSliceData.swift */; };
+		D63E22038D157AA162B92B8FD0AE3232 /* FloatingPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1134FBE412A986FDA05B1BFE8E880E3F /* FloatingPoint.swift */; };
+		D77483E153D9327C337288531B48D3E6 /* PieChartLabelSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DBEE47661A651D56670A001F3A3AC1 /* PieChartLabelSettings.swift */; };
+		E4EBFADC8B2C90F5310907FF21A45B54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27EA1DC23C311FC1A0EB15680F92E9F8 /* Foundation.framework */; };
+		E5456260AE3A13E82AE35CED134D933F /* SalesforceSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6BBE4F114F86FC11D8466B9F1510BF24 /* SalesforceSans-Light.ttf */; };
+		E9B03A242138D8FD520C93F6D8DBB558 /* UIColor+SLDSColor.h in Headers */ = {isa = PBXBuildFile; fileRef = BD23E6EF04DC2913F9945F9A7B6E7F6F /* UIColor+SLDSColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC975F7502419A2CBAAEE9C4F98184EA /* PieCharts-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 052A72999BAA1A3AD7452F905C641CD9 /* PieCharts-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFAD3104D6E767659C667D36776B569D /* SalesforceSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D1790F13788A787AFD82CF7459E81B4 /* SalesforceSans-BoldItalic.ttf */; };
+		F416418C794FCA137962287221D2B15B /* PiePlainTextLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE84BDC969CD02CA8F75EE0B2FE9E8AF /* PiePlainTextLayer.swift */; };
+		FF978A9436274501EFCB42832E5769AF /* SLDSSize.h in Headers */ = {isa = PBXBuildFile; fileRef = F197CBBA078CDAF18244F2736A8834B3 /* SLDSSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		52534DCCE07D8132D0B9B38FBF6E5EAF /* PBXContainerItemProxy */ = {
+		5EB88B909E15910E70D080DF4229871F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 194A56F2B926B90E05CF289C5AA5A248;
-			remoteInfo = DesignSystem;
+			remoteGlobalIDString = 5352E9F7E2BA40B729D6F4355D629ED5;
+			remoteInfo = PieCharts;
 		};
 		873FA63D730763FF9FD1D8FE5352CCFA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -60,67 +87,104 @@
 			remoteGlobalIDString = 828F14A5FC34AAA0EBB198E49E27BB99;
 			remoteInfo = "DesignSystem-SalesforceDesignSystem";
 		};
+		917649AC34576DADA2720C9AC0A26DB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 194A56F2B926B90E05CF289C5AA5A248;
+			remoteInfo = DesignSystem;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		032F67321D34EE01369F5810E71B7660 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		0B3E1F0D7EA6FC6843A2198BBBD4C6DE /* UIColor+SLDSColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+SLDSColor.m"; path = "SalesforceDesignSystem/Generated/Extensions/UIColor+SLDSColor.m"; sourceTree = "<group>"; };
-		0B71B5769B238EDAAD0E95725AD012B4 /* SLDSSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLDSSize.h; path = SalesforceDesignSystem/Generated/SLDSSize.h; sourceTree = "<group>"; };
-		0C9A0B672B6CDCA33D84AB895D938167 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		0453A14D6970CBEBE9CDD8D07CCBA87D /* Int.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Int.swift; path = PieCharts/Extensions/Int.swift; sourceTree = "<group>"; };
+		052A72999BAA1A3AD7452F905C641CD9 /* PieCharts-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PieCharts-umbrella.h"; sourceTree = "<group>"; };
+		0A11732912F0AD7ABC7D0B28435FBB31 /* PieSliceData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieSliceData.swift; path = PieCharts/Model/PieSliceData.swift; sourceTree = "<group>"; };
 		0CD49C046E4524295F025E0560C3E93B /* SalesforceDesignSystem.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SalesforceDesignSystem.bundle; path = "DesignSystem-SalesforceDesignSystem.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0DC4CA0204EC2DADB79794C9F25C8AE1 /* License-for-SalesforceDesignSystemIcons.txt */ = {isa = PBXFileReference; includeInIndex = 1; name = "License-for-SalesforceDesignSystemIcons.txt"; path = "SalesforceDesignSystem.bundle/License-for-SalesforceDesignSystemIcons.txt"; sourceTree = "<group>"; };
-		10A0003A195B3AFE950DE10D3FFBF1DB /* UIImage+SLDSIcon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+SLDSIcon.m"; path = "SalesforceDesignSystem/Generated/Extensions/UIImage+SLDSIcon.m"; sourceTree = "<group>"; };
-		1433E22118CE94835500AE198373BD7E /* DesignSystem-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DesignSystem-dummy.m"; sourceTree = "<group>"; };
+		0FA33CE04CAC3325C42703C3E902AFD3 /* AlphaPieLineTextLayerAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlphaPieLineTextLayerAnimator.swift; path = PieCharts/Layer/Impl/LineText/Anim/AlphaPieLineTextLayerAnimator.swift; sourceTree = "<group>"; };
+		1134FBE412A986FDA05B1BFE8E880E3F /* FloatingPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatingPoint.swift; path = PieCharts/Extensions/FloatingPoint.swift; sourceTree = "<group>"; };
+		141C771D00B32327501B56425523D398 /* PieCharts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PieCharts.framework; path = PieCharts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1593377701C340308A24FAE20F1910E0 /* DesignSystem-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DesignSystem-prefix.pch"; sourceTree = "<group>"; };
+		164F364444A60807BD2E7A22559DA8D7 /* PieCustomViewsLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieCustomViewsLayer.swift; path = PieCharts/Layer/Impl/View/PieCustomViewsLayer.swift; sourceTree = "<group>"; };
 		18034BE93636D73186D5565F11990DC7 /* DesignSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DesignSystem.framework; path = DesignSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1EB2D5128BB49A0B82C9829BD00B24E8 /* SLDSIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLDSIcon.h; path = SalesforceDesignSystem/Generated/SLDSIcon.h; sourceTree = "<group>"; };
-		21B074C09AF740ED949785685AD8035E /* SalesforceSans-Thin.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "SalesforceSans-Thin.ttf"; path = "SalesforceDesignSystem.bundle/SalesforceSans-Thin.ttf"; sourceTree = "<group>"; };
+		1BB45917647C1ED43584C9BC049844B9 /* PieCharts-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PieCharts-Info.plist"; sourceTree = "<group>"; };
+		1EB28AEE05702D59A52AAAF7347ED834 /* SalesforceSans-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "SalesforceSans-Bold.ttf"; path = "SalesforceDesignSystem.bundle/SalesforceSans-Bold.ttf"; sourceTree = "<group>"; };
+		216E580938062956F95E2351E732C614 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		22790F2AAFD2F26238E5E7A1E348631F /* Pods-RetoHack.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RetoHack.modulemap"; sourceTree = "<group>"; };
-		23621862A99429490F9C983069F078BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		25EAEA3E918E49FA971E398D4C553037 /* SalesforceDesignSystemNames.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SalesforceDesignSystemNames.h; path = SalesforceDesignSystem/SalesforceDesignSystemNames.h; sourceTree = "<group>"; };
+		27EA1DC23C311FC1A0EB15680F92E9F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		289B0F5F2CD1A047AA4D6AADAD229001 /* PieChartLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieChartLayer.swift; path = PieCharts/Layer/PieChartLayer.swift; sourceTree = "<group>"; };
 		2D20A2740F633CC7D2678823EA525761 /* Pods-RetoHack-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RetoHack-frameworks.sh"; sourceTree = "<group>"; };
-		307AB3398C7759F7FB218E8D6BA68DD2 /* SalesforceSans-ThinItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "SalesforceSans-ThinItalic.ttf"; path = "SalesforceDesignSystem.bundle/SalesforceSans-ThinItalic.ttf"; sourceTree = "<group>"; };
+		31D60A3A1E348D1F0444BBDB78B1D526 /* DesignSystem-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DesignSystem-umbrella.h"; sourceTree = "<group>"; };
 		327C58AC0530E07DECCFF448B6D02395 /* Pods-RetoHack-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RetoHack-acknowledgements.markdown"; sourceTree = "<group>"; };
-		39470D454E27BFD46BA2F525011B6E18 /* SLDSName.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLDSName.h; path = SalesforceDesignSystem/Generated/SLDSName.h; sourceTree = "<group>"; };
-		3C8299BD5BAE5E2115A16A92E947201E /* DesignSystem-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DesignSystem-prefix.pch"; sourceTree = "<group>"; };
-		4033613AB8A3280576B2B3C5396483EC /* SLDSFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLDSFont.h; path = SalesforceDesignSystem/Generated/SLDSFont.h; sourceTree = "<group>"; };
-		4046CAEF50FB27209C67242363D0D16D /* DesignSystem.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DesignSystem.modulemap; sourceTree = "<group>"; };
-		442FDEEE38DF5F19DE16998472C389A1 /* SalesforceSans-LightItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "SalesforceSans-LightItalic.ttf"; path = "SalesforceDesignSystem.bundle/SalesforceSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		3D1790F13788A787AFD82CF7459E81B4 /* SalesforceSans-BoldItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "SalesforceSans-BoldItalic.ttf"; path = "SalesforceDesignSystem.bundle/SalesforceSans-BoldItalic.ttf"; sourceTree = "<group>"; };
 		46096FF1763C851C576541CE62B373FC /* Pods-RetoHack-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RetoHack-acknowledgements.plist"; sourceTree = "<group>"; };
-		5A1523FD21D51D3977079800E37D7538 /* SalesforceDesignSystemNames.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SalesforceDesignSystemNames.h; path = SalesforceDesignSystem/SalesforceDesignSystemNames.h; sourceTree = "<group>"; };
-		67D5A72C2639A102A93C27DAAE95F6B0 /* DesignSystem-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DesignSystem-umbrella.h"; sourceTree = "<group>"; };
-		6A2C89E1B269E5DEDC23DDE8D21DDEB4 /* UIFont+SLDSFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+SLDSFont.h"; path = "SalesforceDesignSystem/Generated/Extensions/UIFont+SLDSFont.h"; sourceTree = "<group>"; };
+		4CFA23B84D6945984E82F9D390D1ABAC /* UIImage+SLDSIcon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+SLDSIcon.m"; path = "SalesforceDesignSystem/Generated/Extensions/UIImage+SLDSIcon.m"; sourceTree = "<group>"; };
+		54DBEE47661A651D56670A001F3A3AC1 /* PieChartLabelSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieChartLabelSettings.swift; path = PieCharts/Layer/Impl/Common/PieChartLabelSettings.swift; sourceTree = "<group>"; };
+		551F675DEDBE4B67CC8E35FA0509CE8B /* DesignSystem.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DesignSystem.modulemap; sourceTree = "<group>"; };
+		56550E0DEA8F24F1918C8B39CC95D0AB /* DesignSystem.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DesignSystem.xcconfig; sourceTree = "<group>"; };
+		58DA670CF4697CC948E484F290185FA5 /* CGSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGSize.swift; path = PieCharts/Extensions/CGSize.swift; sourceTree = "<group>"; };
+		59F730A21AB7F9BBD6A092D2DAFA29F6 /* NSString+SLDSName.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+SLDSName.m"; path = "SalesforceDesignSystem/Generated/Extensions/NSString+SLDSName.m"; sourceTree = "<group>"; };
+		5F81782C55AC6D2D1B4D12640F172BE3 /* AlphaPieViewLayerAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlphaPieViewLayerAnimator.swift; path = PieCharts/Layer/Impl/View/Anim/AlphaPieViewLayerAnimator.swift; sourceTree = "<group>"; };
+		6772559AB3C3B48784BD5294C2BE079A /* PieLineTextLayerAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieLineTextLayerAnimator.swift; path = PieCharts/Layer/Impl/LineText/Anim/PieLineTextLayerAnimator.swift; sourceTree = "<group>"; };
+		67D96B67C851DA426DB1E60D1F2C8F6D /* PieSliceDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieSliceDelegate.swift; path = PieCharts/Core/Slice/PieSliceDelegate.swift; sourceTree = "<group>"; };
+		6BBE4F114F86FC11D8466B9F1510BF24 /* SalesforceSans-Light.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "SalesforceSans-Light.ttf"; path = "SalesforceDesignSystem.bundle/SalesforceSans-Light.ttf"; sourceTree = "<group>"; };
+		6EB80AF5819B2E3372082078F3D5399E /* UIFont+SLDSFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+SLDSFont.h"; path = "SalesforceDesignSystem/Generated/Extensions/UIFont+SLDSFont.h"; sourceTree = "<group>"; };
+		76E7C3EF4F4D63977C280147937746F9 /* DesignSystem-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DesignSystem-Info.plist"; sourceTree = "<group>"; };
 		78FB7815CDC461B7455F0846FE69511F /* Pods-RetoHack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RetoHack-dummy.m"; sourceTree = "<group>"; };
+		7B074D40A0F0569045C182F7B53FC7FA /* SLDSFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLDSFont.m; path = SalesforceDesignSystem/Generated/SLDSFont.m; sourceTree = "<group>"; };
 		7C49AA1FE4B6E33A8ADF412616B984DF /* Pods-RetoHack-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RetoHack-umbrella.h"; sourceTree = "<group>"; };
+		7EF5E5E42E698D73581851B9C3D7E46C /* PieCharts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PieCharts-dummy.m"; sourceTree = "<group>"; };
+		803A1443D9A53C1E324BB08CA7C66AFF /* PieLineTextLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieLineTextLayer.swift; path = PieCharts/Layer/Impl/LineText/PieLineTextLayer.swift; sourceTree = "<group>"; };
+		8118466AA7A20EA8A8E954D4551397CE /* License-for-SalesforceSans-font.txt */ = {isa = PBXFileReference; includeInIndex = 1; name = "License-for-SalesforceSans-font.txt"; path = "SalesforceDesignSystem.bundle/License-for-SalesforceSans-font.txt"; sourceTree = "<group>"; };
+		81AD2967455210D8A1A6D2E5B3E1CBD0 /* UIFont+SLDSFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+SLDSFont.m"; path = "SalesforceDesignSystem/Generated/Extensions/UIFont+SLDSFont.m"; sourceTree = "<group>"; };
+		85D9383A567F3BCB7905E573A18515A3 /* SLDSColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLDSColor.h; path = SalesforceDesignSystem/Generated/SLDSColor.h; sourceTree = "<group>"; };
+		880044441B63EF5B727B7B10D4CECD4D /* SalesforceSans-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "SalesforceSans-Regular.ttf"; path = "SalesforceDesignSystem.bundle/SalesforceSans-Regular.ttf"; sourceTree = "<group>"; };
 		890440FF6BCB415E4F25641F0F8D7DB8 /* Pods-RetoHack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RetoHack.release.xcconfig"; sourceTree = "<group>"; };
+		897D26A72C13810DF85440E6D1A3031A /* Globals.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Globals.swift; path = PieCharts/Util/Globals.swift; sourceTree = "<group>"; };
+		8B6B0FE94CE769B3FD793E46D792B017 /* PieChartDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieChartDelegate.swift; path = PieCharts/Core/Chart/PieChartDelegate.swift; sourceTree = "<group>"; };
 		90AEC00910801362E05CBE20EEE74EAD /* Pods_RetoHack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RetoHack.framework; path = "Pods-RetoHack.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9600CE76284094944C40CF0843C6334B /* DesignSystem-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DesignSystem-Info.plist"; sourceTree = "<group>"; };
-		961106D8ACA528E08CB1CCF589438DCC /* NSString+SLDSName.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+SLDSName.h"; path = "SalesforceDesignSystem/Generated/Extensions/NSString+SLDSName.h"; sourceTree = "<group>"; };
+		96C0C90902E5AF26B2FE203BE834287F /* UIImage+SLDSIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+SLDSIcon.h"; path = "SalesforceDesignSystem/Generated/Extensions/UIImage+SLDSIcon.h"; sourceTree = "<group>"; };
+		9AA9E0559DC77AD38F1FD2381740A88F /* SalesforceSans-LightItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "SalesforceSans-LightItalic.ttf"; path = "SalesforceDesignSystem.bundle/SalesforceSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		9AF7DED1FDB790B7FC188BA93870F7F9 /* CGPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGPoint.swift; path = PieCharts/Extensions/CGPoint.swift; sourceTree = "<group>"; };
+		9B062B047E24CDF41915A825C9127440 /* DesignSystem-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DesignSystem-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DA36E05E91BACA47EF66375E34365AF /* License-for-SalesforceSans-font.txt */ = {isa = PBXFileReference; includeInIndex = 1; name = "License-for-SalesforceSans-font.txt"; path = "SalesforceDesignSystem.bundle/License-for-SalesforceSans-font.txt"; sourceTree = "<group>"; };
-		9E4D92BEAF751D082A76AD41EA99FDE2 /* UIImage+SLDSIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+SLDSIcon.h"; path = "SalesforceDesignSystem/Generated/Extensions/UIImage+SLDSIcon.h"; sourceTree = "<group>"; };
-		9E4FE189CEABE6ED18051A51C187BD21 /* SLDSFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLDSFont.m; path = SalesforceDesignSystem/Generated/SLDSFont.m; sourceTree = "<group>"; };
-		A7AF788A761762638AB7E73A6355C445 /* UIFont+SLDSFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+SLDSFont.m"; path = "SalesforceDesignSystem/Generated/Extensions/UIFont+SLDSFont.m"; sourceTree = "<group>"; };
-		AA1ADCFE9D4FE4C6896721D55116A521 /* NSString+SLDSName.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+SLDSName.m"; path = "SalesforceDesignSystem/Generated/Extensions/NSString+SLDSName.m"; sourceTree = "<group>"; };
-		AB6C4A3BBB24424E5B25F7237F74630E /* SalesforceSans-Italic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "SalesforceSans-Italic.ttf"; path = "SalesforceDesignSystem.bundle/SalesforceSans-Italic.ttf"; sourceTree = "<group>"; };
-		B08A5A953DD25C8B47FE84ECF735B4FD /* SalesforceSans-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "SalesforceSans-Bold.ttf"; path = "SalesforceDesignSystem.bundle/SalesforceSans-Bold.ttf"; sourceTree = "<group>"; };
-		B0E0049C20C8BD3BE5F7D340FFF9074E /* SalesforceSans-BoldItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "SalesforceSans-BoldItalic.ttf"; path = "SalesforceDesignSystem.bundle/SalesforceSans-BoldItalic.ttf"; sourceTree = "<group>"; };
-		B220F723AE3C95159D9AD8C97C998E08 /* SalesforceDesignSystem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SalesforceDesignSystem.h; path = SalesforceDesignSystem/SalesforceDesignSystem.h; sourceTree = "<group>"; };
-		B269EE0680738EA76040A848A536BBAD /* ResourceBundle-SalesforceDesignSystem-DesignSystem-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SalesforceDesignSystem-DesignSystem-Info.plist"; sourceTree = "<group>"; };
-		BBAB8187C6787099555935B0DD445E25 /* UIColor+SLDSColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+SLDSColor.h"; path = "SalesforceDesignSystem/Generated/Extensions/UIColor+SLDSColor.h"; sourceTree = "<group>"; };
-		BD6E53F63E6E66FBFFD47771C41C3CE7 /* SLDSColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLDSColor.h; path = SalesforceDesignSystem/Generated/SLDSColor.h; sourceTree = "<group>"; };
+		A1423778C962A9FB86ACA8B49747B029 /* PieChart.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieChart.swift; path = PieCharts/Core/Chart/PieChart.swift; sourceTree = "<group>"; };
+		AC85C87E15181102E3C7B865811DD516 /* PieSliceLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieSliceLayer.swift; path = PieCharts/Core/Slice/PieSliceLayer.swift; sourceTree = "<group>"; };
+		AD8919AC186F61D4FCC7E708DC459806 /* PieViewLayerAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieViewLayerAnimator.swift; path = PieCharts/Layer/Impl/View/Anim/PieViewLayerAnimator.swift; sourceTree = "<group>"; };
+		B06FE0FEF8A4242D988F6AC30C326064 /* ResourceBundle-SalesforceDesignSystem-DesignSystem-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SalesforceDesignSystem-DesignSystem-Info.plist"; sourceTree = "<group>"; };
+		B3394D1DF04A1920FF17F24CCEDC1ABB /* SLDSName.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLDSName.h; path = SalesforceDesignSystem/Generated/SLDSName.h; sourceTree = "<group>"; };
+		B5BC78E715ACD698C427BA835641C3E0 /* PieCharts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PieCharts-prefix.pch"; sourceTree = "<group>"; };
+		B9B0DE60F04D02963CD11315B0C7EC9E /* SLDSFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLDSFont.h; path = SalesforceDesignSystem/Generated/SLDSFont.h; sourceTree = "<group>"; };
+		BD23E6EF04DC2913F9945F9A7B6E7F6F /* UIColor+SLDSColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+SLDSColor.h"; path = "SalesforceDesignSystem/Generated/Extensions/UIColor+SLDSColor.h"; sourceTree = "<group>"; };
+		BDE69E12C187D64F3DF796FD9C7AC856 /* SLDSIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLDSIcon.h; path = SalesforceDesignSystem/Generated/SLDSIcon.h; sourceTree = "<group>"; };
 		BF43A39396C29A495E5754A4762A7BDB /* Pods-RetoHack-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RetoHack-Info.plist"; sourceTree = "<group>"; };
-		C35E910BA34A37C9BA701A91C8E5EE04 /* SalesforceSans-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "SalesforceSans-Regular.ttf"; path = "SalesforceDesignSystem.bundle/SalesforceSans-Regular.ttf"; sourceTree = "<group>"; };
-		DE046A6E221E5E73AD9FC4A20177C2DA /* SalesforceSans-Light.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "SalesforceSans-Light.ttf"; path = "SalesforceDesignSystem.bundle/SalesforceSans-Light.ttf"; sourceTree = "<group>"; };
-		E5F0CE1068CD886A4CB9E274B992C89F /* DesignSystem.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DesignSystem.xcconfig; sourceTree = "<group>"; };
-		F51C37519407327C53C1B799FCBFF007 /* SalesforceDesignSystemIcons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = SalesforceDesignSystemIcons.ttf; path = SalesforceDesignSystem.bundle/SalesforceDesignSystemIcons.ttf; sourceTree = "<group>"; };
+		C2354D1B3F931B69767EC8E82BE260FC /* SalesforceSans-Thin.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "SalesforceSans-Thin.ttf"; path = "SalesforceDesignSystem.bundle/SalesforceSans-Thin.ttf"; sourceTree = "<group>"; };
+		C46F4FEEEE110E47E2182260CBBDF979 /* PieSlice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieSlice.swift; path = PieCharts/Core/Slice/PieSlice.swift; sourceTree = "<group>"; };
+		CBBAFE4E40BE43A7B13BD54B4E178670 /* SalesforceSans-Italic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "SalesforceSans-Italic.ttf"; path = "SalesforceDesignSystem.bundle/SalesforceSans-Italic.ttf"; sourceTree = "<group>"; };
+		DBAFE405AFB803F20F56733152AF82AE /* SalesforceSans-ThinItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "SalesforceSans-ThinItalic.ttf"; path = "SalesforceDesignSystem.bundle/SalesforceSans-ThinItalic.ttf"; sourceTree = "<group>"; };
+		DDF49923304256CF35B2FC75EA53E0E9 /* PieSliceModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieSliceModel.swift; path = PieCharts/Model/PieSliceModel.swift; sourceTree = "<group>"; };
+		DDFA62A58A0165ABC0AB697546DAE13E /* SalesforceDesignSystemIcons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = SalesforceDesignSystemIcons.ttf; path = SalesforceDesignSystem.bundle/SalesforceDesignSystemIcons.ttf; sourceTree = "<group>"; };
+		E372848DAC890DACED60A6250547E83F /* CGRect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGRect.swift; path = PieCharts/Extensions/CGRect.swift; sourceTree = "<group>"; };
+		E9F58F1EBF46392BA0B0291551AAA0F2 /* PieCharts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PieCharts.modulemap; sourceTree = "<group>"; };
+		EBF1BA3D9AD6ED1451A344D996B3D80E /* NSString+SLDSName.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+SLDSName.h"; path = "SalesforceDesignSystem/Generated/Extensions/NSString+SLDSName.h"; sourceTree = "<group>"; };
+		EC39F2345BE9B1A37373DE68E23F26CC /* License-for-SalesforceDesignSystemIcons.txt */ = {isa = PBXFileReference; includeInIndex = 1; name = "License-for-SalesforceDesignSystemIcons.txt"; path = "SalesforceDesignSystem.bundle/License-for-SalesforceDesignSystemIcons.txt"; sourceTree = "<group>"; };
+		ECC003A2165E380E3D62FD2A28AC5A62 /* PieCharts.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PieCharts.xcconfig; sourceTree = "<group>"; };
+		EE13B138FD921D8E970240AA5C132281 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		F0FBBA7EE355F4F0A60CD44608850989 /* SalesforceDesignSystem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SalesforceDesignSystem.h; path = SalesforceDesignSystem/SalesforceDesignSystem.h; sourceTree = "<group>"; };
+		F197CBBA078CDAF18244F2736A8834B3 /* SLDSSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLDSSize.h; path = SalesforceDesignSystem/Generated/SLDSSize.h; sourceTree = "<group>"; };
 		FB76DD363845206EF66ACF921B37DE80 /* Pods-RetoHack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RetoHack.debug.xcconfig"; sourceTree = "<group>"; };
+		FE84BDC969CD02CA8F75EE0B2FE9E8AF /* PiePlainTextLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PiePlainTextLayer.swift; path = PieCharts/Layer/Impl/PlainText/PiePlainTextLayer.swift; sourceTree = "<group>"; };
+		FE8D9584CB5E4920DD1FFF12D73C6544 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		FEC34C153C748DFD7D2A0A3119307149 /* UIColor+SLDSColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+SLDSColor.m"; path = "SalesforceDesignSystem/Generated/Extensions/UIColor+SLDSColor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		84AD0E3A2290E6C8A99BAEDA1FF09330 /* Frameworks */ = {
+		90BA47E551DB5B236A887DCB0D07FD17 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FED3BA15A8BD10811D575480CC41B18E /* Foundation.framework in Frameworks */,
+				20E16DE5FDF2D53ED64BF2AF40D57031 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,43 +205,77 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F4587802A9E6EC1DA0596665E3E11F18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C9E8BCCB172BB6150E5E700AE6DD12A /* CoreGraphics.framework in Frameworks */,
+				E4EBFADC8B2C90F5310907FF21A45B54 /* Foundation.framework in Frameworks */,
+				6817252EC3EEB201A9A25F15E1E2579C /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+		087CC300741D0B2811C61CEFB1616F3C /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				092FD875F565846165BF2D8B053941F7 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		092FD875F565846165BF2D8B053941F7 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				0C9A0B672B6CDCA33D84AB895D938167 /* CoreText.framework */,
-				23621862A99429490F9C983069F078BB /* Foundation.framework */,
-				032F67321D34EE01369F5810E71B7660 /* UIKit.framework */,
+				EE13B138FD921D8E970240AA5C132281 /* CoreGraphics.framework */,
+				FE8D9584CB5E4920DD1FFF12D73C6544 /* CoreText.framework */,
+				27EA1DC23C311FC1A0EB15680F92E9F8 /* Foundation.framework */,
+				216E580938062956F95E2351E732C614 /* UIKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		0E1917D591772B95AE74AC7424BB6DA5 /* Pods */ = {
+		13F1B6E5779D1D7A615EC358C9A4D02F /* PieCharts */ = {
 			isa = PBXGroup;
 			children = (
-				400BF3D13C56DA867F9018BFC76A8D56 /* DesignSystem */,
+				0FA33CE04CAC3325C42703C3E902AFD3 /* AlphaPieLineTextLayerAnimator.swift */,
+				5F81782C55AC6D2D1B4D12640F172BE3 /* AlphaPieViewLayerAnimator.swift */,
+				9AF7DED1FDB790B7FC188BA93870F7F9 /* CGPoint.swift */,
+				E372848DAC890DACED60A6250547E83F /* CGRect.swift */,
+				58DA670CF4697CC948E484F290185FA5 /* CGSize.swift */,
+				1134FBE412A986FDA05B1BFE8E880E3F /* FloatingPoint.swift */,
+				897D26A72C13810DF85440E6D1A3031A /* Globals.swift */,
+				0453A14D6970CBEBE9CDD8D07CCBA87D /* Int.swift */,
+				A1423778C962A9FB86ACA8B49747B029 /* PieChart.swift */,
+				8B6B0FE94CE769B3FD793E46D792B017 /* PieChartDelegate.swift */,
+				54DBEE47661A651D56670A001F3A3AC1 /* PieChartLabelSettings.swift */,
+				289B0F5F2CD1A047AA4D6AADAD229001 /* PieChartLayer.swift */,
+				164F364444A60807BD2E7A22559DA8D7 /* PieCustomViewsLayer.swift */,
+				803A1443D9A53C1E324BB08CA7C66AFF /* PieLineTextLayer.swift */,
+				6772559AB3C3B48784BD5294C2BE079A /* PieLineTextLayerAnimator.swift */,
+				FE84BDC969CD02CA8F75EE0B2FE9E8AF /* PiePlainTextLayer.swift */,
+				C46F4FEEEE110E47E2182260CBBDF979 /* PieSlice.swift */,
+				0A11732912F0AD7ABC7D0B28435FBB31 /* PieSliceData.swift */,
+				67D96B67C851DA426DB1E60D1F2C8F6D /* PieSliceDelegate.swift */,
+				AC85C87E15181102E3C7B865811DD516 /* PieSliceLayer.swift */,
+				DDF49923304256CF35B2FC75EA53E0E9 /* PieSliceModel.swift */,
+				AD8919AC186F61D4FCC7E708DC459806 /* PieViewLayerAnimator.swift */,
+				58C38D51C943AD2507EA9DC9F8BCBF8C /* Support Files */,
 			);
-			name = Pods;
+			name = PieCharts;
+			path = PieCharts;
 			sourceTree = "<group>";
 		};
-		18F158BECAAD5048DA0705424BA3B6AE /* Products */ = {
+		2A355EA3B19D4B4F4235D988C417D630 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				18034BE93636D73186D5565F11990DC7 /* DesignSystem.framework */,
-				90AEC00910801362E05CBE20EEE74EAD /* Pods_RetoHack.framework */,
-				0CD49C046E4524295F025E0560C3E93B /* SalesforceDesignSystem.bundle */,
+				EC39F2345BE9B1A37373DE68E23F26CC /* License-for-SalesforceDesignSystemIcons.txt */,
+				8118466AA7A20EA8A8E954D4551397CE /* License-for-SalesforceSans-font.txt */,
+				DDFA62A58A0165ABC0AB697546DAE13E /* SalesforceDesignSystemIcons.ttf */,
+				1EB28AEE05702D59A52AAAF7347ED834 /* SalesforceSans-Bold.ttf */,
+				3D1790F13788A787AFD82CF7459E81B4 /* SalesforceSans-BoldItalic.ttf */,
+				CBBAFE4E40BE43A7B13BD54B4E178670 /* SalesforceSans-Italic.ttf */,
+				6BBE4F114F86FC11D8466B9F1510BF24 /* SalesforceSans-Light.ttf */,
+				9AA9E0559DC77AD38F1FD2381740A88F /* SalesforceSans-LightItalic.ttf */,
+				880044441B63EF5B727B7B10D4CECD4D /* SalesforceSans-Regular.ttf */,
+				C2354D1B3F931B69767EC8E82BE260FC /* SalesforceSans-Thin.ttf */,
+				DBAFE405AFB803F20F56733152AF82AE /* SalesforceSans-ThinItalic.ttf */,
 			);
-			name = Products;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		2FC8D07C484053DBF55B04C5B9D6992B /* Pods-RetoHack */ = {
@@ -197,30 +295,28 @@
 			path = "Target Support Files/Pods-RetoHack";
 			sourceTree = "<group>";
 		};
-		400BF3D13C56DA867F9018BFC76A8D56 /* DesignSystem */ = {
+		3C1E4E1B6232D9CA1991FE5F9AEE74D8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				961106D8ACA528E08CB1CCF589438DCC /* NSString+SLDSName.h */,
-				AA1ADCFE9D4FE4C6896721D55116A521 /* NSString+SLDSName.m */,
-				B220F723AE3C95159D9AD8C97C998E08 /* SalesforceDesignSystem.h */,
-				5A1523FD21D51D3977079800E37D7538 /* SalesforceDesignSystemNames.h */,
-				BD6E53F63E6E66FBFFD47771C41C3CE7 /* SLDSColor.h */,
-				4033613AB8A3280576B2B3C5396483EC /* SLDSFont.h */,
-				9E4FE189CEABE6ED18051A51C187BD21 /* SLDSFont.m */,
-				1EB2D5128BB49A0B82C9829BD00B24E8 /* SLDSIcon.h */,
-				39470D454E27BFD46BA2F525011B6E18 /* SLDSName.h */,
-				0B71B5769B238EDAAD0E95725AD012B4 /* SLDSSize.h */,
-				BBAB8187C6787099555935B0DD445E25 /* UIColor+SLDSColor.h */,
-				0B3E1F0D7EA6FC6843A2198BBBD4C6DE /* UIColor+SLDSColor.m */,
-				6A2C89E1B269E5DEDC23DDE8D21DDEB4 /* UIFont+SLDSFont.h */,
-				A7AF788A761762638AB7E73A6355C445 /* UIFont+SLDSFont.m */,
-				9E4D92BEAF751D082A76AD41EA99FDE2 /* UIImage+SLDSIcon.h */,
-				10A0003A195B3AFE950DE10D3FFBF1DB /* UIImage+SLDSIcon.m */,
-				9ED9F2CBA9289D6DCB3AC3FAE8F4ED7C /* Resources */,
-				D009A59D61DC95917741A56CE009B22D /* Support Files */,
+				551F675DEDBE4B67CC8E35FA0509CE8B /* DesignSystem.modulemap */,
+				56550E0DEA8F24F1918C8B39CC95D0AB /* DesignSystem.xcconfig */,
+				9B062B047E24CDF41915A825C9127440 /* DesignSystem-dummy.m */,
+				76E7C3EF4F4D63977C280147937746F9 /* DesignSystem-Info.plist */,
+				1593377701C340308A24FAE20F1910E0 /* DesignSystem-prefix.pch */,
+				31D60A3A1E348D1F0444BBDB78B1D526 /* DesignSystem-umbrella.h */,
+				B06FE0FEF8A4242D988F6AC30C326064 /* ResourceBundle-SalesforceDesignSystem-DesignSystem-Info.plist */,
 			);
-			name = DesignSystem;
-			path = DesignSystem;
+			name = "Support Files";
+			path = "../Target Support Files/DesignSystem";
+			sourceTree = "<group>";
+		};
+		4EA77A2BDC4527C2BEBE9306628E156D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BEE3B8A9F73AD59832920D2FD2B6AD3A /* DesignSystem */,
+				13F1B6E5779D1D7A615EC358C9A4D02F /* PieCharts */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		4EEA04E03B51BE8496FA5E27DE95F2B3 /* Targets Support Files */ = {
@@ -231,53 +327,87 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		9ED9F2CBA9289D6DCB3AC3FAE8F4ED7C /* Resources */ = {
+		58C38D51C943AD2507EA9DC9F8BCBF8C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0DC4CA0204EC2DADB79794C9F25C8AE1 /* License-for-SalesforceDesignSystemIcons.txt */,
-				9DA36E05E91BACA47EF66375E34365AF /* License-for-SalesforceSans-font.txt */,
-				F51C37519407327C53C1B799FCBFF007 /* SalesforceDesignSystemIcons.ttf */,
-				B08A5A953DD25C8B47FE84ECF735B4FD /* SalesforceSans-Bold.ttf */,
-				B0E0049C20C8BD3BE5F7D340FFF9074E /* SalesforceSans-BoldItalic.ttf */,
-				AB6C4A3BBB24424E5B25F7237F74630E /* SalesforceSans-Italic.ttf */,
-				DE046A6E221E5E73AD9FC4A20177C2DA /* SalesforceSans-Light.ttf */,
-				442FDEEE38DF5F19DE16998472C389A1 /* SalesforceSans-LightItalic.ttf */,
-				C35E910BA34A37C9BA701A91C8E5EE04 /* SalesforceSans-Regular.ttf */,
-				21B074C09AF740ED949785685AD8035E /* SalesforceSans-Thin.ttf */,
-				307AB3398C7759F7FB218E8D6BA68DD2 /* SalesforceSans-ThinItalic.ttf */,
+				E9F58F1EBF46392BA0B0291551AAA0F2 /* PieCharts.modulemap */,
+				ECC003A2165E380E3D62FD2A28AC5A62 /* PieCharts.xcconfig */,
+				7EF5E5E42E698D73581851B9C3D7E46C /* PieCharts-dummy.m */,
+				1BB45917647C1ED43584C9BC049844B9 /* PieCharts-Info.plist */,
+				B5BC78E715ACD698C427BA835641C3E0 /* PieCharts-prefix.pch */,
+				052A72999BAA1A3AD7452F905C641CD9 /* PieCharts-umbrella.h */,
 			);
-			name = Resources;
+			name = "Support Files";
+			path = "../Target Support Files/PieCharts";
+			sourceTree = "<group>";
+		};
+		88B346D69F77130BA90B413E18903EF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18034BE93636D73186D5565F11990DC7 /* DesignSystem.framework */,
+				141C771D00B32327501B56425523D398 /* PieCharts.framework */,
+				90AEC00910801362E05CBE20EEE74EAD /* Pods_RetoHack.framework */,
+				0CD49C046E4524295F025E0560C3E93B /* SalesforceDesignSystem.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				087CC300741D0B2811C61CEFB1616F3C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEE3B8A9F73AD59832920D2FD2B6AD3A /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				EBF1BA3D9AD6ED1451A344D996B3D80E /* NSString+SLDSName.h */,
+				59F730A21AB7F9BBD6A092D2DAFA29F6 /* NSString+SLDSName.m */,
+				F0FBBA7EE355F4F0A60CD44608850989 /* SalesforceDesignSystem.h */,
+				25EAEA3E918E49FA971E398D4C553037 /* SalesforceDesignSystemNames.h */,
+				85D9383A567F3BCB7905E573A18515A3 /* SLDSColor.h */,
+				B9B0DE60F04D02963CD11315B0C7EC9E /* SLDSFont.h */,
+				7B074D40A0F0569045C182F7B53FC7FA /* SLDSFont.m */,
+				BDE69E12C187D64F3DF796FD9C7AC856 /* SLDSIcon.h */,
+				B3394D1DF04A1920FF17F24CCEDC1ABB /* SLDSName.h */,
+				F197CBBA078CDAF18244F2736A8834B3 /* SLDSSize.h */,
+				BD23E6EF04DC2913F9945F9A7B6E7F6F /* UIColor+SLDSColor.h */,
+				FEC34C153C748DFD7D2A0A3119307149 /* UIColor+SLDSColor.m */,
+				6EB80AF5819B2E3372082078F3D5399E /* UIFont+SLDSFont.h */,
+				81AD2967455210D8A1A6D2E5B3E1CBD0 /* UIFont+SLDSFont.m */,
+				96C0C90902E5AF26B2FE203BE834287F /* UIImage+SLDSIcon.h */,
+				4CFA23B84D6945984E82F9D390D1ABAC /* UIImage+SLDSIcon.m */,
+				2A355EA3B19D4B4F4235D988C417D630 /* Resources */,
+				3C1E4E1B6232D9CA1991FE5F9AEE74D8 /* Support Files */,
+			);
+			name = DesignSystem;
+			path = DesignSystem;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
-				0E1917D591772B95AE74AC7424BB6DA5 /* Pods */,
-				18F158BECAAD5048DA0705424BA3B6AE /* Products */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				4EA77A2BDC4527C2BEBE9306628E156D /* Pods */,
+				88B346D69F77130BA90B413E18903EF8 /* Products */,
 				4EEA04E03B51BE8496FA5E27DE95F2B3 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D009A59D61DC95917741A56CE009B22D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4046CAEF50FB27209C67242363D0D16D /* DesignSystem.modulemap */,
-				E5F0CE1068CD886A4CB9E274B992C89F /* DesignSystem.xcconfig */,
-				1433E22118CE94835500AE198373BD7E /* DesignSystem-dummy.m */,
-				9600CE76284094944C40CF0843C6334B /* DesignSystem-Info.plist */,
-				3C8299BD5BAE5E2115A16A92E947201E /* DesignSystem-prefix.pch */,
-				67D5A72C2639A102A93C27DAAE95F6B0 /* DesignSystem-umbrella.h */,
-				B269EE0680738EA76040A848A536BBAD /* ResourceBundle-SalesforceDesignSystem-DesignSystem-Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/DesignSystem";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		1D300DEF455CCB0FA13ABEA9343FC2BC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42B32CE21013F7E5FC7689DC44DF91EA /* Pods-RetoHack-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		358351F9B8B00C26603B06BCF78DFB9C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -297,11 +427,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7BD16F18CB7A58391DDA41495ABF0096 /* Headers */ = {
+		F15EAF85C124A4F3537985C41149C87C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A9BFC7B1AE588A5250939C6DCD942FB /* Pods-RetoHack-umbrella.h in Headers */,
+				EC975F7502419A2CBAAEE9C4F98184EA /* PieCharts-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,21 +459,40 @@
 		};
 		4A479B580AE6076AFD51D5A0AB8E3734 /* Pods-RetoHack */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DC18E8FAD85AB3FEB7BA5CB7FAECD60C /* Build configuration list for PBXNativeTarget "Pods-RetoHack" */;
+			buildConfigurationList = 4B737318DF83F10EFBD0FEB5FA7A8E22 /* Build configuration list for PBXNativeTarget "Pods-RetoHack" */;
 			buildPhases = (
-				7BD16F18CB7A58391DDA41495ABF0096 /* Headers */,
-				A5B83298D81B984984E0A9B84B6DE07C /* Sources */,
-				84AD0E3A2290E6C8A99BAEDA1FF09330 /* Frameworks */,
-				FE996716207FD0923C3EC0CE33E46602 /* Resources */,
+				1D300DEF455CCB0FA13ABEA9343FC2BC /* Headers */,
+				2995C08472217517B4E2384E60E133D3 /* Sources */,
+				90BA47E551DB5B236A887DCB0D07FD17 /* Frameworks */,
+				61C229F62F77DCFDA947DAF3400F43F2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4651873C6ED049EFC2FD38147E7B6D9A /* PBXTargetDependency */,
+				8294FEBF2C1E8ACF3E1180C28B8ED392 /* PBXTargetDependency */,
+				8906408F7EAA53EA4C4C5DCE67FC97F7 /* PBXTargetDependency */,
 			);
 			name = "Pods-RetoHack";
 			productName = "Pods-RetoHack";
 			productReference = 90AEC00910801362E05CBE20EEE74EAD /* Pods_RetoHack.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5352E9F7E2BA40B729D6F4355D629ED5 /* PieCharts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DA41CBA4B931F1A9E7DE3E4D1E69EC9 /* Build configuration list for PBXNativeTarget "PieCharts" */;
+			buildPhases = (
+				F15EAF85C124A4F3537985C41149C87C /* Headers */,
+				438196256BCAB393BC19E79EAC70B86C /* Sources */,
+				F4587802A9E6EC1DA0596665E3E11F18 /* Frameworks */,
+				79E684FEA95D6A26F12A60AF88F1B2E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PieCharts;
+			productName = PieCharts;
+			productReference = 141C771D00B32327501B56425523D398 /* PieCharts.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		828F14A5FC34AAA0EBB198E49E27BB99 /* DesignSystem-SalesforceDesignSystem */ = {
@@ -373,25 +522,40 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 18F158BECAAD5048DA0705424BA3B6AE /* Products */;
+			productRefGroup = 88B346D69F77130BA90B413E18903EF8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				194A56F2B926B90E05CF289C5AA5A248 /* DesignSystem */,
 				828F14A5FC34AAA0EBB198E49E27BB99 /* DesignSystem-SalesforceDesignSystem */,
+				5352E9F7E2BA40B729D6F4355D629ED5 /* PieCharts */,
 				4A479B580AE6076AFD51D5A0AB8E3734 /* Pods-RetoHack */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		61C229F62F77DCFDA947DAF3400F43F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E684FEA95D6A26F12A60AF88F1B2E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C59BBA2D62582C1A4268C4A8FD08B91A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -418,16 +582,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FE996716207FD0923C3EC0CE33E46602 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2995C08472217517B4E2384E60E133D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D67A0A73260039185F93F72DFB1A7F7 /* Pods-RetoHack-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2CE6161B0239D90A2BF9A25124FAB715 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -441,6 +606,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		438196256BCAB393BC19E79EAC70B86C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D42FD4C06FBECD4D0076BA0F164E3D7 /* AlphaPieLineTextLayerAnimator.swift in Sources */,
+				3727D81A8E60CB1969513D03205F4D1F /* AlphaPieViewLayerAnimator.swift in Sources */,
+				AF63525C26B16ECA99775FEEB5D9DAFB /* CGPoint.swift in Sources */,
+				BCD6AA5DAAC2C1EF829F74DEC81D9308 /* CGRect.swift in Sources */,
+				C8E0D25B4B31731E2D9AE57508C5458C /* CGSize.swift in Sources */,
+				D63E22038D157AA162B92B8FD0AE3232 /* FloatingPoint.swift in Sources */,
+				78FAD6E2B3FE9DD871270AF82D20D4DA /* Globals.swift in Sources */,
+				B03E8E2F62190B19257A70EAABA5B97C /* Int.swift in Sources */,
+				4F1482B381CE2F3CCC62015F22F2CD86 /* PieChart.swift in Sources */,
+				07EC05367FB06380F8534C2019A4B573 /* PieChartDelegate.swift in Sources */,
+				D77483E153D9327C337288531B48D3E6 /* PieChartLabelSettings.swift in Sources */,
+				18B8C262593617A927666E1B87BB1CF4 /* PieChartLayer.swift in Sources */,
+				BBAF931620A2C7B622EC073B2FA16F89 /* PieCharts-dummy.m in Sources */,
+				5FDBACE328D82B6557E164F4C21A7B1F /* PieCustomViewsLayer.swift in Sources */,
+				CD683A40B68E215866CEE0ED609C5EFD /* PieLineTextLayer.swift in Sources */,
+				9D42D95CF916C54F70AB417E50ABCFD2 /* PieLineTextLayerAnimator.swift in Sources */,
+				F416418C794FCA137962287221D2B15B /* PiePlainTextLayer.swift in Sources */,
+				913AF8577C52A01F3C0DCAF27FDE9AA5 /* PieSlice.swift in Sources */,
+				CFED1D8E117462229AD408C055556D88 /* PieSliceData.swift in Sources */,
+				C76BF61E4968CD16E92EC3F5A47A4F64 /* PieSliceDelegate.swift in Sources */,
+				945F66CC57EB589300296B053DE94D2C /* PieSliceLayer.swift in Sources */,
+				A885151A6F1300266EDE677E27EA8CF7 /* PieSliceModel.swift in Sources */,
+				B2AC85E53FA4319F6FF7D0CC6BBFB40D /* PieViewLayerAnimator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6707DA533189D787DF1040294797E941 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -448,22 +643,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5B83298D81B984984E0A9B84B6DE07C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				232966267BA12993093E08352A36AE11 /* Pods-RetoHack-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4651873C6ED049EFC2FD38147E7B6D9A /* PBXTargetDependency */ = {
+		8294FEBF2C1E8ACF3E1180C28B8ED392 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DesignSystem;
 			target = 194A56F2B926B90E05CF289C5AA5A248 /* DesignSystem */;
-			targetProxy = 52534DCCE07D8132D0B9B38FBF6E5EAF /* PBXContainerItemProxy */;
+			targetProxy = 917649AC34576DADA2720C9AC0A26DB7 /* PBXContainerItemProxy */;
+		};
+		8906408F7EAA53EA4C4C5DCE67FC97F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PieCharts;
+			target = 5352E9F7E2BA40B729D6F4355D629ED5 /* PieCharts */;
+			targetProxy = 5EB88B909E15910E70D080DF4229871F /* PBXContainerItemProxy */;
 		};
 		A7E7A305B0C0FC5D86BFE0D28A747B03 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -474,47 +667,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		026FEA42E3124F3C7AAEFB9825BBFC24 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB76DD363845206EF66ACF921B37DE80 /* Pods-RetoHack.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RetoHack/Pods-RetoHack-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RetoHack/Pods-RetoHack.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		1C5CF5B3C7439EFBA150F97C204329BD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5F0CE1068CD886A4CB9E274B992C89F /* DesignSystem.xcconfig */;
+			baseConfigurationReference = 56550E0DEA8F24F1918C8B39CC95D0AB /* DesignSystem.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -672,7 +827,81 @@
 			};
 			name = Release;
 		};
-		464A24792147FA1F629FCDF247EE02F6 /* Release */ = {
+		608A894D0C1BA4EDFF220D1E0187CFAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECC003A2165E380E3D62FD2A28AC5A62 /* PieCharts.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PieCharts/PieCharts-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PieCharts/PieCharts-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PieCharts/PieCharts.modulemap";
+				PRODUCT_MODULE_NAME = PieCharts;
+				PRODUCT_NAME = PieCharts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6A40CB5E8C316C47E2D2F665CD94B390 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB76DD363845206EF66ACF921B37DE80 /* Pods-RetoHack.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RetoHack/Pods-RetoHack-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RetoHack/Pods-RetoHack.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		826F9F04B651BC1BB410FB540AD69112 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 890440FF6BCB415E4F25641F0F8D7DB8 /* Pods-RetoHack.release.xcconfig */;
 			buildSettings = {
@@ -713,7 +942,7 @@
 		};
 		8B37775A862192FA842286803D0F6AE2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5F0CE1068CD886A4CB9E274B992C89F /* DesignSystem.xcconfig */;
+			baseConfigurationReference = 56550E0DEA8F24F1918C8B39CC95D0AB /* DesignSystem.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DesignSystem";
@@ -727,9 +956,44 @@
 			};
 			name = Release;
 		};
+		93E393FB093F5E9B6C3B2448E939C4A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECC003A2165E380E3D62FD2A28AC5A62 /* PieCharts.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PieCharts/PieCharts-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PieCharts/PieCharts-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PieCharts/PieCharts.modulemap";
+				PRODUCT_MODULE_NAME = PieCharts;
+				PRODUCT_NAME = PieCharts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		93F4B2F7C3FD424F8E6AEC82173DE229 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5F0CE1068CD886A4CB9E274B992C89F /* DesignSystem.xcconfig */;
+			baseConfigurationReference = 56550E0DEA8F24F1918C8B39CC95D0AB /* DesignSystem.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -764,7 +1028,7 @@
 		};
 		E3BC68102F9EE65130D17DD3D73F6387 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5F0CE1068CD886A4CB9E274B992C89F /* DesignSystem.xcconfig */;
+			baseConfigurationReference = 56550E0DEA8F24F1918C8B39CC95D0AB /* DesignSystem.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DesignSystem";
@@ -790,6 +1054,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		4B737318DF83F10EFBD0FEB5FA7A8E22 /* Build configuration list for PBXNativeTarget "Pods-RetoHack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A40CB5E8C316C47E2D2F665CD94B390 /* Debug */,
+				826F9F04B651BC1BB410FB540AD69112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		74586EAC33A0E402EABA9A3B52E8D16A /* Build configuration list for PBXNativeTarget "DesignSystem" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -799,20 +1072,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		8DA41CBA4B931F1A9E7DE3E4D1E69EC9 /* Build configuration list for PBXNativeTarget "PieCharts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93E393FB093F5E9B6C3B2448E939C4A6 /* Debug */,
+				608A894D0C1BA4EDFF220D1E0187CFAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		CB8EA70D69953DF18860D0F8914EEDF6 /* Build configuration list for PBXNativeTarget "DesignSystem-SalesforceDesignSystem" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E3BC68102F9EE65130D17DD3D73F6387 /* Debug */,
 				8B37775A862192FA842286803D0F6AE2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DC18E8FAD85AB3FEB7BA5CB7FAECD60C /* Build configuration list for PBXNativeTarget "Pods-RetoHack" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				026FEA42E3124F3C7AAEFB9825BBFC24 /* Debug */,
-				464A24792147FA1F629FCDF247EE02F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

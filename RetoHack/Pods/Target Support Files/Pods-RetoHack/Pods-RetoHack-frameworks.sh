@@ -162,9 +162,11 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/DesignSystem/DesignSystem.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/PieCharts/PieCharts.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/DesignSystem/DesignSystem.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/PieCharts/PieCharts.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
