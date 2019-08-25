@@ -1,0 +1,77 @@
+<p class="text-grey-dark h4">Gastos</p>
+<hr>
+<div class="row text-center">
+  <div class="col col-12 col-md-4 col-xl-4">
+    <hack-card
+      title="{{proveedores.count}}"
+      position="horizontal"
+      color="0"
+      body="Número de proveedores en el periodo"
+      *ngIf="proveedores"
+    ></hack-card>
+  </div>
+  <div class="col col-12 col-md-4 col-xl-4">
+    <hack-card
+      title="{{gastoGrande.total | currency}}"
+      subtitle="Tu gasto más grande del periodo"
+      position="horizontal"
+      color="1"
+      body="Realizado por {{gastoGrande.emisorname}}"
+      *ngIf="gastoGrande.total"
+    ></hack-card>
+  </div>
+  <div class="col col-12 col-md-4 col-xl-4">
+    <hack-card
+      title="{{proveedorGrande.total | currency}}"
+      subtitle="Tu proveedor más grande del periodo"
+      position="horizontal"
+      body="{{proveedorGrande.emisorname}}"
+      *ngIf="proveedorGrande.total"
+    ></hack-card>
+  </div>
+  <!--
+    <hack-chart [chartType]="'linear'" [chartLabels]="['Ingresos']" [chartData]="data" *ngIf="data.length !== 0"></hack-chart>
+  -->
+
+</div>
+
+
+<div class="row text-center">
+  <div class="col col-12">
+    <div class="card">
+      <div class="card-body">
+        <h3 class="card-title">Facturas de gastos</h3>
+        <table class="table" *ngIf="gastos">
+          <thead>
+          <tr>
+            <td>#</td>
+            <td>Fecha</td>
+            <td>RFC</td>
+            <td>Razón Social</td>
+            <td>Importe</td>
+          </tr>
+          </thead>
+          <tbody>
+          <tr *ngFor="let gasto of gastos; index as i">
+            <td>{{ i + 1 }}</td>
+            <td>{{ gasto.dateData | date }}</td>
+            <td (click)="example(gasto.emisorrfc)">{{ gasto.emisorrfc }}</td>
+            <td>{{ gasto.emisorname }}</td>
+            <td>{{ gasto.total | currency}}</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div *ngIf="exampleData">
+  <br>
+    <p>{{exampleData | json}}</p>
+  <br>
+</div>
+
+
+
+

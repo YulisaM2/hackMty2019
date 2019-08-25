@@ -8,23 +8,18 @@ import {Component, Input, OnInit} from '@angular/core';
 export class CardComponent implements OnInit {
 
   @Input() title = 'Default title';
-  @Input() subtitle = 'Default subtitle';
+  @Input() subtitle = null;
   @Input() icon = 'fa fa-money-check-alt';
-  @Input() color = 'purple';
+  @Input() color = 'white';
+  @Input() textColor = 'black';
   @Input() position = 'horizontal';
-  @Input() body = 'Lorem ipsum';
+  @Input() body = null;
 
-  backgroundColor = {
-    'purple': 'bg-purple',
-    'green': 'bg-green',
-    'white': 'bg-white'
-  };
+  colors = [
+    '#00c2a2',
+    '#8972DA',
+  ];
 
-  textColor = {
-    'purple': 'text-white',
-    'green': 'text-white',
-    'white': 'text-black'
-  };
 
   constructor() { }
 

@@ -1,0 +1,37 @@
+<p class="text-grey-dark h4">Gastos</p>
+<hr>
+<div class="row text-center">
+  <div class="col col-12 col-md-4 col-xl-4">
+    <hack-card
+      title="{{clientes}}"
+      position="horizontal"
+      color="0"
+      body="Número de clientes en el periodo"
+      *ngIf="clientes"
+    ></hack-card>
+  </div>
+  <div class="col col-12 col-md-4 col-xl-4">
+    <hack-card
+      title="{{ventaGrande.total | currency}}"
+      subtitle="Tu venta más grande por factura"
+      position="horizontal"
+      color="1"
+      body="Realizado por {{ventaGrande.receptorname}}"
+      *ngIf="ventaGrande"
+    ></hack-card>
+  </div>
+  <div class="col col-12 col-md-4 col-xl-4">
+    <hack-card
+      title="{{ clienteGrande.total | currency}}"
+      subtitle="Tu cliente más grande"
+      position="horizontal"
+      body="{{clienteGrande.receptorname}}"
+      *ngIf="clienteGrande"
+    ></hack-card>
+  </div>
+
+  <!--
+    <hack-chart [chartType]="'linear'" [chartLabels]="['Ingresos']" [chartData]="data" *ngIf="data.length !== 0"></hack-chart>
+  -->
+
+</div>
