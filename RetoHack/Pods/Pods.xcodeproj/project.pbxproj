@@ -3,55 +3,181 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		073D343EEEACFDA89780DCE95769A50E /* UIFont+SLDSFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A2C89E1B269E5DEDC23DDE8D21DDEB4 /* UIFont+SLDSFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D8530D4B78326B5E3BD8C397D1C884B /* SalesforceSans-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 307AB3398C7759F7FB218E8D6BA68DD2 /* SalesforceSans-ThinItalic.ttf */; };
-		115A78BE15A3F15AB0E945D9BBB0803D /* SalesforceSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B08A5A953DD25C8B47FE84ECF735B4FD /* SalesforceSans-Bold.ttf */; };
-		121C189271C9F3D1180A3FF9715DB23A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23621862A99429490F9C983069F078BB /* Foundation.framework */; };
-		162AAF855D5AA07208CCFB6EE6C98B04 /* License-for-SalesforceDesignSystemIcons.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0DC4CA0204EC2DADB79794C9F25C8AE1 /* License-for-SalesforceDesignSystemIcons.txt */; };
-		19440105B45C4BE73204409AEC43799F /* SLDSFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E4FE189CEABE6ED18051A51C187BD21 /* SLDSFont.m */; };
-		1A3A87DD8E56E48CAE85C44F394B917E /* NSString+SLDSName.h in Headers */ = {isa = PBXBuildFile; fileRef = 961106D8ACA528E08CB1CCF589438DCC /* NSString+SLDSName.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		232966267BA12993093E08352A36AE11 /* Pods-RetoHack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FB7815CDC461B7455F0846FE69511F /* Pods-RetoHack-dummy.m */; };
-		3464620FFFB3CCF66B7FE6CFE6FCC76A /* SLDSColor.h in Headers */ = {isa = PBXBuildFile; fileRef = BD6E53F63E6E66FBFFD47771C41C3CE7 /* SLDSColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4279DB5C94F6C56F9A028547DDD2E776 /* SalesforceDesignSystemIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F51C37519407327C53C1B799FCBFF007 /* SalesforceDesignSystemIcons.ttf */; };
-		46E55C75E6BE6ABB99E36CD672397AC0 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C9A0B672B6CDCA33D84AB895D938167 /* CoreText.framework */; };
-		4C3DDFE4CB774D75552A1E394C50B4EA /* NSString+SLDSName.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1ADCFE9D4FE4C6896721D55116A521 /* NSString+SLDSName.m */; };
-		4DB90413256916F98F6FB63202C38B3E /* DesignSystem-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1433E22118CE94835500AE198373BD7E /* DesignSystem-dummy.m */; };
-		5344B3846FCBB1162C374B9742C8E57D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032F67321D34EE01369F5810E71B7660 /* UIKit.framework */; };
+		00F1A2872C2D2F2E5E67B11562805EC9 /* FAKOcticons.h in Headers */ = {isa = PBXBuildFile; fileRef = B936F2BE5D1122076712BE0C61C05754 /* FAKOcticons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0235D2C54BB4DE7375C54B3F9DBF3957 /* XBaseChartConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5EB34EC895E856469FEA71588D33C7 /* XBaseChartConfiguration.m */; };
+		05AB9022017E53DE460EB71064CD3305 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9842A80D9E40FB9002BCF323FAAE027 /* Foundation.framework */; };
+		05C7C6726ECCAD3E68B569BA1ADD9CFC /* XNotificationBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 67CDF103F1AC3DB4802E3741D7DE7D5F /* XNotificationBridge.m */; };
+		073D343EEEACFDA89780DCE95769A50E /* UIFont+SLDSFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C56C9FCAA90D5E6D8372AE16015035C /* UIFont+SLDSFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09E6E8B762ECDA0CD5FF29ACDC4A0883 /* XAlignLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D015673C6FDA14D0C37BA98160720B7A /* XAlignLabel.m */; };
+		0A7E77BBD6CF8A9C2385BC92E3F8A40F /* XPositiveNegativeBarChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = A877A9DFE05BFFC55BE92E289492015F /* XPositiveNegativeBarChartView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BA461B87A4083B33F7F3C6F5433FF46 /* XJYNumberLabelDecoration.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECC69D6A3F46BBA7CDC300D6EE1B88F /* XJYNumberLabelDecoration.m */; };
+		0BB364A82A550841A9CFEB6B639279EA /* XAreaLineChartConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 54668A74B4237F92EE6DEB26D63B4876 /* XAreaLineChartConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D8530D4B78326B5E3BD8C397D1C884B /* SalesforceSans-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 794165ED189897B46FDE4F2C6C80AC88 /* SalesforceSans-ThinItalic.ttf */; };
+		0F9706A30B52967B461EF983F7B9300E /* Colours.m in Sources */ = {isa = PBXBuildFile; fileRef = 10BCB76F02C1826623158105F1568957 /* Colours.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		11189FA9BFE659FF5D921E8035CAFFE9 /* XLineChart.h in Headers */ = {isa = PBXBuildFile; fileRef = 67DD36EB0BEB2504BA646B802CFE31FB /* XLineChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		115A78BE15A3F15AB0E945D9BBB0803D /* SalesforceSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F90B1EF2A244CBE8FCF668438692CBC /* SalesforceSans-Bold.ttf */; };
+		11D30731FC88C860969E8B3D5AD3780B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F78BD2C7EFB3B0484EEB2291C1383C3 /* UIKit.framework */; };
+		121C189271C9F3D1180A3FF9715DB23A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9842A80D9E40FB9002BCF323FAAE027 /* Foundation.framework */; };
+		12F641BEDF754DEA2D77708D0655D580 /* FAKIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 7640B5BE7A434108F78575F245A0FF94 /* FAKIcon.m */; };
+		133580A8403A8A29B0735BB9A92995E3 /* XNotificationBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 766DBE2606A78E3064766F7703A309CB /* XNotificationBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1401A4F4FA6991262B30D96D85D200F3 /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 991B556125DFF898CBE726AEF59D2BE8 /* ionicons.ttf */; };
+		1410A9A7F943AAA2E92311611D608699 /* UIGestureRecognizer+XGesHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A70481F7AD10ECD95A23BE73FAE737A9 /* UIGestureRecognizer+XGesHelper.m */; };
+		162AAF855D5AA07208CCFB6EE6C98B04 /* License-for-SalesforceDesignSystemIcons.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0E379738CFD91D737F542D0FCE90DFBA /* License-for-SalesforceDesignSystemIcons.txt */; };
+		16826070997DA0FB8C9E9B4DF30243FA /* CAKeyframeAnimation+AHEasing.h in Headers */ = {isa = PBXBuildFile; fileRef = 93D1DB4137D7AC2B47922F6AA446C04F /* CAKeyframeAnimation+AHEasing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16F6AF39F7A65D3E8B0F8AF94244F1BD /* Colours.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2078836370A1A45FC73F41648A77EF39 /* Colours.framework */; };
+		19440105B45C4BE73204409AEC43799F /* SLDSFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC4F4F72C52869E2C3525FC8BA1AE8D /* SLDSFont.m */; };
+		1A3A87DD8E56E48CAE85C44F394B917E /* NSString+SLDSName.h in Headers */ = {isa = PBXBuildFile; fileRef = 680BC2BD726542CB92309A9BE05163C3 /* NSString+SLDSName.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C038E9E5F29554B1362567B023888C9 /* XPositiveNegativeBarChart.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BC221ACB94EADE7CFB8F54659EF303F /* XPositiveNegativeBarChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DD04C32171C0B6F7864AE738C921A4D /* octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D98A9968711901078084A28E63BA4E1 /* octicons.ttf */; };
+		250CA98A90B955E171971A3E0417D450 /* OrdinateView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF601405BF535446755FBD6C8BA74519 /* OrdinateView.m */; };
+		2571B7E9C6168649DED4E24AA5E16BC8 /* OrdinateView.h in Headers */ = {isa = PBXBuildFile; fileRef = 53E47BAD579BE3EA4C155EA55B3118CC /* OrdinateView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27728AA251868ECF6FD38B9A41C88987 /* zocial-regular-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0DEA9BFC8E01C7EBE5C3A06CA38C68D4 /* zocial-regular-webfont.ttf */; };
+		2C4C366F404F5D9777AF6043815111D8 /* XAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = CA023FBD7751D41C4B7D5E69FF231299 /* XAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D97C932D0E94A401E911BF507ACC15D /* XAbscissaView.m in Sources */ = {isa = PBXBuildFile; fileRef = E14D98E600856D873C922803F8B0381B /* XAbscissaView.m */; };
+		2DBE455F71CD10F74DF35B8FA7CE361F /* XBarChartConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = D49E10242074DE5504D071187668D3CC /* XBarChartConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EB9423B6614A25D798890DF519578D1 /* XPieItem.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF58618773C67D2791D4E48FC473C7E /* XPieItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F23743D71187566345A02E20E71447A /* XAreaLineContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 928C64C2D519CA85CD66FABE402E8C65 /* XAreaLineContainerView.m */; };
+		320C187CB7DDF4ECFEF431D01BAD9E69 /* CALayer+XLayerSelectHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E238B659D6D5CF036409E074EC78CF /* CALayer+XLayerSelectHelper.m */; };
+		339171FEB4D02A0760781AE71CA0D2BA /* XJYChart-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF57203F949EAA632CFAACD9A8D42656 /* XJYChart-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3464620FFFB3CCF66B7FE6CFE6FCC76A /* SLDSColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A4267073215CC706E52F02702F94E7D /* SLDSColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36054FDE9EC9EC70CE70FF890A5051F8 /* XPieChart.h in Headers */ = {isa = PBXBuildFile; fileRef = 319F466471D36B27222A1805E87274E3 /* XPieChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3995CE1C8BCD20FA67BED94927B7C4FE /* XEnumHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BA58AC9AF53A8C6217351E3B4980B6B /* XEnumHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E3B37C7BAC9B25DA115CA9B02164A86 /* XLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02ACC0EEB989892D28D8BF89A9AEC575 /* XLineChartView.m */; };
+		4279DB5C94F6C56F9A028547DDD2E776 /* SalesforceDesignSystemIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2254FD04BDCA1F3F805DD6AFDDE0588 /* SalesforceDesignSystemIcons.ttf */; };
+		45520360BBC7827DD762CE2C584430A3 /* XColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 605C4B10A70803BF4EB11B8FB028D928 /* XColor.m */; };
+		46E55C75E6BE6ABB99E36CD672397AC0 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61ACD0035BBEC61EAA7D78ABA8320144 /* CoreText.framework */; };
+		4A38F2CF2526C4A1C82C28C615B5BA70 /* XBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 4772AC71691C2D4665C9C4D2470CE24D /* XBarChart.m */; };
+		4C3DDFE4CB774D75552A1E394C50B4EA /* NSString+SLDSName.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E6DEB97012F805B3A9B6BF23150C2A3 /* NSString+SLDSName.m */; };
+		4DB90413256916F98F6FB63202C38B3E /* DesignSystem-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F96AFBC8BF275261098B439A3D8296 /* DesignSystem-dummy.m */; };
+		4F1882ECC517B74AC0960F8BBB87F805 /* XLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF440C78F0D740AAD68B57FF99E9359 /* XLineChart.m */; };
+		52D94987C1A32AE8F74E199AB100DF6D /* Colours-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DDC2DC11086A3378F02625D79BA0A113 /* Colours-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5344B3846FCBB1162C374B9742C8E57D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F78BD2C7EFB3B0484EEB2291C1383C3 /* UIKit.framework */; };
+		543ADB4A33DAC282338C33F62EBA98D6 /* XPositiveNegativeBarContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F407BF677CC5D268672D7F31E36E655 /* XPositiveNegativeBarContainerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5866C0488CB0EC0D5A7FD471834C4D81 /* FAKFontAwesome.h in Headers */ = {isa = PBXBuildFile; fileRef = 89BCC6072D7AC2DE62092D8D76A0AF30 /* FAKFontAwesome.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58AC443BA808C5800B406567C7E4E59D /* XAnimationLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = B8CD8D934900DA05C039BBF12ABA5B82 /* XAnimationLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		59D67693AB4306E87C85B27663AF2DB1 /* SalesforceDesignSystem.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0CD49C046E4524295F025E0560C3E93B /* SalesforceDesignSystem.bundle */; };
-		5E90CB5A339D6499C90BD06BFF3A719B /* UIImage+SLDSIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A0003A195B3AFE950DE10D3FFBF1DB /* UIImage+SLDSIcon.m */; };
-		6628691BC07F5EECCE0D23EF4B729445 /* UIImage+SLDSIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E4D92BEAF751D082A76AD41EA99FDE2 /* UIImage+SLDSIcon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6B6A747CB99568D9ACEC68C05EB3B83B /* SLDSIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB2D5128BB49A0B82C9829BD00B24E8 /* SLDSIcon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6C07C8A8A330BF8CD9CCC63BF9CCF99E /* SalesforceDesignSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = B220F723AE3C95159D9AD8C97C998E08 /* SalesforceDesignSystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79955882008184DFCF51608ECF131B5C /* SalesforceSans-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21B074C09AF740ED949785685AD8035E /* SalesforceSans-Thin.ttf */; };
-		7D8CC30E243022613180D750332153A4 /* SalesforceSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 442FDEEE38DF5F19DE16998472C389A1 /* SalesforceSans-LightItalic.ttf */; };
-		8A9BFC7B1AE588A5250939C6DCD942FB /* Pods-RetoHack-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C49AA1FE4B6E33A8ADF412616B984DF /* Pods-RetoHack-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9940BC101FD00700E94C5F7F2F8954D5 /* SLDSFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 4033613AB8A3280576B2B3C5396483EC /* SLDSFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		99439C5B89356B37E585D57DCF8E5932 /* SalesforceSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C35E910BA34A37C9BA701A91C8E5EE04 /* SalesforceSans-Regular.ttf */; };
-		A05802F09889541EF48AE14A22A5CC3C /* UIFont+SLDSFont.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AF788A761762638AB7E73A6355C445 /* UIFont+SLDSFont.m */; };
-		A637882B16ACD4906E095D551D7EF487 /* DesignSystem-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67D5A72C2639A102A93C27DAAE95F6B0 /* DesignSystem-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AF098BBA615913A1B0FB172C82A2BFA1 /* SalesforceSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB6C4A3BBB24424E5B25F7237F74630E /* SalesforceSans-Italic.ttf */; };
-		B212341EE74897111E03647B718EA023 /* SLDSName.h in Headers */ = {isa = PBXBuildFile; fileRef = 39470D454E27BFD46BA2F525011B6E18 /* SLDSName.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B643A6D667BFB7DFA40644FABB518018 /* License-for-SalesforceSans-font.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9DA36E05E91BACA47EF66375E34365AF /* License-for-SalesforceSans-font.txt */; };
-		C9153F1B94F15DE9C62B9DAD650AB4C0 /* SalesforceDesignSystemNames.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A1523FD21D51D3977079800E37D7538 /* SalesforceDesignSystemNames.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CEA33803E36CFFE7ADF1649FAB843433 /* UIColor+SLDSColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3E1F0D7EA6FC6843A2198BBBD4C6DE /* UIColor+SLDSColor.m */; };
-		E5456260AE3A13E82AE35CED134D933F /* SalesforceSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE046A6E221E5E73AD9FC4A20177C2DA /* SalesforceSans-Light.ttf */; };
-		E9B03A242138D8FD520C93F6D8DBB558 /* UIColor+SLDSColor.h in Headers */ = {isa = PBXBuildFile; fileRef = BBAB8187C6787099555935B0DD445E25 /* UIColor+SLDSColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EFAD3104D6E767659C667D36776B569D /* SalesforceSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0E0049C20C8BD3BE5F7D340FFF9074E /* SalesforceSans-BoldItalic.ttf */; };
-		FED3BA15A8BD10811D575480CC41B18E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23621862A99429490F9C983069F078BB /* Foundation.framework */; };
-		FF978A9436274501EFCB42832E5769AF /* SLDSSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B71B5769B238EDAAD0E95725AD012B4 /* SLDSSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A17F6A91E2F2393FBFA675709085E9E /* XAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DC708038D33506A9B39C342D6A5BEE /* XAnimator.m */; };
+		5AFCF81FADE5D01816C1B1FC0697891A /* XPositiveNegativeBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9782BB9FCBD458C3045C7E7C865107D /* XPositiveNegativeBarChartView.m */; };
+		5C76EFC267D21340CFDB281575A150D3 /* XRandomNumerHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 33C924D0C7E798C8347762B08BB2AD2E /* XRandomNumerHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C79E4034FDFB989322B17A3F2022E28 /* FAKZocial.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E21785BC0E73775DF2F551DCF2C085B /* FAKZocial.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E90CB5A339D6499C90BD06BFF3A719B /* UIImage+SLDSIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = DD242EF33F8B2792849F8E9EB901FDEB /* UIImage+SLDSIcon.m */; };
+		639683FC2FD65122F3A4771B75DB24C7 /* XAnimationLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EC16F950B3C106F7196DE0E2856FEB /* XAnimationLabel.m */; };
+		65C3B6354C77FD230ABC34CE34E88D6D /* FAKMaterialIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = F8F6E917AD488D9B7FB87C2218B75D93 /* FAKMaterialIcons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6628691BC07F5EECCE0D23EF4B729445 /* UIImage+SLDSIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = C7E1987AD161A9427C6ADF14B0305738 /* UIImage+SLDSIcon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66B98F9060AE919FC0AC89878F8AFB76 /* FAKIonIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BAA8B9D4935B056B58816BE541E797E /* FAKIonIcons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		685663671B0DC7285CF8D778D59DB4E6 /* XRandomNumerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB9371BC9ECD78924322DE1D425C438 /* XRandomNumerHelper.m */; };
+		68927421C6D893BBBE4E61D5CF5C2C3B /* Colours.h in Headers */ = {isa = PBXBuildFile; fileRef = 56FB1EC3C552F3382F276E0E9C7DC68E /* Colours.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A228892806E019A1F359C44807E7A2E /* FontAwesomeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC84A48C29722C487548041965E085BA /* FontAwesomeKit-dummy.m */; };
+		6A5C84C68041F36D794889B15FA58732 /* XBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 6423CE1FE0D6ECB9FE44C0363CFB6EC4 /* XBarItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B6A747CB99568D9ACEC68C05EB3B83B /* SLDSIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = EA78E08CE6880D3781F0E57D724AF69D /* SLDSIcon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C07C8A8A330BF8CD9CCC63BF9CCF99E /* SalesforceDesignSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 637DC4B99AB1128D096BFCFEACBD6BEF /* SalesforceDesignSystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D3347A1ADD60FF70302391A4612AB1B /* FAKFoundationIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = F38FB6ED817B8C8451DAD7F89BAD2383 /* FAKFoundationIcons.m */; };
+		6FBE6ABF3037D2C1DFE5E00BD6E84862 /* XStackAreaLineChartConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CB5259E851EAA68B422F7BDECE0B8B9 /* XStackAreaLineChartConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70390802EE579F35C9D6946F98FDA845 /* XNormalLineChartConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = CB2893B7FDFD69F95B132FD2BF03782E /* XNormalLineChartConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74A31E5DD15794738C2699C63C9A9D30 /* XStackAreaLineContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C465582F67C8A6408271C7DAA749282 /* XStackAreaLineContainerView.m */; };
+		74C08D8809FF3BDB915EBE408FBE8B9B /* XAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = A2BADA83BEB4168D702482F3572C1CC8 /* XAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7695A7FBFA4EB2C87B55F98E6A057BA3 /* CALayer+XLayerSelectHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 68FA1240CB86FAFDAF62C4D1486356C0 /* CALayer+XLayerSelectHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77915FC40EAF01B9439CD12F34C35AFD /* XAuxiliaryCalculationHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D2FF215B7919A079FE33AFA6FEFC5B2 /* XAuxiliaryCalculationHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77AFBB77C78F8E4429AE39E0124A890D /* XPointDetect.h in Headers */ = {isa = PBXBuildFile; fileRef = 589A45F41244CF6795C00786C51F9F1E /* XPointDetect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78F1A30EE0A0C04F92BADCEAC74C1964 /* XColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 87F8E088FE0462F3DA21BF73F7EAF7D3 /* XColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79955882008184DFCF51608ECF131B5C /* SalesforceSans-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3184CC0CB8E6B6C766A7C03C86987122 /* SalesforceSans-Thin.ttf */; };
+		79EE99953FE6EE370197B79BFE4CB404 /* XLineChartConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = B97114208841DA69F0C8182432C789B1 /* XLineChartConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A365ABAF7437CE50C1EB3F2BBCDFF12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9842A80D9E40FB9002BCF323FAAE027 /* Foundation.framework */; };
+		7D74E6C2FF2BE225019413642ACB76C0 /* XPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEBAC515DA91A4A346063FD9C2C2C6F /* XPieChart.m */; };
+		7D8CC30E243022613180D750332153A4 /* SalesforceSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C5A01A4B591F25DBC050BCE97C9981F3 /* SalesforceSans-LightItalic.ttf */; };
+		7EA72C9345DEF05E67797D63C240ED22 /* UIGestureRecognizer+XGesHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = E98FEA88EBFB679FD05FE3BF5B0B12E9 /* UIGestureRecognizer+XGesHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7ED060C0A7B5B8DA2DED2F42BBCFBC57 /* XBarChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A46C91A668C84180CE1FC9235211C23 /* XBarChartView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F795F3B2C61243F4C8F31CBC6FFDE34 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61ACD0035BBEC61EAA7D78ABA8320144 /* CoreText.framework */; };
+		7FC53D7B29AE5F1F65ED6967A99FF8A2 /* XAreaLineChartConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F32C49739005DE562588E9D710E614A /* XAreaLineChartConfiguration.m */; };
+		80E53F4FF199C4B8392322ED8FE69659 /* XJYNumberLabelDecoration.h in Headers */ = {isa = PBXBuildFile; fileRef = 748A417CE3FC62093C96FB1E0A54FC12 /* XJYNumberLabelDecoration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83CC6C54F87E74FD67C421FA9400C8A6 /* XJYChart-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD820FCDDD8204216F69D36D6C0AA184 /* XJYChart-dummy.m */; };
+		84259A2541454454DFB238D0CBCF4F9F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B4CA88C1D74F921AE253B3B1EE2B473 /* QuartzCore.framework */; };
+		8514042B7AA16ACA92A51A87386E10E5 /* XLineChartConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 034AEFE84718EB348474F360AEC6C6B3 /* XLineChartConfiguration.m */; };
+		8916598063489E12C6D005738DFF5E14 /* CAShapeLayer+XLayerHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 98CEE5BBBC3C1D8C82FC440250F72825 /* CAShapeLayer+XLayerHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B49ECD467EE6C8ECB819C7FFF9DB4FF /* XLineContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = C21EE62EBF2CE1FC808CD45C66EC4243 /* XLineContainerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D038FCE54550E59B8CCF2348D50C1C4 /* XAuxiliaryCalculationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3403AEC8933118855E227A0E40635E12 /* XAuxiliaryCalculationHelper.m */; };
+		905077736AD411A1C79D328B8FD61FB3 /* XLineChartItem.h in Headers */ = {isa = PBXBuildFile; fileRef = FBB2501924A215C8CD61A43075E9D9B5 /* XLineChartItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		919151FE3205B37EC4DBB9469D92D783 /* XBarContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D69ACA108C47D82BE4533320C89741 /* XBarContainerView.m */; };
+		921CFAD62E0C8EF501DA9DAB1B87AA0C /* FAKOcticons.m in Sources */ = {isa = PBXBuildFile; fileRef = 97994E2A5B50CBB62B5B812474208416 /* FAKOcticons.m */; };
+		9940BC101FD00700E94C5F7F2F8954D5 /* SLDSFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B4E789954BAF837A293778E7F9F51E1 /* SLDSFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99439C5B89356B37E585D57DCF8E5932 /* SalesforceSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3EDC63E4E9505C8B1CAFF94AACD30736 /* SalesforceSans-Regular.ttf */; };
+		9D18DDB3607636C95C751320260721D8 /* Colours-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1322991E5BBED7C6546F31D871185E3A /* Colours-dummy.m */; };
+		9F2F8C499AE7EB8CA2D107E767DC87B7 /* FontAwesomeKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19215FA09814BC9796EDC58410C82375 /* FontAwesomeKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A05802F09889541EF48AE14A22A5CC3C /* UIFont+SLDSFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 055DEB6F2C7E866AFA6CBC59140589EB /* UIFont+SLDSFont.m */; };
+		A11A545B02CB36C2321626958B5C406F /* XStackAreaLineChartConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E242604FF848FFA5F4B41A83763E39E /* XStackAreaLineChartConfiguration.m */; };
+		A3C92B7C3D050DE5539DE79B7409786A /* XLineChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = 79AFDBC0B1EE18314F2A25DF791CDE04 /* XLineChartView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3CE48293E19ED8892E9558CEC94D00C /* CAShapeLayer+XLayerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C7395B7161BB80CCCEC4F5C2C24296 /* CAShapeLayer+XLayerHelper.m */; };
+		A637882B16ACD4906E095D551D7EF487 /* DesignSystem-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F18DADAAFBEBFA339B732E5A76CC90AA /* DesignSystem-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7145A430B8BB1F07CF60DEE859A6D13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F78BD2C7EFB3B0484EEB2291C1383C3 /* UIKit.framework */; };
+		A71583C08A7120AF1AD3F5536A4A29EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9842A80D9E40FB9002BCF323FAAE027 /* Foundation.framework */; };
+		A7A405D9FB9F85903298A3F14EA2B51D /* FAKMaterialIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 47243F030973F72A34E57AD00CBACD92 /* FAKMaterialIcons.m */; };
+		A7CC8D5DCB15E01C403CA8F32875F86F /* XBaseChartConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = C272B113885AE7B3054CE5FD5D9F13C5 /* XBaseChartConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC18373831F2C17BC6B6598A58112794 /* CAKeyframeAnimation+AHEasing.m in Sources */ = {isa = PBXBuildFile; fileRef = 4348E501449110E424AD46200C198C03 /* CAKeyframeAnimation+AHEasing.m */; };
+		AC464935E1147D785D94E14B4D05E8C2 /* XPositiveNegativeBarContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE25333FCDE9C5D47E76C9DE158BB098 /* XPositiveNegativeBarContainerView.m */; };
+		AF098BBA615913A1B0FB172C82A2BFA1 /* SalesforceSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F44946E59FD8CB6352BE172B632A3656 /* SalesforceSans-Italic.ttf */; };
+		B0CA3FED22EDEA6CC32642BEA44FEA40 /* XAnimationPath.h in Headers */ = {isa = PBXBuildFile; fileRef = C614397713F42BAB602ABDAC0E7FFB09 /* XAnimationPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B12FFC576C3E9088C649BC996207295E /* XStackAreaLineContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = FB70FFE1911495FAABD1CAB1E211867F /* XStackAreaLineContainerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1CF852E13869CF13CC131B32D12BF54 /* XBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBEF66555F9473C84DFDBEAAE05EC11 /* XBarItem.m */; };
+		B212341EE74897111E03647B718EA023 /* SLDSName.h in Headers */ = {isa = PBXBuildFile; fileRef = 821B2C4482BCB216A0262AAF422E1631 /* SLDSName.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3574BCFB8675DE2E9CA4AAAC7259C8B /* XNormalLineChartConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 8918C271D66960AD6637F0610667A2C3 /* XNormalLineChartConfiguration.m */; };
+		B4357F61261ED7C6F1C258D55F6B7248 /* XJYChartDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 66BB4502D13D4B352EC9155E865D466B /* XJYChartDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6348826992C04EE4BB2D2835520AF59 /* XBarContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 235E81A050A30F54642AA81D68F254ED /* XBarContainerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B643A6D667BFB7DFA40644FABB518018 /* License-for-SalesforceSans-font.txt in Resources */ = {isa = PBXBuildFile; fileRef = DEADBFF047B2EC367AB4A0120143FCDD /* License-for-SalesforceSans-font.txt */; };
+		B6A78B55D672DF1B783B8FCFD30519DC /* Pods-RetoHack-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C49AA1FE4B6E33A8ADF412616B984DF /* Pods-RetoHack-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B73983D1783097040B57FCD2BD013162 /* XPieItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBD1DAB65452E090BCC5696DF8A7C35 /* XPieItem.m */; };
+		B81D14A4FBD952E529D26D9D512E9D7C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0123026D9E67A6EB9F5FC7EFFC2BDB /* CoreGraphics.framework */; };
+		B9A950DCD60FE813E9241CE195A77180 /* XLineChartItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CC0964D282888143151BB6124E43E4 /* XLineChartItem.m */; };
+		BBB16A4FA3AC1551DDB093FF7C6B8279 /* XAnimationPath.m in Sources */ = {isa = PBXBuildFile; fileRef = B89689F0B2E366816E9116052069AB5D /* XAnimationPath.m */; };
+		C0439F406C2E172E05ADC5CDB2590474 /* XPointDetect.m in Sources */ = {isa = PBXBuildFile; fileRef = 32341D75E72354CDEAAE260E8CD4D275 /* XPointDetect.m */; };
+		C396B6D337E8481E39399620B3E02F07 /* XCycleView.h in Headers */ = {isa = PBXBuildFile; fileRef = F53D38F797B53093488D86C43B714C32 /* XCycleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C422F5226874BFACD294A191782F6272 /* XAbscissaView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BFFB314DCBB9D8A66D48EEC012445A0 /* XAbscissaView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C459E26CBC0DC72349CF83288E84E5A3 /* FAKFoundationIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = BC36DCDB3CC10B01BF1178FE92452A3D /* FAKFoundationIcons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4C3CB2BFA003853EBE4642B9E62FA22 /* XAlignLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1406CBC1B98DA11AD66165410E4ECCC4 /* XAlignLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6C6DF67F9A7DD5F9AA443D7448D4E55 /* XCycleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DE94580C93F3A442254E5F649CDFF8 /* XCycleView.m */; };
+		C79E35EC0369DBE2187C1A16EED31B43 /* XBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = B88CBC552CA2761EB333E90982402DDB /* XBarChartView.m */; };
+		C82B589D5EDDB705BD354B5E540F9452 /* Material-Design-Iconic-Font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D1CCE930DADC753DFA9CFC1ECACEF673 /* Material-Design-Iconic-Font.ttf */; };
+		C8CFAFDAFD7528CBCA2F43E7F7C2DA38 /* XBarChart.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D5AB720D1D1401640C3E16535F8DABD /* XBarChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9153F1B94F15DE9C62B9DAD650AB4C0 /* SalesforceDesignSystemNames.h in Headers */ = {isa = PBXBuildFile; fileRef = BC4C45F346BD4E4B1ACAC9AC6FBB16D0 /* SalesforceDesignSystemNames.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9CA1EAE4BFF2391B550867E0484BD09 /* XAreaLineContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 42D0452C1D81A6D035A910C68C051060 /* XAreaLineContainerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB8A1856AB7A646F8C1F761946C542E8 /* FontAwesomeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 991C058A30BB465F4EF0CD492B6A5355 /* FontAwesomeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBBAA3D44EE00F1DAC21025555CDDFEC /* XLineContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3944D030A82EA4AAFC8F11E694E256FB /* XLineContainerView.m */; };
+		CC49B1C4FBF994EF476F4BFF36991ED6 /* FAKIonIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = DA143DAE8750156CAB36F5C4BBA3A5E7 /* FAKIonIcons.m */; };
+		CC87EAA74E014DA8C1C0DAE1E54DA962 /* FAKIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = FD237D6B35A49202A9AFF9A2CE7F6379 /* FAKIcon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD1FCD4494C8EF3DE0F8175E54233AFA /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = D5205092926D937B626DA8182858C6A0 /* FontAwesome.otf */; };
+		CEA33803E36CFFE7ADF1649FAB843433 /* UIColor+SLDSColor.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B74228BA746479894CA830E1E25DCE /* UIColor+SLDSColor.m */; };
+		D22B094CDC8409BE37756F701E678C44 /* FAKFontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A751FC454D384CF7EDD8E9502C39AB /* FAKFontAwesome.m */; };
+		D3F4CDE6CCCEF94A5EAD7C5D1AA80074 /* XPositiveNegativeBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B6EAE74BC0A35831F73D4A92721880 /* XPositiveNegativeBarChart.m */; };
+		DE3E8F37FCAD240CA9CEFDAA8064CC14 /* Pods-RetoHack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FB7815CDC461B7455F0846FE69511F /* Pods-RetoHack-dummy.m */; };
+		E5456260AE3A13E82AE35CED134D933F /* SalesforceSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E3A0EEFC8B6A80809389094220F8E9EB /* SalesforceSans-Light.ttf */; };
+		E9B03A242138D8FD520C93F6D8DBB558 /* UIColor+SLDSColor.h in Headers */ = {isa = PBXBuildFile; fileRef = B43CB3681E86C1BC45D677F0262198AC /* UIColor+SLDSColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC5D7DB986E7201B7FF86DDF9065B311 /* FAKZocial.m in Sources */ = {isa = PBXBuildFile; fileRef = 734C1BB23F6ED134461B32F7E43BD51D /* FAKZocial.m */; };
+		EFAD3104D6E767659C667D36776B569D /* SalesforceSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0EF4A7969130867E5BA75E479CB5A6C /* SalesforceSans-BoldItalic.ttf */; };
+		F320C3D6DB96D5E4A87FBCD48757B4EB /* XJYChart.h in Headers */ = {isa = PBXBuildFile; fileRef = F747FB9C053B0CC108AECBA7A8ABEDE6 /* XJYChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9E01A882CB43022461A32556A10DBC5 /* foundation-icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0465A5303A3D5361BAD197CB42E3F33D /* foundation-icons.ttf */; };
+		FC010AFEBF11779FFD4D60B1D252DB73 /* XAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6F4FA25212D6687ABC4ED75B9FC3D2 /* XAnimation.m */; };
+		FD2C05EBA90CEC82FB846795B9EE9B65 /* XBarChartConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F76A9C28C73CE82D301A82B133850 /* XBarChartConfiguration.m */; };
+		FE37CEFAA4B6CBBEC1AF2EEFFAEE064D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9842A80D9E40FB9002BCF323FAAE027 /* Foundation.framework */; };
+		FF978A9436274501EFCB42832E5769AF /* SLDSSize.h in Headers */ = {isa = PBXBuildFile; fileRef = F8952136B7BF4F0EEF8E1A151BCBCE71 /* SLDSSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		52534DCCE07D8132D0B9B38FBF6E5EAF /* PBXContainerItemProxy */ = {
+		681CAE8AB6EB445686E674F32D4D070E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 194A56F2B926B90E05CF289C5AA5A248;
-			remoteInfo = DesignSystem;
+			remoteGlobalIDString = 2B6B79D506B561AF3BC77AF33C7B9FDE;
+			remoteInfo = XJYChart;
+		};
+		85EE9C59E3B5C585ABF7BE1A04EBE5A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 139014B082BD633E25DA254D0EE0F781;
+			remoteInfo = FontAwesomeKit;
 		};
 		873FA63D730763FF9FD1D8FE5352CCFA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -60,67 +186,236 @@
 			remoteGlobalIDString = 828F14A5FC34AAA0EBB198E49E27BB99;
 			remoteInfo = "DesignSystem-SalesforceDesignSystem";
 		};
+		B3A1CF41B9A3D901071B440EEB6ABEAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 194A56F2B926B90E05CF289C5AA5A248;
+			remoteInfo = DesignSystem;
+		};
+		C57EB85E51C9923A97C86DE1F7EC0899 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2194BB176C539E559DB8A48642253D85;
+			remoteInfo = Colours;
+		};
+		C721B8A138A9526DA2EC9F55FDE96B55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2194BB176C539E559DB8A48642253D85;
+			remoteInfo = Colours;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		032F67321D34EE01369F5810E71B7660 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		0B3E1F0D7EA6FC6843A2198BBBD4C6DE /* UIColor+SLDSColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+SLDSColor.m"; path = "SalesforceDesignSystem/Generated/Extensions/UIColor+SLDSColor.m"; sourceTree = "<group>"; };
-		0B71B5769B238EDAAD0E95725AD012B4 /* SLDSSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLDSSize.h; path = SalesforceDesignSystem/Generated/SLDSSize.h; sourceTree = "<group>"; };
-		0C9A0B672B6CDCA33D84AB895D938167 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		02ACC0EEB989892D28D8BF89A9AEC575 /* XLineChartView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLineChartView.m; path = XJYChart/ChartView/XLineChartView.m; sourceTree = "<group>"; };
+		034AEFE84718EB348474F360AEC6C6B3 /* XLineChartConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLineChartConfiguration.m; path = XJYChart/Configuration/LineChartConfiguration/XLineChartConfiguration.m; sourceTree = "<group>"; };
+		0465A5303A3D5361BAD197CB42E3F33D /* foundation-icons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "foundation-icons.ttf"; path = "FontAwesomeKit/foundation-icons.ttf"; sourceTree = "<group>"; };
+		055DEB6F2C7E866AFA6CBC59140589EB /* UIFont+SLDSFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+SLDSFont.m"; path = "SalesforceDesignSystem/Generated/Extensions/UIFont+SLDSFont.m"; sourceTree = "<group>"; };
+		09A7B53EE3349F0AA72836A06CD6946A /* Colours.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Colours.modulemap; sourceTree = "<group>"; };
+		0A46C91A668C84180CE1FC9235211C23 /* XBarChartView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XBarChartView.h; path = XJYChart/ChartView/XBarChartView.h; sourceTree = "<group>"; };
+		0BAA8B9D4935B056B58816BE541E797E /* FAKIonIcons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKIonIcons.h; path = FontAwesomeKit/FAKIonIcons.h; sourceTree = "<group>"; };
+		0BBEF66555F9473C84DFDBEAAE05EC11 /* XBarItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XBarItem.m; path = XJYChart/DataModel/XBarItem.m; sourceTree = "<group>"; };
 		0CD49C046E4524295F025E0560C3E93B /* SalesforceDesignSystem.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SalesforceDesignSystem.bundle; path = "DesignSystem-SalesforceDesignSystem.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0DC4CA0204EC2DADB79794C9F25C8AE1 /* License-for-SalesforceDesignSystemIcons.txt */ = {isa = PBXFileReference; includeInIndex = 1; name = "License-for-SalesforceDesignSystemIcons.txt"; path = "SalesforceDesignSystem.bundle/License-for-SalesforceDesignSystemIcons.txt"; sourceTree = "<group>"; };
-		10A0003A195B3AFE950DE10D3FFBF1DB /* UIImage+SLDSIcon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+SLDSIcon.m"; path = "SalesforceDesignSystem/Generated/Extensions/UIImage+SLDSIcon.m"; sourceTree = "<group>"; };
-		1433E22118CE94835500AE198373BD7E /* DesignSystem-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DesignSystem-dummy.m"; sourceTree = "<group>"; };
+		0D13750CAF9D8728AC9DD411451AD02A /* DesignSystem-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DesignSystem-Info.plist"; sourceTree = "<group>"; };
+		0D5AB720D1D1401640C3E16535F8DABD /* XBarChart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XBarChart.h; path = XJYChart/ChartView/XBarChart.h; sourceTree = "<group>"; };
+		0DEA9BFC8E01C7EBE5C3A06CA38C68D4 /* zocial-regular-webfont.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "zocial-regular-webfont.ttf"; path = "FontAwesomeKit/zocial-regular-webfont.ttf"; sourceTree = "<group>"; };
+		0E379738CFD91D737F542D0FCE90DFBA /* License-for-SalesforceDesignSystemIcons.txt */ = {isa = PBXFileReference; includeInIndex = 1; name = "License-for-SalesforceDesignSystemIcons.txt"; path = "SalesforceDesignSystem.bundle/License-for-SalesforceDesignSystemIcons.txt"; sourceTree = "<group>"; };
+		10BCB76F02C1826623158105F1568957 /* Colours.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Colours.m; sourceTree = "<group>"; };
+		1322991E5BBED7C6546F31D871185E3A /* Colours-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Colours-dummy.m"; sourceTree = "<group>"; };
+		1406CBC1B98DA11AD66165410E4ECCC4 /* XAlignLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAlignLabel.h; path = XJYChart/ChartView/XAlignLabel.h; sourceTree = "<group>"; };
 		18034BE93636D73186D5565F11990DC7 /* DesignSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DesignSystem.framework; path = DesignSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1EB2D5128BB49A0B82C9829BD00B24E8 /* SLDSIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLDSIcon.h; path = SalesforceDesignSystem/Generated/SLDSIcon.h; sourceTree = "<group>"; };
-		21B074C09AF740ED949785685AD8035E /* SalesforceSans-Thin.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "SalesforceSans-Thin.ttf"; path = "SalesforceDesignSystem.bundle/SalesforceSans-Thin.ttf"; sourceTree = "<group>"; };
+		19215FA09814BC9796EDC58410C82375 /* FontAwesomeKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesomeKit-umbrella.h"; sourceTree = "<group>"; };
+		2078836370A1A45FC73F41648A77EF39 /* Colours.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Colours.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22790F2AAFD2F26238E5E7A1E348631F /* Pods-RetoHack.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RetoHack.modulemap"; sourceTree = "<group>"; };
-		23621862A99429490F9C983069F078BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		235E81A050A30F54642AA81D68F254ED /* XBarContainerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XBarContainerView.h; path = XJYChart/ChartView/XBarContainerView.h; sourceTree = "<group>"; };
+		23B6EAE74BC0A35831F73D4A92721880 /* XPositiveNegativeBarChart.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XPositiveNegativeBarChart.m; path = XJYChart/ChartView/XPositiveNegativeBarChart.m; sourceTree = "<group>"; };
+		2A4267073215CC706E52F02702F94E7D /* SLDSColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLDSColor.h; path = SalesforceDesignSystem/Generated/SLDSColor.h; sourceTree = "<group>"; };
+		2BB9A105721E2620B95D8644FB4591E4 /* FontAwesomeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FontAwesomeKit.framework; path = FontAwesomeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BFFB314DCBB9D8A66D48EEC012445A0 /* XAbscissaView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAbscissaView.h; path = XJYChart/ChartView/XAbscissaView.h; sourceTree = "<group>"; };
 		2D20A2740F633CC7D2678823EA525761 /* Pods-RetoHack-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RetoHack-frameworks.sh"; sourceTree = "<group>"; };
-		307AB3398C7759F7FB218E8D6BA68DD2 /* SalesforceSans-ThinItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "SalesforceSans-ThinItalic.ttf"; path = "SalesforceDesignSystem.bundle/SalesforceSans-ThinItalic.ttf"; sourceTree = "<group>"; };
+		2F407BF677CC5D268672D7F31E36E655 /* XPositiveNegativeBarContainerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XPositiveNegativeBarContainerView.h; path = XJYChart/ChartView/XPositiveNegativeBarContainerView.h; sourceTree = "<group>"; };
+		3184CC0CB8E6B6C766A7C03C86987122 /* SalesforceSans-Thin.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "SalesforceSans-Thin.ttf"; path = "SalesforceDesignSystem.bundle/SalesforceSans-Thin.ttf"; sourceTree = "<group>"; };
+		319F466471D36B27222A1805E87274E3 /* XPieChart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XPieChart.h; path = XJYChart/ChartView/XPieChart.h; sourceTree = "<group>"; };
+		32341D75E72354CDEAAE260E8CD4D275 /* XPointDetect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XPointDetect.m; path = XJYChart/CALayerTouch/XPointDetect.m; sourceTree = "<group>"; };
 		327C58AC0530E07DECCFF448B6D02395 /* Pods-RetoHack-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RetoHack-acknowledgements.markdown"; sourceTree = "<group>"; };
-		39470D454E27BFD46BA2F525011B6E18 /* SLDSName.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLDSName.h; path = SalesforceDesignSystem/Generated/SLDSName.h; sourceTree = "<group>"; };
-		3C8299BD5BAE5E2115A16A92E947201E /* DesignSystem-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DesignSystem-prefix.pch"; sourceTree = "<group>"; };
-		4033613AB8A3280576B2B3C5396483EC /* SLDSFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLDSFont.h; path = SalesforceDesignSystem/Generated/SLDSFont.h; sourceTree = "<group>"; };
-		4046CAEF50FB27209C67242363D0D16D /* DesignSystem.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DesignSystem.modulemap; sourceTree = "<group>"; };
-		442FDEEE38DF5F19DE16998472C389A1 /* SalesforceSans-LightItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "SalesforceSans-LightItalic.ttf"; path = "SalesforceDesignSystem.bundle/SalesforceSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		33C924D0C7E798C8347762B08BB2AD2E /* XRandomNumerHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XRandomNumerHelper.h; path = XJYChart/Calculate/XRandomNumerHelper.h; sourceTree = "<group>"; };
+		3403AEC8933118855E227A0E40635E12 /* XAuxiliaryCalculationHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XAuxiliaryCalculationHelper.m; path = XJYChart/Calculate/XAuxiliaryCalculationHelper.m; sourceTree = "<group>"; };
+		384934A24B072A857579A8981CA78B34 /* Colours.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Colours.framework; path = Colours.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38630CBBA03ACAAEFE1A5CC10B71EEAA /* FontAwesomeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesomeKit-prefix.pch"; sourceTree = "<group>"; };
+		3944D030A82EA4AAFC8F11E694E256FB /* XLineContainerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLineContainerView.m; path = XJYChart/ChartView/XLineContainerView.m; sourceTree = "<group>"; };
+		3BC221ACB94EADE7CFB8F54659EF303F /* XPositiveNegativeBarChart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XPositiveNegativeBarChart.h; path = XJYChart/ChartView/XPositiveNegativeBarChart.h; sourceTree = "<group>"; };
+		3C6F4FA25212D6687ABC4ED75B9FC3D2 /* XAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XAnimation.m; path = XJYChart/Animator/XAnimation.m; sourceTree = "<group>"; };
+		3E242604FF848FFA5F4B41A83763E39E /* XStackAreaLineChartConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XStackAreaLineChartConfiguration.m; path = XJYChart/Configuration/LineChartConfiguration/XStackAreaLineChartConfiguration.m; sourceTree = "<group>"; };
+		3EDC63E4E9505C8B1CAFF94AACD30736 /* SalesforceSans-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "SalesforceSans-Regular.ttf"; path = "SalesforceDesignSystem.bundle/SalesforceSans-Regular.ttf"; sourceTree = "<group>"; };
+		3F90B1EF2A244CBE8FCF668438692CBC /* SalesforceSans-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "SalesforceSans-Bold.ttf"; path = "SalesforceDesignSystem.bundle/SalesforceSans-Bold.ttf"; sourceTree = "<group>"; };
+		40A751FC454D384CF7EDD8E9502C39AB /* FAKFontAwesome.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKFontAwesome.m; path = FontAwesomeKit/FAKFontAwesome.m; sourceTree = "<group>"; };
+		424F76A9C28C73CE82D301A82B133850 /* XBarChartConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XBarChartConfiguration.m; path = XJYChart/Configuration/BarChartConfiguration/XBarChartConfiguration.m; sourceTree = "<group>"; };
+		42D0452C1D81A6D035A910C68C051060 /* XAreaLineContainerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAreaLineContainerView.h; path = XJYChart/ChartView/XAreaLineContainerView.h; sourceTree = "<group>"; };
+		42DE94580C93F3A442254E5F649CDFF8 /* XCycleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCycleView.m; path = XJYChart/ChartView/XCycleView.m; sourceTree = "<group>"; };
+		4348E501449110E424AD46200C198C03 /* CAKeyframeAnimation+AHEasing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CAKeyframeAnimation+AHEasing.m"; path = "XJYChart/AHEasing/CAKeyframeAnimation+AHEasing.m"; sourceTree = "<group>"; };
+		43F96AFBC8BF275261098B439A3D8296 /* DesignSystem-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DesignSystem-dummy.m"; sourceTree = "<group>"; };
 		46096FF1763C851C576541CE62B373FC /* Pods-RetoHack-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RetoHack-acknowledgements.plist"; sourceTree = "<group>"; };
-		5A1523FD21D51D3977079800E37D7538 /* SalesforceDesignSystemNames.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SalesforceDesignSystemNames.h; path = SalesforceDesignSystem/SalesforceDesignSystemNames.h; sourceTree = "<group>"; };
-		67D5A72C2639A102A93C27DAAE95F6B0 /* DesignSystem-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DesignSystem-umbrella.h"; sourceTree = "<group>"; };
-		6A2C89E1B269E5DEDC23DDE8D21DDEB4 /* UIFont+SLDSFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+SLDSFont.h"; path = "SalesforceDesignSystem/Generated/Extensions/UIFont+SLDSFont.h"; sourceTree = "<group>"; };
+		47243F030973F72A34E57AD00CBACD92 /* FAKMaterialIcons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKMaterialIcons.m; path = FontAwesomeKit/FAKMaterialIcons.m; sourceTree = "<group>"; };
+		4772AC71691C2D4665C9C4D2470CE24D /* XBarChart.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XBarChart.m; path = XJYChart/ChartView/XBarChart.m; sourceTree = "<group>"; };
+		492CBC21C4432BFC7E4769830C1F3D8F /* XJYChart-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XJYChart-prefix.pch"; sourceTree = "<group>"; };
+		49C1C94F006E4228CB7A15916C2C8654 /* XJYChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XJYChart.framework; path = XJYChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B4E789954BAF837A293778E7F9F51E1 /* SLDSFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLDSFont.h; path = SalesforceDesignSystem/Generated/SLDSFont.h; sourceTree = "<group>"; };
+		4BA58AC9AF53A8C6217351E3B4980B6B /* XEnumHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XEnumHeader.h; path = XJYChart/Helper/XEnumHeader.h; sourceTree = "<group>"; };
+		4CB5259E851EAA68B422F7BDECE0B8B9 /* XStackAreaLineChartConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XStackAreaLineChartConfiguration.h; path = XJYChart/Configuration/LineChartConfiguration/XStackAreaLineChartConfiguration.h; sourceTree = "<group>"; };
+		4E6DEB97012F805B3A9B6BF23150C2A3 /* NSString+SLDSName.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+SLDSName.m"; path = "SalesforceDesignSystem/Generated/Extensions/NSString+SLDSName.m"; sourceTree = "<group>"; };
+		53E47BAD579BE3EA4C155EA55B3118CC /* OrdinateView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OrdinateView.h; path = XJYChart/ChartView/OrdinateView.h; sourceTree = "<group>"; };
+		54668A74B4237F92EE6DEB26D63B4876 /* XAreaLineChartConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAreaLineChartConfiguration.h; path = XJYChart/Configuration/LineChartConfiguration/XAreaLineChartConfiguration.h; sourceTree = "<group>"; };
+		56FB1EC3C552F3382F276E0E9C7DC68E /* Colours.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Colours.h; sourceTree = "<group>"; };
+		589A45F41244CF6795C00786C51F9F1E /* XPointDetect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XPointDetect.h; path = XJYChart/CALayerTouch/XPointDetect.h; sourceTree = "<group>"; };
+		5B46E0C0B95CD7542DC6AE666A3731F8 /* FontAwesomeKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FontAwesomeKit.xcconfig; sourceTree = "<group>"; };
+		5D98A9968711901078084A28E63BA4E1 /* octicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = octicons.ttf; path = FontAwesomeKit/octicons.ttf; sourceTree = "<group>"; };
+		5E21785BC0E73775DF2F551DCF2C085B /* FAKZocial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKZocial.h; path = FontAwesomeKit/FAKZocial.h; sourceTree = "<group>"; };
+		5F78BD2C7EFB3B0484EEB2291C1383C3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		605C4B10A70803BF4EB11B8FB028D928 /* XColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XColor.m; path = XJYChart/Color/XColor.m; sourceTree = "<group>"; };
+		61ACD0035BBEC61EAA7D78ABA8320144 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		637DC4B99AB1128D096BFCFEACBD6BEF /* SalesforceDesignSystem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SalesforceDesignSystem.h; path = SalesforceDesignSystem/SalesforceDesignSystem.h; sourceTree = "<group>"; };
+		6423CE1FE0D6ECB9FE44C0363CFB6EC4 /* XBarItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XBarItem.h; path = XJYChart/DataModel/XBarItem.h; sourceTree = "<group>"; };
+		66BB4502D13D4B352EC9155E865D466B /* XJYChartDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XJYChartDelegate.h; path = XJYChart/XJYChartDelegate.h; sourceTree = "<group>"; };
+		67CDF103F1AC3DB4802E3741D7DE7D5F /* XNotificationBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XNotificationBridge.m; path = XJYChart/Helper/XNotificationBridge.m; sourceTree = "<group>"; };
+		67DD36EB0BEB2504BA646B802CFE31FB /* XLineChart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLineChart.h; path = XJYChart/ChartView/XLineChart.h; sourceTree = "<group>"; };
+		680BC2BD726542CB92309A9BE05163C3 /* NSString+SLDSName.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+SLDSName.h"; path = "SalesforceDesignSystem/Generated/Extensions/NSString+SLDSName.h"; sourceTree = "<group>"; };
+		68FA1240CB86FAFDAF62C4D1486356C0 /* CALayer+XLayerSelectHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+XLayerSelectHelper.h"; path = "XJYChart/Category/CALayer+XLayerSelectHelper.h"; sourceTree = "<group>"; };
+		6D2FF215B7919A079FE33AFA6FEFC5B2 /* XAuxiliaryCalculationHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAuxiliaryCalculationHelper.h; path = XJYChart/Calculate/XAuxiliaryCalculationHelper.h; sourceTree = "<group>"; };
+		6F32C49739005DE562588E9D710E614A /* XAreaLineChartConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XAreaLineChartConfiguration.m; path = XJYChart/Configuration/LineChartConfiguration/XAreaLineChartConfiguration.m; sourceTree = "<group>"; };
+		734C1BB23F6ED134461B32F7E43BD51D /* FAKZocial.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKZocial.m; path = FontAwesomeKit/FAKZocial.m; sourceTree = "<group>"; };
+		748A417CE3FC62093C96FB1E0A54FC12 /* XJYNumberLabelDecoration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XJYNumberLabelDecoration.h; path = XJYChart/ChartView/Decoration/XJYNumberLabelDecoration.h; sourceTree = "<group>"; };
+		7640B5BE7A434108F78575F245A0FF94 /* FAKIcon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKIcon.m; path = FontAwesomeKit/FAKIcon.m; sourceTree = "<group>"; };
+		766DBE2606A78E3064766F7703A309CB /* XNotificationBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XNotificationBridge.h; path = XJYChart/Helper/XNotificationBridge.h; sourceTree = "<group>"; };
 		78FB7815CDC461B7455F0846FE69511F /* Pods-RetoHack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RetoHack-dummy.m"; sourceTree = "<group>"; };
+		794165ED189897B46FDE4F2C6C80AC88 /* SalesforceSans-ThinItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "SalesforceSans-ThinItalic.ttf"; path = "SalesforceDesignSystem.bundle/SalesforceSans-ThinItalic.ttf"; sourceTree = "<group>"; };
+		79AFDBC0B1EE18314F2A25DF791CDE04 /* XLineChartView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLineChartView.h; path = XJYChart/ChartView/XLineChartView.h; sourceTree = "<group>"; };
+		79C7395B7161BB80CCCEC4F5C2C24296 /* CAShapeLayer+XLayerHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CAShapeLayer+XLayerHelper.m"; path = "XJYChart/Category/CAShapeLayer+XLayerHelper.m"; sourceTree = "<group>"; };
+		7B91403F48022062643E5AC31FA27836 /* DesignSystem.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DesignSystem.modulemap; sourceTree = "<group>"; };
+		7C465582F67C8A6408271C7DAA749282 /* XStackAreaLineContainerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XStackAreaLineContainerView.m; path = XJYChart/ChartView/XStackAreaLineContainerView.m; sourceTree = "<group>"; };
 		7C49AA1FE4B6E33A8ADF412616B984DF /* Pods-RetoHack-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RetoHack-umbrella.h"; sourceTree = "<group>"; };
+		81D8FE4088D2EDEB2281E5F659CBB3B8 /* Colours-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Colours-prefix.pch"; sourceTree = "<group>"; };
+		821B2C4482BCB216A0262AAF422E1631 /* SLDSName.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLDSName.h; path = SalesforceDesignSystem/Generated/SLDSName.h; sourceTree = "<group>"; };
+		86D69ACA108C47D82BE4533320C89741 /* XBarContainerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XBarContainerView.m; path = XJYChart/ChartView/XBarContainerView.m; sourceTree = "<group>"; };
+		872778522774BEB2B18254208046F889 /* ResourceBundle-SalesforceDesignSystem-DesignSystem-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SalesforceDesignSystem-DesignSystem-Info.plist"; sourceTree = "<group>"; };
+		87F8E088FE0462F3DA21BF73F7EAF7D3 /* XColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XColor.h; path = XJYChart/Color/XColor.h; sourceTree = "<group>"; };
 		890440FF6BCB415E4F25641F0F8D7DB8 /* Pods-RetoHack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RetoHack.release.xcconfig"; sourceTree = "<group>"; };
+		8918C271D66960AD6637F0610667A2C3 /* XNormalLineChartConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XNormalLineChartConfiguration.m; path = XJYChart/Configuration/LineChartConfiguration/XNormalLineChartConfiguration.m; sourceTree = "<group>"; };
+		89BCC6072D7AC2DE62092D8D76A0AF30 /* FAKFontAwesome.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKFontAwesome.h; path = FontAwesomeKit/FAKFontAwesome.h; sourceTree = "<group>"; };
+		8B4CA88C1D74F921AE253B3B1EE2B473 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		8ECC69D6A3F46BBA7CDC300D6EE1B88F /* XJYNumberLabelDecoration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XJYNumberLabelDecoration.m; path = XJYChart/ChartView/Decoration/XJYNumberLabelDecoration.m; sourceTree = "<group>"; };
 		90AEC00910801362E05CBE20EEE74EAD /* Pods_RetoHack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RetoHack.framework; path = "Pods-RetoHack.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9600CE76284094944C40CF0843C6334B /* DesignSystem-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DesignSystem-Info.plist"; sourceTree = "<group>"; };
-		961106D8ACA528E08CB1CCF589438DCC /* NSString+SLDSName.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+SLDSName.h"; path = "SalesforceDesignSystem/Generated/Extensions/NSString+SLDSName.h"; sourceTree = "<group>"; };
+		928C64C2D519CA85CD66FABE402E8C65 /* XAreaLineContainerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XAreaLineContainerView.m; path = XJYChart/ChartView/XAreaLineContainerView.m; sourceTree = "<group>"; };
+		93D1DB4137D7AC2B47922F6AA446C04F /* CAKeyframeAnimation+AHEasing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CAKeyframeAnimation+AHEasing.h"; path = "XJYChart/AHEasing/CAKeyframeAnimation+AHEasing.h"; sourceTree = "<group>"; };
+		97994E2A5B50CBB62B5B812474208416 /* FAKOcticons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKOcticons.m; path = FontAwesomeKit/FAKOcticons.m; sourceTree = "<group>"; };
+		98CEE5BBBC3C1D8C82FC440250F72825 /* CAShapeLayer+XLayerHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CAShapeLayer+XLayerHelper.h"; path = "XJYChart/Category/CAShapeLayer+XLayerHelper.h"; sourceTree = "<group>"; };
+		991B556125DFF898CBE726AEF59D2BE8 /* ionicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = ionicons.ttf; path = FontAwesomeKit/ionicons.ttf; sourceTree = "<group>"; };
+		991C058A30BB465F4EF0CD492B6A5355 /* FontAwesomeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FontAwesomeKit.h; path = FontAwesomeKit/FontAwesomeKit.h; sourceTree = "<group>"; };
+		9AC4F4F72C52869E2C3525FC8BA1AE8D /* SLDSFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLDSFont.m; path = SalesforceDesignSystem/Generated/SLDSFont.m; sourceTree = "<group>"; };
+		9BB3DC280C41A154A69951605A0D9040 /* DesignSystem-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DesignSystem-prefix.pch"; sourceTree = "<group>"; };
+		9C56C9FCAA90D5E6D8372AE16015035C /* UIFont+SLDSFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+SLDSFont.h"; path = "SalesforceDesignSystem/Generated/Extensions/UIFont+SLDSFont.h"; sourceTree = "<group>"; };
+		9D6B78B9AD01115DFEA8061DBCD1AE3B /* XJYChart-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XJYChart-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DA36E05E91BACA47EF66375E34365AF /* License-for-SalesforceSans-font.txt */ = {isa = PBXFileReference; includeInIndex = 1; name = "License-for-SalesforceSans-font.txt"; path = "SalesforceDesignSystem.bundle/License-for-SalesforceSans-font.txt"; sourceTree = "<group>"; };
-		9E4D92BEAF751D082A76AD41EA99FDE2 /* UIImage+SLDSIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+SLDSIcon.h"; path = "SalesforceDesignSystem/Generated/Extensions/UIImage+SLDSIcon.h"; sourceTree = "<group>"; };
-		9E4FE189CEABE6ED18051A51C187BD21 /* SLDSFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLDSFont.m; path = SalesforceDesignSystem/Generated/SLDSFont.m; sourceTree = "<group>"; };
-		A7AF788A761762638AB7E73A6355C445 /* UIFont+SLDSFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+SLDSFont.m"; path = "SalesforceDesignSystem/Generated/Extensions/UIFont+SLDSFont.m"; sourceTree = "<group>"; };
-		AA1ADCFE9D4FE4C6896721D55116A521 /* NSString+SLDSName.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+SLDSName.m"; path = "SalesforceDesignSystem/Generated/Extensions/NSString+SLDSName.m"; sourceTree = "<group>"; };
-		AB6C4A3BBB24424E5B25F7237F74630E /* SalesforceSans-Italic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "SalesforceSans-Italic.ttf"; path = "SalesforceDesignSystem.bundle/SalesforceSans-Italic.ttf"; sourceTree = "<group>"; };
-		B08A5A953DD25C8B47FE84ECF735B4FD /* SalesforceSans-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "SalesforceSans-Bold.ttf"; path = "SalesforceDesignSystem.bundle/SalesforceSans-Bold.ttf"; sourceTree = "<group>"; };
-		B0E0049C20C8BD3BE5F7D340FFF9074E /* SalesforceSans-BoldItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "SalesforceSans-BoldItalic.ttf"; path = "SalesforceDesignSystem.bundle/SalesforceSans-BoldItalic.ttf"; sourceTree = "<group>"; };
-		B220F723AE3C95159D9AD8C97C998E08 /* SalesforceDesignSystem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SalesforceDesignSystem.h; path = SalesforceDesignSystem/SalesforceDesignSystem.h; sourceTree = "<group>"; };
-		B269EE0680738EA76040A848A536BBAD /* ResourceBundle-SalesforceDesignSystem-DesignSystem-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SalesforceDesignSystem-DesignSystem-Info.plist"; sourceTree = "<group>"; };
-		BBAB8187C6787099555935B0DD445E25 /* UIColor+SLDSColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+SLDSColor.h"; path = "SalesforceDesignSystem/Generated/Extensions/UIColor+SLDSColor.h"; sourceTree = "<group>"; };
-		BD6E53F63E6E66FBFFD47771C41C3CE7 /* SLDSColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLDSColor.h; path = SalesforceDesignSystem/Generated/SLDSColor.h; sourceTree = "<group>"; };
+		A0EF4A7969130867E5BA75E479CB5A6C /* SalesforceSans-BoldItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "SalesforceSans-BoldItalic.ttf"; path = "SalesforceDesignSystem.bundle/SalesforceSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		A2BADA83BEB4168D702482F3572C1CC8 /* XAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAnimator.h; path = XJYChart/Animator/XAnimator.h; sourceTree = "<group>"; };
+		A40B43374B96583334E5991A99C45B15 /* Colours.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Colours.xcconfig; sourceTree = "<group>"; };
+		A70481F7AD10ECD95A23BE73FAE737A9 /* UIGestureRecognizer+XGesHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIGestureRecognizer+XGesHelper.m"; path = "XJYChart/Category/UIGestureRecognizer+XGesHelper.m"; sourceTree = "<group>"; };
+		A877A9DFE05BFFC55BE92E289492015F /* XPositiveNegativeBarChartView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XPositiveNegativeBarChartView.h; path = XJYChart/ChartView/XPositiveNegativeBarChartView.h; sourceTree = "<group>"; };
+		AD820FCDDD8204216F69D36D6C0AA184 /* XJYChart-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XJYChart-dummy.m"; sourceTree = "<group>"; };
+		AEBD1DAB65452E090BCC5696DF8A7C35 /* XPieItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XPieItem.m; path = XJYChart/DataModel/XPieItem.m; sourceTree = "<group>"; };
+		B43CB3681E86C1BC45D677F0262198AC /* UIColor+SLDSColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+SLDSColor.h"; path = "SalesforceDesignSystem/Generated/Extensions/UIColor+SLDSColor.h"; sourceTree = "<group>"; };
+		B88CBC552CA2761EB333E90982402DDB /* XBarChartView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XBarChartView.m; path = XJYChart/ChartView/XBarChartView.m; sourceTree = "<group>"; };
+		B89689F0B2E366816E9116052069AB5D /* XAnimationPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XAnimationPath.m; path = XJYChart/Animator/XAnimationPath.m; sourceTree = "<group>"; };
+		B8CD8D934900DA05C039BBF12ABA5B82 /* XAnimationLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAnimationLabel.h; path = XJYChart/ChartView/XAnimationLabel.h; sourceTree = "<group>"; };
+		B936F2BE5D1122076712BE0C61C05754 /* FAKOcticons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKOcticons.h; path = FontAwesomeKit/FAKOcticons.h; sourceTree = "<group>"; };
+		B97114208841DA69F0C8182432C789B1 /* XLineChartConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLineChartConfiguration.h; path = XJYChart/Configuration/LineChartConfiguration/XLineChartConfiguration.h; sourceTree = "<group>"; };
+		B9782BB9FCBD458C3045C7E7C865107D /* XPositiveNegativeBarChartView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XPositiveNegativeBarChartView.m; path = XJYChart/ChartView/XPositiveNegativeBarChartView.m; sourceTree = "<group>"; };
+		BB4D24DA3C459EED0C41C646F09ECE16 /* XJYChart.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XJYChart.xcconfig; sourceTree = "<group>"; };
+		BC36DCDB3CC10B01BF1178FE92452A3D /* FAKFoundationIcons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKFoundationIcons.h; path = FontAwesomeKit/FAKFoundationIcons.h; sourceTree = "<group>"; };
+		BC4C45F346BD4E4B1ACAC9AC6FBB16D0 /* SalesforceDesignSystemNames.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SalesforceDesignSystemNames.h; path = SalesforceDesignSystem/SalesforceDesignSystemNames.h; sourceTree = "<group>"; };
+		BDEBAC515DA91A4A346063FD9C2C2C6F /* XPieChart.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XPieChart.m; path = XJYChart/ChartView/XPieChart.m; sourceTree = "<group>"; };
 		BF43A39396C29A495E5754A4762A7BDB /* Pods-RetoHack-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RetoHack-Info.plist"; sourceTree = "<group>"; };
-		C35E910BA34A37C9BA701A91C8E5EE04 /* SalesforceSans-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "SalesforceSans-Regular.ttf"; path = "SalesforceDesignSystem.bundle/SalesforceSans-Regular.ttf"; sourceTree = "<group>"; };
-		DE046A6E221E5E73AD9FC4A20177C2DA /* SalesforceSans-Light.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "SalesforceSans-Light.ttf"; path = "SalesforceDesignSystem.bundle/SalesforceSans-Light.ttf"; sourceTree = "<group>"; };
-		E5F0CE1068CD886A4CB9E274B992C89F /* DesignSystem.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DesignSystem.xcconfig; sourceTree = "<group>"; };
-		F51C37519407327C53C1B799FCBFF007 /* SalesforceDesignSystemIcons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = SalesforceDesignSystemIcons.ttf; path = SalesforceDesignSystem.bundle/SalesforceDesignSystemIcons.ttf; sourceTree = "<group>"; };
+		BF57203F949EAA632CFAACD9A8D42656 /* XJYChart-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XJYChart-umbrella.h"; sourceTree = "<group>"; };
+		C21EE62EBF2CE1FC808CD45C66EC4243 /* XLineContainerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLineContainerView.h; path = XJYChart/ChartView/XLineContainerView.h; sourceTree = "<group>"; };
+		C2254FD04BDCA1F3F805DD6AFDDE0588 /* SalesforceDesignSystemIcons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = SalesforceDesignSystemIcons.ttf; path = SalesforceDesignSystem.bundle/SalesforceDesignSystemIcons.ttf; sourceTree = "<group>"; };
+		C272B113885AE7B3054CE5FD5D9F13C5 /* XBaseChartConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XBaseChartConfiguration.h; path = XJYChart/Configuration/XBaseChartConfiguration.h; sourceTree = "<group>"; };
+		C3CC0964D282888143151BB6124E43E4 /* XLineChartItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLineChartItem.m; path = XJYChart/DataModel/XLineChartItem.m; sourceTree = "<group>"; };
+		C5A01A4B591F25DBC050BCE97C9981F3 /* SalesforceSans-LightItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "SalesforceSans-LightItalic.ttf"; path = "SalesforceDesignSystem.bundle/SalesforceSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		C614397713F42BAB602ABDAC0E7FFB09 /* XAnimationPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAnimationPath.h; path = XJYChart/Animator/XAnimationPath.h; sourceTree = "<group>"; };
+		C65158562A7AAD6170EE7B8BFD1E2D64 /* XJYChart.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XJYChart.modulemap; sourceTree = "<group>"; };
+		C7E1987AD161A9427C6ADF14B0305738 /* UIImage+SLDSIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+SLDSIcon.h"; path = "SalesforceDesignSystem/Generated/Extensions/UIImage+SLDSIcon.h"; sourceTree = "<group>"; };
+		C9842A80D9E40FB9002BCF323FAAE027 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CA023FBD7751D41C4B7D5E69FF231299 /* XAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAnimation.h; path = XJYChart/Animator/XAnimation.h; sourceTree = "<group>"; };
+		CB2893B7FDFD69F95B132FD2BF03782E /* XNormalLineChartConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XNormalLineChartConfiguration.h; path = XJYChart/Configuration/LineChartConfiguration/XNormalLineChartConfiguration.h; sourceTree = "<group>"; };
+		CBF58618773C67D2791D4E48FC473C7E /* XPieItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XPieItem.h; path = XJYChart/DataModel/XPieItem.h; sourceTree = "<group>"; };
+		CCF440C78F0D740AAD68B57FF99E9359 /* XLineChart.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLineChart.m; path = XJYChart/ChartView/XLineChart.m; sourceTree = "<group>"; };
+		D015673C6FDA14D0C37BA98160720B7A /* XAlignLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XAlignLabel.m; path = XJYChart/ChartView/XAlignLabel.m; sourceTree = "<group>"; };
+		D1CCE930DADC753DFA9CFC1ECACEF673 /* Material-Design-Iconic-Font.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Material-Design-Iconic-Font.ttf"; path = "FontAwesomeKit/Material-Design-Iconic-Font.ttf"; sourceTree = "<group>"; };
+		D49E10242074DE5504D071187668D3CC /* XBarChartConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XBarChartConfiguration.h; path = XJYChart/Configuration/BarChartConfiguration/XBarChartConfiguration.h; sourceTree = "<group>"; };
+		D5205092926D937B626DA8182858C6A0 /* FontAwesome.otf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome.otf; path = FontAwesomeKit/FontAwesome.otf; sourceTree = "<group>"; };
+		DA143DAE8750156CAB36F5C4BBA3A5E7 /* FAKIonIcons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKIonIcons.m; path = FontAwesomeKit/FAKIonIcons.m; sourceTree = "<group>"; };
+		DC84A48C29722C487548041965E085BA /* FontAwesomeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FontAwesomeKit-dummy.m"; sourceTree = "<group>"; };
+		DD242EF33F8B2792849F8E9EB901FDEB /* UIImage+SLDSIcon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+SLDSIcon.m"; path = "SalesforceDesignSystem/Generated/Extensions/UIImage+SLDSIcon.m"; sourceTree = "<group>"; };
+		DDC2DC11086A3378F02625D79BA0A113 /* Colours-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Colours-umbrella.h"; sourceTree = "<group>"; };
+		DEADBFF047B2EC367AB4A0120143FCDD /* License-for-SalesforceSans-font.txt */ = {isa = PBXFileReference; includeInIndex = 1; name = "License-for-SalesforceSans-font.txt"; path = "SalesforceDesignSystem.bundle/License-for-SalesforceSans-font.txt"; sourceTree = "<group>"; };
+		DF601405BF535446755FBD6C8BA74519 /* OrdinateView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OrdinateView.m; path = XJYChart/ChartView/OrdinateView.m; sourceTree = "<group>"; };
+		E0B74228BA746479894CA830E1E25DCE /* UIColor+SLDSColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+SLDSColor.m"; path = "SalesforceDesignSystem/Generated/Extensions/UIColor+SLDSColor.m"; sourceTree = "<group>"; };
+		E0F56793E11A5A9CE6A97F986BB5162B /* FontAwesomeKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FontAwesomeKit.modulemap; sourceTree = "<group>"; };
+		E14D98E600856D873C922803F8B0381B /* XAbscissaView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XAbscissaView.m; path = XJYChart/ChartView/XAbscissaView.m; sourceTree = "<group>"; };
+		E1EC16F950B3C106F7196DE0E2856FEB /* XAnimationLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XAnimationLabel.m; path = XJYChart/ChartView/XAnimationLabel.m; sourceTree = "<group>"; };
+		E3A0EEFC8B6A80809389094220F8E9EB /* SalesforceSans-Light.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "SalesforceSans-Light.ttf"; path = "SalesforceDesignSystem.bundle/SalesforceSans-Light.ttf"; sourceTree = "<group>"; };
+		E98FEA88EBFB679FD05FE3BF5B0B12E9 /* UIGestureRecognizer+XGesHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIGestureRecognizer+XGesHelper.h"; path = "XJYChart/Category/UIGestureRecognizer+XGesHelper.h"; sourceTree = "<group>"; };
+		EA78E08CE6880D3781F0E57D724AF69D /* SLDSIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLDSIcon.h; path = SalesforceDesignSystem/Generated/SLDSIcon.h; sourceTree = "<group>"; };
+		EDB9371BC9ECD78924322DE1D425C438 /* XRandomNumerHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XRandomNumerHelper.m; path = XJYChart/Calculate/XRandomNumerHelper.m; sourceTree = "<group>"; };
+		EF0123026D9E67A6EB9F5FC7EFFC2BDB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		F0DC708038D33506A9B39C342D6A5BEE /* XAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XAnimator.m; path = XJYChart/Animator/XAnimator.m; sourceTree = "<group>"; };
+		F18DADAAFBEBFA339B732E5A76CC90AA /* DesignSystem-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DesignSystem-umbrella.h"; sourceTree = "<group>"; };
+		F38FB6ED817B8C8451DAD7F89BAD2383 /* FAKFoundationIcons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKFoundationIcons.m; path = FontAwesomeKit/FAKFoundationIcons.m; sourceTree = "<group>"; };
+		F44946E59FD8CB6352BE172B632A3656 /* SalesforceSans-Italic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "SalesforceSans-Italic.ttf"; path = "SalesforceDesignSystem.bundle/SalesforceSans-Italic.ttf"; sourceTree = "<group>"; };
+		F450A2CC4895D0021C29A6ED1A9B7AC8 /* Colours-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Colours-Info.plist"; sourceTree = "<group>"; };
+		F53D38F797B53093488D86C43B714C32 /* XCycleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCycleView.h; path = XJYChart/ChartView/XCycleView.h; sourceTree = "<group>"; };
+		F55AA03A8512BA5F79FB648B82474D97 /* FontAwesomeKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FontAwesomeKit-Info.plist"; sourceTree = "<group>"; };
+		F589B46E229D4A62897FA22C55296444 /* DesignSystem.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DesignSystem.xcconfig; sourceTree = "<group>"; };
+		F747FB9C053B0CC108AECBA7A8ABEDE6 /* XJYChart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XJYChart.h; path = XJYChart/XJYChart.h; sourceTree = "<group>"; };
+		F7E238B659D6D5CF036409E074EC78CF /* CALayer+XLayerSelectHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+XLayerSelectHelper.m"; path = "XJYChart/Category/CALayer+XLayerSelectHelper.m"; sourceTree = "<group>"; };
+		F8952136B7BF4F0EEF8E1A151BCBCE71 /* SLDSSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLDSSize.h; path = SalesforceDesignSystem/Generated/SLDSSize.h; sourceTree = "<group>"; };
+		F8F6E917AD488D9B7FB87C2218B75D93 /* FAKMaterialIcons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKMaterialIcons.h; path = FontAwesomeKit/FAKMaterialIcons.h; sourceTree = "<group>"; };
+		FB70FFE1911495FAABD1CAB1E211867F /* XStackAreaLineContainerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XStackAreaLineContainerView.h; path = XJYChart/ChartView/XStackAreaLineContainerView.h; sourceTree = "<group>"; };
 		FB76DD363845206EF66ACF921B37DE80 /* Pods-RetoHack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RetoHack.debug.xcconfig"; sourceTree = "<group>"; };
+		FBB2501924A215C8CD61A43075E9D9B5 /* XLineChartItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLineChartItem.h; path = XJYChart/DataModel/XLineChartItem.h; sourceTree = "<group>"; };
+		FD237D6B35A49202A9AFF9A2CE7F6379 /* FAKIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKIcon.h; path = FontAwesomeKit/FAKIcon.h; sourceTree = "<group>"; };
+		FE25333FCDE9C5D47E76C9DE158BB098 /* XPositiveNegativeBarContainerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XPositiveNegativeBarContainerView.m; path = XJYChart/ChartView/XPositiveNegativeBarContainerView.m; sourceTree = "<group>"; };
+		FF5EB34EC895E856469FEA71588D33C7 /* XBaseChartConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XBaseChartConfiguration.m; path = XJYChart/Configuration/XBaseChartConfiguration.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		84AD0E3A2290E6C8A99BAEDA1FF09330 /* Frameworks */ = {
+		2C05AAA424E818684A3DE2A9E072B5B5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FED3BA15A8BD10811D575480CC41B18E /* Foundation.framework in Frameworks */,
+				7A365ABAF7437CE50C1EB3F2BBCDFF12 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55A8B29654573E43CD59682BD0AB1440 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16F6AF39F7A65D3E8B0F8AF94244F1BD /* Colours.framework in Frameworks */,
+				B81D14A4FBD952E529D26D9D512E9D7C /* CoreGraphics.framework in Frameworks */,
+				FE37CEFAA4B6CBBEC1AF2EEFFAEE064D /* Foundation.framework in Frameworks */,
+				84259A2541454454DFB238D0CBCF4F9F /* QuartzCore.framework in Frameworks */,
+				11D30731FC88C860969E8B3D5AD3780B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70A571C5D067270799EEC25C47D00710 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A71583C08A7120AF1AD3F5536A4A29EE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,6 +423,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D65EE97E9293C00A0209910AD12E8C50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F795F3B2C61243F4C8F31CBC6FFDE34 /* CoreText.framework in Frameworks */,
+				05AB9022017E53DE460EB71064CD3305 /* Foundation.framework in Frameworks */,
+				A7145A430B8BB1F07CF60DEE859A6D13 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,40 +449,161 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+		11479836C2D0B4AF74235BF47D429648 /* Material */ = {
 			isa = PBXGroup;
 			children = (
-				092FD875F565846165BF2D8B053941F7 /* iOS */,
+				F8F6E917AD488D9B7FB87C2218B75D93 /* FAKMaterialIcons.h */,
+				47243F030973F72A34E57AD00CBACD92 /* FAKMaterialIcons.m */,
+				2C6A6D345A369E35C1FCAD1FAE532F14 /* Resources */,
 			);
-			name = Frameworks;
+			name = Material;
 			sourceTree = "<group>";
 		};
-		092FD875F565846165BF2D8B053941F7 /* iOS */ = {
+		1359D8E69F603B1760EDFEB04E59F370 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0C9A0B672B6CDCA33D84AB895D938167 /* CoreText.framework */,
-				23621862A99429490F9C983069F078BB /* Foundation.framework */,
-				032F67321D34EE01369F5810E71B7660 /* UIKit.framework */,
+				5D98A9968711901078084A28E63BA4E1 /* octicons.ttf */,
 			);
-			name = iOS;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		0E1917D591772B95AE74AC7424BB6DA5 /* Pods */ = {
+		1B55656681325D8465456E12EB720ED1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				400BF3D13C56DA867F9018BFC76A8D56 /* DesignSystem */,
+				0465A5303A3D5361BAD197CB42E3F33D /* foundation-icons.ttf */,
 			);
-			name = Pods;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		18F158BECAAD5048DA0705424BA3B6AE /* Products */ = {
+		22B54080D952ADE1E19545680C680720 /* XJYChart */ = {
 			isa = PBXGroup;
 			children = (
-				18034BE93636D73186D5565F11990DC7 /* DesignSystem.framework */,
-				90AEC00910801362E05CBE20EEE74EAD /* Pods_RetoHack.framework */,
-				0CD49C046E4524295F025E0560C3E93B /* SalesforceDesignSystem.bundle */,
+				93D1DB4137D7AC2B47922F6AA446C04F /* CAKeyframeAnimation+AHEasing.h */,
+				4348E501449110E424AD46200C198C03 /* CAKeyframeAnimation+AHEasing.m */,
+				68FA1240CB86FAFDAF62C4D1486356C0 /* CALayer+XLayerSelectHelper.h */,
+				F7E238B659D6D5CF036409E074EC78CF /* CALayer+XLayerSelectHelper.m */,
+				98CEE5BBBC3C1D8C82FC440250F72825 /* CAShapeLayer+XLayerHelper.h */,
+				79C7395B7161BB80CCCEC4F5C2C24296 /* CAShapeLayer+XLayerHelper.m */,
+				53E47BAD579BE3EA4C155EA55B3118CC /* OrdinateView.h */,
+				DF601405BF535446755FBD6C8BA74519 /* OrdinateView.m */,
+				E98FEA88EBFB679FD05FE3BF5B0B12E9 /* UIGestureRecognizer+XGesHelper.h */,
+				A70481F7AD10ECD95A23BE73FAE737A9 /* UIGestureRecognizer+XGesHelper.m */,
+				2BFFB314DCBB9D8A66D48EEC012445A0 /* XAbscissaView.h */,
+				E14D98E600856D873C922803F8B0381B /* XAbscissaView.m */,
+				1406CBC1B98DA11AD66165410E4ECCC4 /* XAlignLabel.h */,
+				D015673C6FDA14D0C37BA98160720B7A /* XAlignLabel.m */,
+				CA023FBD7751D41C4B7D5E69FF231299 /* XAnimation.h */,
+				3C6F4FA25212D6687ABC4ED75B9FC3D2 /* XAnimation.m */,
+				B8CD8D934900DA05C039BBF12ABA5B82 /* XAnimationLabel.h */,
+				E1EC16F950B3C106F7196DE0E2856FEB /* XAnimationLabel.m */,
+				C614397713F42BAB602ABDAC0E7FFB09 /* XAnimationPath.h */,
+				B89689F0B2E366816E9116052069AB5D /* XAnimationPath.m */,
+				A2BADA83BEB4168D702482F3572C1CC8 /* XAnimator.h */,
+				F0DC708038D33506A9B39C342D6A5BEE /* XAnimator.m */,
+				54668A74B4237F92EE6DEB26D63B4876 /* XAreaLineChartConfiguration.h */,
+				6F32C49739005DE562588E9D710E614A /* XAreaLineChartConfiguration.m */,
+				42D0452C1D81A6D035A910C68C051060 /* XAreaLineContainerView.h */,
+				928C64C2D519CA85CD66FABE402E8C65 /* XAreaLineContainerView.m */,
+				6D2FF215B7919A079FE33AFA6FEFC5B2 /* XAuxiliaryCalculationHelper.h */,
+				3403AEC8933118855E227A0E40635E12 /* XAuxiliaryCalculationHelper.m */,
+				0D5AB720D1D1401640C3E16535F8DABD /* XBarChart.h */,
+				4772AC71691C2D4665C9C4D2470CE24D /* XBarChart.m */,
+				D49E10242074DE5504D071187668D3CC /* XBarChartConfiguration.h */,
+				424F76A9C28C73CE82D301A82B133850 /* XBarChartConfiguration.m */,
+				0A46C91A668C84180CE1FC9235211C23 /* XBarChartView.h */,
+				B88CBC552CA2761EB333E90982402DDB /* XBarChartView.m */,
+				235E81A050A30F54642AA81D68F254ED /* XBarContainerView.h */,
+				86D69ACA108C47D82BE4533320C89741 /* XBarContainerView.m */,
+				6423CE1FE0D6ECB9FE44C0363CFB6EC4 /* XBarItem.h */,
+				0BBEF66555F9473C84DFDBEAAE05EC11 /* XBarItem.m */,
+				C272B113885AE7B3054CE5FD5D9F13C5 /* XBaseChartConfiguration.h */,
+				FF5EB34EC895E856469FEA71588D33C7 /* XBaseChartConfiguration.m */,
+				87F8E088FE0462F3DA21BF73F7EAF7D3 /* XColor.h */,
+				605C4B10A70803BF4EB11B8FB028D928 /* XColor.m */,
+				F53D38F797B53093488D86C43B714C32 /* XCycleView.h */,
+				42DE94580C93F3A442254E5F649CDFF8 /* XCycleView.m */,
+				4BA58AC9AF53A8C6217351E3B4980B6B /* XEnumHeader.h */,
+				F747FB9C053B0CC108AECBA7A8ABEDE6 /* XJYChart.h */,
+				66BB4502D13D4B352EC9155E865D466B /* XJYChartDelegate.h */,
+				748A417CE3FC62093C96FB1E0A54FC12 /* XJYNumberLabelDecoration.h */,
+				8ECC69D6A3F46BBA7CDC300D6EE1B88F /* XJYNumberLabelDecoration.m */,
+				67DD36EB0BEB2504BA646B802CFE31FB /* XLineChart.h */,
+				CCF440C78F0D740AAD68B57FF99E9359 /* XLineChart.m */,
+				B97114208841DA69F0C8182432C789B1 /* XLineChartConfiguration.h */,
+				034AEFE84718EB348474F360AEC6C6B3 /* XLineChartConfiguration.m */,
+				FBB2501924A215C8CD61A43075E9D9B5 /* XLineChartItem.h */,
+				C3CC0964D282888143151BB6124E43E4 /* XLineChartItem.m */,
+				79AFDBC0B1EE18314F2A25DF791CDE04 /* XLineChartView.h */,
+				02ACC0EEB989892D28D8BF89A9AEC575 /* XLineChartView.m */,
+				C21EE62EBF2CE1FC808CD45C66EC4243 /* XLineContainerView.h */,
+				3944D030A82EA4AAFC8F11E694E256FB /* XLineContainerView.m */,
+				CB2893B7FDFD69F95B132FD2BF03782E /* XNormalLineChartConfiguration.h */,
+				8918C271D66960AD6637F0610667A2C3 /* XNormalLineChartConfiguration.m */,
+				766DBE2606A78E3064766F7703A309CB /* XNotificationBridge.h */,
+				67CDF103F1AC3DB4802E3741D7DE7D5F /* XNotificationBridge.m */,
+				319F466471D36B27222A1805E87274E3 /* XPieChart.h */,
+				BDEBAC515DA91A4A346063FD9C2C2C6F /* XPieChart.m */,
+				CBF58618773C67D2791D4E48FC473C7E /* XPieItem.h */,
+				AEBD1DAB65452E090BCC5696DF8A7C35 /* XPieItem.m */,
+				589A45F41244CF6795C00786C51F9F1E /* XPointDetect.h */,
+				32341D75E72354CDEAAE260E8CD4D275 /* XPointDetect.m */,
+				3BC221ACB94EADE7CFB8F54659EF303F /* XPositiveNegativeBarChart.h */,
+				23B6EAE74BC0A35831F73D4A92721880 /* XPositiveNegativeBarChart.m */,
+				A877A9DFE05BFFC55BE92E289492015F /* XPositiveNegativeBarChartView.h */,
+				B9782BB9FCBD458C3045C7E7C865107D /* XPositiveNegativeBarChartView.m */,
+				2F407BF677CC5D268672D7F31E36E655 /* XPositiveNegativeBarContainerView.h */,
+				FE25333FCDE9C5D47E76C9DE158BB098 /* XPositiveNegativeBarContainerView.m */,
+				33C924D0C7E798C8347762B08BB2AD2E /* XRandomNumerHelper.h */,
+				EDB9371BC9ECD78924322DE1D425C438 /* XRandomNumerHelper.m */,
+				4CB5259E851EAA68B422F7BDECE0B8B9 /* XStackAreaLineChartConfiguration.h */,
+				3E242604FF848FFA5F4B41A83763E39E /* XStackAreaLineChartConfiguration.m */,
+				FB70FFE1911495FAABD1CAB1E211867F /* XStackAreaLineContainerView.h */,
+				7C465582F67C8A6408271C7DAA749282 /* XStackAreaLineContainerView.m */,
+				FF54BDB3509BE3F847E533D1EB392C24 /* Support Files */,
 			);
-			name = Products;
+			name = XJYChart;
+			path = XJYChart;
+			sourceTree = "<group>";
+		};
+		2856C02FD9DFFBE4DD3CDBF6D006A41C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0E379738CFD91D737F542D0FCE90DFBA /* License-for-SalesforceDesignSystemIcons.txt */,
+				DEADBFF047B2EC367AB4A0120143FCDD /* License-for-SalesforceSans-font.txt */,
+				C2254FD04BDCA1F3F805DD6AFDDE0588 /* SalesforceDesignSystemIcons.ttf */,
+				3F90B1EF2A244CBE8FCF668438692CBC /* SalesforceSans-Bold.ttf */,
+				A0EF4A7969130867E5BA75E479CB5A6C /* SalesforceSans-BoldItalic.ttf */,
+				F44946E59FD8CB6352BE172B632A3656 /* SalesforceSans-Italic.ttf */,
+				E3A0EEFC8B6A80809389094220F8E9EB /* SalesforceSans-Light.ttf */,
+				C5A01A4B591F25DBC050BCE97C9981F3 /* SalesforceSans-LightItalic.ttf */,
+				3EDC63E4E9505C8B1CAFF94AACD30736 /* SalesforceSans-Regular.ttf */,
+				3184CC0CB8E6B6C766A7C03C86987122 /* SalesforceSans-Thin.ttf */,
+				794165ED189897B46FDE4F2C6C80AC88 /* SalesforceSans-ThinItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2AAF95E0F4E802138EA24569D58890BE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B91403F48022062643E5AC31FA27836 /* DesignSystem.modulemap */,
+				F589B46E229D4A62897FA22C55296444 /* DesignSystem.xcconfig */,
+				43F96AFBC8BF275261098B439A3D8296 /* DesignSystem-dummy.m */,
+				0D13750CAF9D8728AC9DD411451AD02A /* DesignSystem-Info.plist */,
+				9BB3DC280C41A154A69951605A0D9040 /* DesignSystem-prefix.pch */,
+				F18DADAAFBEBFA339B732E5A76CC90AA /* DesignSystem-umbrella.h */,
+				872778522774BEB2B18254208046F889 /* ResourceBundle-SalesforceDesignSystem-DesignSystem-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DesignSystem";
+			sourceTree = "<group>";
+		};
+		2C6A6D345A369E35C1FCAD1FAE532F14 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D1CCE930DADC753DFA9CFC1ECACEF673 /* Material-Design-Iconic-Font.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		2FC8D07C484053DBF55B04C5B9D6992B /* Pods-RetoHack */ = {
@@ -197,30 +623,28 @@
 			path = "Target Support Files/Pods-RetoHack";
 			sourceTree = "<group>";
 		};
-		400BF3D13C56DA867F9018BFC76A8D56 /* DesignSystem */ = {
+		326637126F01E05DF566F63EF11F01A9 /* Octicons */ = {
 			isa = PBXGroup;
 			children = (
-				961106D8ACA528E08CB1CCF589438DCC /* NSString+SLDSName.h */,
-				AA1ADCFE9D4FE4C6896721D55116A521 /* NSString+SLDSName.m */,
-				B220F723AE3C95159D9AD8C97C998E08 /* SalesforceDesignSystem.h */,
-				5A1523FD21D51D3977079800E37D7538 /* SalesforceDesignSystemNames.h */,
-				BD6E53F63E6E66FBFFD47771C41C3CE7 /* SLDSColor.h */,
-				4033613AB8A3280576B2B3C5396483EC /* SLDSFont.h */,
-				9E4FE189CEABE6ED18051A51C187BD21 /* SLDSFont.m */,
-				1EB2D5128BB49A0B82C9829BD00B24E8 /* SLDSIcon.h */,
-				39470D454E27BFD46BA2F525011B6E18 /* SLDSName.h */,
-				0B71B5769B238EDAAD0E95725AD012B4 /* SLDSSize.h */,
-				BBAB8187C6787099555935B0DD445E25 /* UIColor+SLDSColor.h */,
-				0B3E1F0D7EA6FC6843A2198BBBD4C6DE /* UIColor+SLDSColor.m */,
-				6A2C89E1B269E5DEDC23DDE8D21DDEB4 /* UIFont+SLDSFont.h */,
-				A7AF788A761762638AB7E73A6355C445 /* UIFont+SLDSFont.m */,
-				9E4D92BEAF751D082A76AD41EA99FDE2 /* UIImage+SLDSIcon.h */,
-				10A0003A195B3AFE950DE10D3FFBF1DB /* UIImage+SLDSIcon.m */,
-				9ED9F2CBA9289D6DCB3AC3FAE8F4ED7C /* Resources */,
-				D009A59D61DC95917741A56CE009B22D /* Support Files */,
+				B936F2BE5D1122076712BE0C61C05754 /* FAKOcticons.h */,
+				97994E2A5B50CBB62B5B812474208416 /* FAKOcticons.m */,
+				1359D8E69F603B1760EDFEB04E59F370 /* Resources */,
 			);
-			name = DesignSystem;
-			path = DesignSystem;
+			name = Octicons;
+			sourceTree = "<group>";
+		};
+		3B8E0532241E4A5A5C9817D4BCDA7787 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				09A7B53EE3349F0AA72836A06CD6946A /* Colours.modulemap */,
+				A40B43374B96583334E5991A99C45B15 /* Colours.xcconfig */,
+				1322991E5BBED7C6546F31D871185E3A /* Colours-dummy.m */,
+				F450A2CC4895D0021C29A6ED1A9B7AC8 /* Colours-Info.plist */,
+				81D8FE4088D2EDEB2281E5F659CBB3B8 /* Colours-prefix.pch */,
+				DDC2DC11086A3378F02625D79BA0A113 /* Colours-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Colours";
 			sourceTree = "<group>";
 		};
 		4EEA04E03B51BE8496FA5E27DE95F2B3 /* Targets Support Files */ = {
@@ -231,48 +655,223 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		9ED9F2CBA9289D6DCB3AC3FAE8F4ED7C /* Resources */ = {
+		507388C89618849DAE991CE6CFDECF48 /* IonIcons */ = {
 			isa = PBXGroup;
 			children = (
-				0DC4CA0204EC2DADB79794C9F25C8AE1 /* License-for-SalesforceDesignSystemIcons.txt */,
-				9DA36E05E91BACA47EF66375E34365AF /* License-for-SalesforceSans-font.txt */,
-				F51C37519407327C53C1B799FCBFF007 /* SalesforceDesignSystemIcons.ttf */,
-				B08A5A953DD25C8B47FE84ECF735B4FD /* SalesforceSans-Bold.ttf */,
-				B0E0049C20C8BD3BE5F7D340FFF9074E /* SalesforceSans-BoldItalic.ttf */,
-				AB6C4A3BBB24424E5B25F7237F74630E /* SalesforceSans-Italic.ttf */,
-				DE046A6E221E5E73AD9FC4A20177C2DA /* SalesforceSans-Light.ttf */,
-				442FDEEE38DF5F19DE16998472C389A1 /* SalesforceSans-LightItalic.ttf */,
-				C35E910BA34A37C9BA701A91C8E5EE04 /* SalesforceSans-Regular.ttf */,
-				21B074C09AF740ED949785685AD8035E /* SalesforceSans-Thin.ttf */,
-				307AB3398C7759F7FB218E8D6BA68DD2 /* SalesforceSans-ThinItalic.ttf */,
+				0BAA8B9D4935B056B58816BE541E797E /* FAKIonIcons.h */,
+				DA143DAE8750156CAB36F5C4BBA3A5E7 /* FAKIonIcons.m */,
+				FC9AA3056CE5EAF06E377ECDA44C02BA /* Resources */,
+			);
+			name = IonIcons;
+			sourceTree = "<group>";
+		};
+		58E7344AC0026382363893C3A58013C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2078836370A1A45FC73F41648A77EF39 /* Colours.framework */,
+				F2BFA33BDEBCC07AC7080D3895193B1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B902FA84BAE2198E85AA5A72F1361C1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D5205092926D937B626DA8182858C6A0 /* FontAwesome.otf */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		805CF85AA062BAE334240067D8708790 /* Colours */ = {
+			isa = PBXGroup;
+			children = (
+				D32D254495FA7D2F63B91C9852FD21AF /* ObjC */,
+				3B8E0532241E4A5A5C9817D4BCDA7787 /* Support Files */,
+			);
+			name = Colours;
+			path = Colours;
+			sourceTree = "<group>";
+		};
+		807D56DB34473762B174584345A892BF /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FD237D6B35A49202A9AFF9A2CE7F6379 /* FAKIcon.h */,
+				7640B5BE7A434108F78575F245A0FF94 /* FAKIcon.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		8DE89B89CD07EA5DA33C5E95AB4F3BE6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0DEA9BFC8E01C7EBE5C3A06CA38C68D4 /* zocial-regular-webfont.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		966020B79F1D0BDA1B4F8CD7DC1A4C0C /* FontAwesome */ = {
+			isa = PBXGroup;
+			children = (
+				89BCC6072D7AC2DE62092D8D76A0AF30 /* FAKFontAwesome.h */,
+				40A751FC454D384CF7EDD8E9502C39AB /* FAKFontAwesome.m */,
+				7B902FA84BAE2198E85AA5A72F1361C1 /* Resources */,
+			);
+			name = FontAwesome;
+			sourceTree = "<group>";
+		};
+		A3E6DD205AA5F3CD1E0EEB593323754F /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				680BC2BD726542CB92309A9BE05163C3 /* NSString+SLDSName.h */,
+				4E6DEB97012F805B3A9B6BF23150C2A3 /* NSString+SLDSName.m */,
+				637DC4B99AB1128D096BFCFEACBD6BEF /* SalesforceDesignSystem.h */,
+				BC4C45F346BD4E4B1ACAC9AC6FBB16D0 /* SalesforceDesignSystemNames.h */,
+				2A4267073215CC706E52F02702F94E7D /* SLDSColor.h */,
+				4B4E789954BAF837A293778E7F9F51E1 /* SLDSFont.h */,
+				9AC4F4F72C52869E2C3525FC8BA1AE8D /* SLDSFont.m */,
+				EA78E08CE6880D3781F0E57D724AF69D /* SLDSIcon.h */,
+				821B2C4482BCB216A0262AAF422E1631 /* SLDSName.h */,
+				F8952136B7BF4F0EEF8E1A151BCBCE71 /* SLDSSize.h */,
+				B43CB3681E86C1BC45D677F0262198AC /* UIColor+SLDSColor.h */,
+				E0B74228BA746479894CA830E1E25DCE /* UIColor+SLDSColor.m */,
+				9C56C9FCAA90D5E6D8372AE16015035C /* UIFont+SLDSFont.h */,
+				055DEB6F2C7E866AFA6CBC59140589EB /* UIFont+SLDSFont.m */,
+				C7E1987AD161A9427C6ADF14B0305738 /* UIImage+SLDSIcon.h */,
+				DD242EF33F8B2792849F8E9EB901FDEB /* UIImage+SLDSIcon.m */,
+				2856C02FD9DFFBE4DD3CDBF6D006A41C /* Resources */,
+				2AAF95E0F4E802138EA24569D58890BE /* Support Files */,
+			);
+			name = DesignSystem;
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		AE5205F0EA41F0A203BAB2F36514DCF9 /* FontAwesomeKit */ = {
+			isa = PBXGroup;
+			children = (
+				991C058A30BB465F4EF0CD492B6A5355 /* FontAwesomeKit.h */,
+				807D56DB34473762B174584345A892BF /* Core */,
+				966020B79F1D0BDA1B4F8CD7DC1A4C0C /* FontAwesome */,
+				FF72AAB75B52F2D824855CC7EED4F23D /* FoundationIcons */,
+				507388C89618849DAE991CE6CFDECF48 /* IonIcons */,
+				11479836C2D0B4AF74235BF47D429648 /* Material */,
+				326637126F01E05DF566F63EF11F01A9 /* Octicons */,
+				C2CEB311B1DEB4AAA40719F3B166A86B /* Support Files */,
+				BA264C64E053CE3D71B8E53F0D1CD184 /* Zocial */,
+			);
+			name = FontAwesomeKit;
+			path = FontAwesomeKit;
+			sourceTree = "<group>";
+		};
+		BA264C64E053CE3D71B8E53F0D1CD184 /* Zocial */ = {
+			isa = PBXGroup;
+			children = (
+				5E21785BC0E73775DF2F551DCF2C085B /* FAKZocial.h */,
+				734C1BB23F6ED134461B32F7E43BD51D /* FAKZocial.m */,
+				8DE89B89CD07EA5DA33C5E95AB4F3BE6 /* Resources */,
+			);
+			name = Zocial;
+			sourceTree = "<group>";
+		};
+		BE50CE8AA297F27A43644134E6C9C767 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				805CF85AA062BAE334240067D8708790 /* Colours */,
+				A3E6DD205AA5F3CD1E0EEB593323754F /* DesignSystem */,
+				AE5205F0EA41F0A203BAB2F36514DCF9 /* FontAwesomeKit */,
+				22B54080D952ADE1E19545680C680720 /* XJYChart */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C2CEB311B1DEB4AAA40719F3B166A86B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0F56793E11A5A9CE6A97F986BB5162B /* FontAwesomeKit.modulemap */,
+				5B46E0C0B95CD7542DC6AE666A3731F8 /* FontAwesomeKit.xcconfig */,
+				DC84A48C29722C487548041965E085BA /* FontAwesomeKit-dummy.m */,
+				F55AA03A8512BA5F79FB648B82474D97 /* FontAwesomeKit-Info.plist */,
+				38630CBBA03ACAAEFE1A5CC10B71EEAA /* FontAwesomeKit-prefix.pch */,
+				19215FA09814BC9796EDC58410C82375 /* FontAwesomeKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FontAwesomeKit";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
-				0E1917D591772B95AE74AC7424BB6DA5 /* Pods */,
-				18F158BECAAD5048DA0705424BA3B6AE /* Products */,
+				58E7344AC0026382363893C3A58013C8 /* Frameworks */,
+				BE50CE8AA297F27A43644134E6C9C767 /* Pods */,
+				E1AC6F520EAA0DF54934DCF74584802B /* Products */,
 				4EEA04E03B51BE8496FA5E27DE95F2B3 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D009A59D61DC95917741A56CE009B22D /* Support Files */ = {
+		D32D254495FA7D2F63B91C9852FD21AF /* ObjC */ = {
 			isa = PBXGroup;
 			children = (
-				4046CAEF50FB27209C67242363D0D16D /* DesignSystem.modulemap */,
-				E5F0CE1068CD886A4CB9E274B992C89F /* DesignSystem.xcconfig */,
-				1433E22118CE94835500AE198373BD7E /* DesignSystem-dummy.m */,
-				9600CE76284094944C40CF0843C6334B /* DesignSystem-Info.plist */,
-				3C8299BD5BAE5E2115A16A92E947201E /* DesignSystem-prefix.pch */,
-				67D5A72C2639A102A93C27DAAE95F6B0 /* DesignSystem-umbrella.h */,
-				B269EE0680738EA76040A848A536BBAD /* ResourceBundle-SalesforceDesignSystem-DesignSystem-Info.plist */,
+				56FB1EC3C552F3382F276E0E9C7DC68E /* Colours.h */,
+				10BCB76F02C1826623158105F1568957 /* Colours.m */,
+			);
+			name = ObjC;
+			sourceTree = "<group>";
+		};
+		E1AC6F520EAA0DF54934DCF74584802B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				384934A24B072A857579A8981CA78B34 /* Colours.framework */,
+				18034BE93636D73186D5565F11990DC7 /* DesignSystem.framework */,
+				2BB9A105721E2620B95D8644FB4591E4 /* FontAwesomeKit.framework */,
+				90AEC00910801362E05CBE20EEE74EAD /* Pods_RetoHack.framework */,
+				0CD49C046E4524295F025E0560C3E93B /* SalesforceDesignSystem.bundle */,
+				49C1C94F006E4228CB7A15916C2C8654 /* XJYChart.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2BFA33BDEBCC07AC7080D3895193B1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EF0123026D9E67A6EB9F5FC7EFFC2BDB /* CoreGraphics.framework */,
+				61ACD0035BBEC61EAA7D78ABA8320144 /* CoreText.framework */,
+				C9842A80D9E40FB9002BCF323FAAE027 /* Foundation.framework */,
+				8B4CA88C1D74F921AE253B3B1EE2B473 /* QuartzCore.framework */,
+				5F78BD2C7EFB3B0484EEB2291C1383C3 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FC9AA3056CE5EAF06E377ECDA44C02BA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				991B556125DFF898CBE726AEF59D2BE8 /* ionicons.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FF54BDB3509BE3F847E533D1EB392C24 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C65158562A7AAD6170EE7B8BFD1E2D64 /* XJYChart.modulemap */,
+				BB4D24DA3C459EED0C41C646F09ECE16 /* XJYChart.xcconfig */,
+				AD820FCDDD8204216F69D36D6C0AA184 /* XJYChart-dummy.m */,
+				9D6B78B9AD01115DFEA8061DBCD1AE3B /* XJYChart-Info.plist */,
+				492CBC21C4432BFC7E4769830C1F3D8F /* XJYChart-prefix.pch */,
+				BF57203F949EAA632CFAACD9A8D42656 /* XJYChart-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/DesignSystem";
+			path = "../Target Support Files/XJYChart";
+			sourceTree = "<group>";
+		};
+		FF72AAB75B52F2D824855CC7EED4F23D /* FoundationIcons */ = {
+			isa = PBXGroup;
+			children = (
+				BC36DCDB3CC10B01BF1178FE92452A3D /* FAKFoundationIcons.h */,
+				F38FB6ED817B8C8451DAD7F89BAD2383 /* FAKFoundationIcons.m */,
+				1B55656681325D8465456E12EB720ED1 /* Resources */,
+			);
+			name = FoundationIcons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,17 +896,110 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7BD16F18CB7A58391DDA41495ABF0096 /* Headers */ = {
+		73C0472CB8FF23B0022D5400B2B3B85C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A9BFC7B1AE588A5250939C6DCD942FB /* Pods-RetoHack-umbrella.h in Headers */,
+				B6A78B55D672DF1B783B8FCFD30519DC /* Pods-RetoHack-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8977EF1467B4415148B8B610E76513D9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16826070997DA0FB8C9E9B4DF30243FA /* CAKeyframeAnimation+AHEasing.h in Headers */,
+				7695A7FBFA4EB2C87B55F98E6A057BA3 /* CALayer+XLayerSelectHelper.h in Headers */,
+				8916598063489E12C6D005738DFF5E14 /* CAShapeLayer+XLayerHelper.h in Headers */,
+				2571B7E9C6168649DED4E24AA5E16BC8 /* OrdinateView.h in Headers */,
+				7EA72C9345DEF05E67797D63C240ED22 /* UIGestureRecognizer+XGesHelper.h in Headers */,
+				C422F5226874BFACD294A191782F6272 /* XAbscissaView.h in Headers */,
+				C4C3CB2BFA003853EBE4642B9E62FA22 /* XAlignLabel.h in Headers */,
+				2C4C366F404F5D9777AF6043815111D8 /* XAnimation.h in Headers */,
+				58AC443BA808C5800B406567C7E4E59D /* XAnimationLabel.h in Headers */,
+				B0CA3FED22EDEA6CC32642BEA44FEA40 /* XAnimationPath.h in Headers */,
+				74C08D8809FF3BDB915EBE408FBE8B9B /* XAnimator.h in Headers */,
+				0BB364A82A550841A9CFEB6B639279EA /* XAreaLineChartConfiguration.h in Headers */,
+				C9CA1EAE4BFF2391B550867E0484BD09 /* XAreaLineContainerView.h in Headers */,
+				77915FC40EAF01B9439CD12F34C35AFD /* XAuxiliaryCalculationHelper.h in Headers */,
+				C8CFAFDAFD7528CBCA2F43E7F7C2DA38 /* XBarChart.h in Headers */,
+				2DBE455F71CD10F74DF35B8FA7CE361F /* XBarChartConfiguration.h in Headers */,
+				7ED060C0A7B5B8DA2DED2F42BBCFBC57 /* XBarChartView.h in Headers */,
+				B6348826992C04EE4BB2D2835520AF59 /* XBarContainerView.h in Headers */,
+				6A5C84C68041F36D794889B15FA58732 /* XBarItem.h in Headers */,
+				A7CC8D5DCB15E01C403CA8F32875F86F /* XBaseChartConfiguration.h in Headers */,
+				78F1A30EE0A0C04F92BADCEAC74C1964 /* XColor.h in Headers */,
+				C396B6D337E8481E39399620B3E02F07 /* XCycleView.h in Headers */,
+				3995CE1C8BCD20FA67BED94927B7C4FE /* XEnumHeader.h in Headers */,
+				339171FEB4D02A0760781AE71CA0D2BA /* XJYChart-umbrella.h in Headers */,
+				F320C3D6DB96D5E4A87FBCD48757B4EB /* XJYChart.h in Headers */,
+				B4357F61261ED7C6F1C258D55F6B7248 /* XJYChartDelegate.h in Headers */,
+				80E53F4FF199C4B8392322ED8FE69659 /* XJYNumberLabelDecoration.h in Headers */,
+				11189FA9BFE659FF5D921E8035CAFFE9 /* XLineChart.h in Headers */,
+				79EE99953FE6EE370197B79BFE4CB404 /* XLineChartConfiguration.h in Headers */,
+				905077736AD411A1C79D328B8FD61FB3 /* XLineChartItem.h in Headers */,
+				A3C92B7C3D050DE5539DE79B7409786A /* XLineChartView.h in Headers */,
+				8B49ECD467EE6C8ECB819C7FFF9DB4FF /* XLineContainerView.h in Headers */,
+				70390802EE579F35C9D6946F98FDA845 /* XNormalLineChartConfiguration.h in Headers */,
+				133580A8403A8A29B0735BB9A92995E3 /* XNotificationBridge.h in Headers */,
+				36054FDE9EC9EC70CE70FF890A5051F8 /* XPieChart.h in Headers */,
+				2EB9423B6614A25D798890DF519578D1 /* XPieItem.h in Headers */,
+				77AFBB77C78F8E4429AE39E0124A890D /* XPointDetect.h in Headers */,
+				1C038E9E5F29554B1362567B023888C9 /* XPositiveNegativeBarChart.h in Headers */,
+				0A7E77BBD6CF8A9C2385BC92E3F8A40F /* XPositiveNegativeBarChartView.h in Headers */,
+				543ADB4A33DAC282338C33F62EBA98D6 /* XPositiveNegativeBarContainerView.h in Headers */,
+				5C76EFC267D21340CFDB281575A150D3 /* XRandomNumerHelper.h in Headers */,
+				6FBE6ABF3037D2C1DFE5E00BD6E84862 /* XStackAreaLineChartConfiguration.h in Headers */,
+				B12FFC576C3E9088C649BC996207295E /* XStackAreaLineContainerView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFDAFD8A58B704EA394641396D013851 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D94987C1A32AE8F74E199AB100DF6D /* Colours-umbrella.h in Headers */,
+				68927421C6D893BBBE4E61D5CF5C2C3B /* Colours.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F08098A356D951E33A50D29BCD3A93EF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5866C0488CB0EC0D5A7FD471834C4D81 /* FAKFontAwesome.h in Headers */,
+				C459E26CBC0DC72349CF83288E84E5A3 /* FAKFoundationIcons.h in Headers */,
+				CC87EAA74E014DA8C1C0DAE1E54DA962 /* FAKIcon.h in Headers */,
+				66B98F9060AE919FC0AC89878F8AFB76 /* FAKIonIcons.h in Headers */,
+				65C3B6354C77FD230ABC34CE34E88D6D /* FAKMaterialIcons.h in Headers */,
+				00F1A2872C2D2F2E5E67B11562805EC9 /* FAKOcticons.h in Headers */,
+				5C79E4034FDFB989322B17A3F2022E28 /* FAKZocial.h in Headers */,
+				9F2F8C499AE7EB8CA2D107E767DC87B7 /* FontAwesomeKit-umbrella.h in Headers */,
+				CB8A1856AB7A646F8C1F761946C542E8 /* FontAwesomeKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		139014B082BD633E25DA254D0EE0F781 /* FontAwesomeKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C161DB3E158FBC39C78557620B10538 /* Build configuration list for PBXNativeTarget "FontAwesomeKit" */;
+			buildPhases = (
+				F08098A356D951E33A50D29BCD3A93EF /* Headers */,
+				031934CFDFA8DF27692E048937C8A9A4 /* Sources */,
+				D65EE97E9293C00A0209910AD12E8C50 /* Frameworks */,
+				1D24589DAF7734BC30E42D25A43DD69C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FontAwesomeKit;
+			productName = FontAwesomeKit;
+			productReference = 2BB9A105721E2620B95D8644FB4591E4 /* FontAwesomeKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		194A56F2B926B90E05CF289C5AA5A248 /* DesignSystem */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 74586EAC33A0E402EABA9A3B52E8D16A /* Build configuration list for PBXNativeTarget "DesignSystem" */;
@@ -327,19 +1019,59 @@
 			productReference = 18034BE93636D73186D5565F11990DC7 /* DesignSystem.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		4A479B580AE6076AFD51D5A0AB8E3734 /* Pods-RetoHack */ = {
+		2194BB176C539E559DB8A48642253D85 /* Colours */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DC18E8FAD85AB3FEB7BA5CB7FAECD60C /* Build configuration list for PBXNativeTarget "Pods-RetoHack" */;
+			buildConfigurationList = 2ACCE7B7436B19F276C1FFFF6BEB4FB7 /* Build configuration list for PBXNativeTarget "Colours" */;
 			buildPhases = (
-				7BD16F18CB7A58391DDA41495ABF0096 /* Headers */,
-				A5B83298D81B984984E0A9B84B6DE07C /* Sources */,
-				84AD0E3A2290E6C8A99BAEDA1FF09330 /* Frameworks */,
-				FE996716207FD0923C3EC0CE33E46602 /* Resources */,
+				BFDAFD8A58B704EA394641396D013851 /* Headers */,
+				CEF475662818D2A69AC9BF6E3B04EB75 /* Sources */,
+				2C05AAA424E818684A3DE2A9E072B5B5 /* Frameworks */,
+				31A09B6DD04AF8B49AE0DE1E45D48A11 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4651873C6ED049EFC2FD38147E7B6D9A /* PBXTargetDependency */,
+			);
+			name = Colours;
+			productName = Colours;
+			productReference = 384934A24B072A857579A8981CA78B34 /* Colours.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2B6B79D506B561AF3BC77AF33C7B9FDE /* XJYChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74D0E3A340BFD5B14496959FEEE1B422 /* Build configuration list for PBXNativeTarget "XJYChart" */;
+			buildPhases = (
+				8977EF1467B4415148B8B610E76513D9 /* Headers */,
+				877A845E4BD8935C95F0F3F3ABABE85A /* Sources */,
+				55A8B29654573E43CD59682BD0AB1440 /* Frameworks */,
+				C05ADC092251E015E944BDC6A17FE8FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6ED945FDE763387DC6A2D8BA7D89DB08 /* PBXTargetDependency */,
+			);
+			name = XJYChart;
+			productName = XJYChart;
+			productReference = 49C1C94F006E4228CB7A15916C2C8654 /* XJYChart.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4A479B580AE6076AFD51D5A0AB8E3734 /* Pods-RetoHack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B910A18EE7EA5385F7DF0010D69FB4F4 /* Build configuration list for PBXNativeTarget "Pods-RetoHack" */;
+			buildPhases = (
+				73C0472CB8FF23B0022D5400B2B3B85C /* Headers */,
+				0368C45791F1ED3DF9750BDB585DE648 /* Sources */,
+				70A571C5D067270799EEC25C47D00710 /* Frameworks */,
+				4378A7D4D544304B18BD9D49A538C08B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0990020A726E6BE7AAFE5779EC6383D1 /* PBXTargetDependency */,
+				4EA073DFC077E362653C708552AA582D /* PBXTargetDependency */,
+				C8E19560E78DC5F49F252482334FFE4E /* PBXTargetDependency */,
+				08815EF00D6BAE0EBED4DD4ACC024225 /* PBXTargetDependency */,
 			);
 			name = "Pods-RetoHack";
 			productName = "Pods-RetoHack";
@@ -373,25 +1105,62 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 18F158BECAAD5048DA0705424BA3B6AE /* Products */;
+			productRefGroup = E1AC6F520EAA0DF54934DCF74584802B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				2194BB176C539E559DB8A48642253D85 /* Colours */,
 				194A56F2B926B90E05CF289C5AA5A248 /* DesignSystem */,
 				828F14A5FC34AAA0EBB198E49E27BB99 /* DesignSystem-SalesforceDesignSystem */,
+				139014B082BD633E25DA254D0EE0F781 /* FontAwesomeKit */,
 				4A479B580AE6076AFD51D5A0AB8E3734 /* Pods-RetoHack */,
+				2B6B79D506B561AF3BC77AF33C7B9FDE /* XJYChart */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1D24589DAF7734BC30E42D25A43DD69C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1FCD4494C8EF3DE0F8175E54233AFA /* FontAwesome.otf in Resources */,
+				F9E01A882CB43022461A32556A10DBC5 /* foundation-icons.ttf in Resources */,
+				1401A4F4FA6991262B30D96D85D200F3 /* ionicons.ttf in Resources */,
+				C82B589D5EDDB705BD354B5E540F9452 /* Material-Design-Iconic-Font.ttf in Resources */,
+				1DD04C32171C0B6F7864AE738C921A4D /* octicons.ttf in Resources */,
+				27728AA251868ECF6FD38B9A41C88987 /* zocial-regular-webfont.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31A09B6DD04AF8B49AE0DE1E45D48A11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4378A7D4D544304B18BD9D49A538C08B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C05ADC092251E015E944BDC6A17FE8FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C59BBA2D62582C1A4268C4A8FD08B91A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -418,16 +1187,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FE996716207FD0923C3EC0CE33E46602 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		031934CFDFA8DF27692E048937C8A9A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D22B094CDC8409BE37756F701E678C44 /* FAKFontAwesome.m in Sources */,
+				6D3347A1ADD60FF70302391A4612AB1B /* FAKFoundationIcons.m in Sources */,
+				12F641BEDF754DEA2D77708D0655D580 /* FAKIcon.m in Sources */,
+				CC49B1C4FBF994EF476F4BFF36991ED6 /* FAKIonIcons.m in Sources */,
+				A7A405D9FB9F85903298A3F14EA2B51D /* FAKMaterialIcons.m in Sources */,
+				921CFAD62E0C8EF501DA9DAB1B87AA0C /* FAKOcticons.m in Sources */,
+				EC5D7DB986E7201B7FF86DDF9065B311 /* FAKZocial.m in Sources */,
+				6A228892806E019A1F359C44807E7A2E /* FontAwesomeKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0368C45791F1ED3DF9750BDB585DE648 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE3E8F37FCAD240CA9CEFDAA8064CC14 /* Pods-RetoHack-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2CE6161B0239D90A2BF9A25124FAB715 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -448,22 +1233,88 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5B83298D81B984984E0A9B84B6DE07C /* Sources */ = {
+		877A845E4BD8935C95F0F3F3ABABE85A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				232966267BA12993093E08352A36AE11 /* Pods-RetoHack-dummy.m in Sources */,
+				AC18373831F2C17BC6B6598A58112794 /* CAKeyframeAnimation+AHEasing.m in Sources */,
+				320C187CB7DDF4ECFEF431D01BAD9E69 /* CALayer+XLayerSelectHelper.m in Sources */,
+				A3CE48293E19ED8892E9558CEC94D00C /* CAShapeLayer+XLayerHelper.m in Sources */,
+				250CA98A90B955E171971A3E0417D450 /* OrdinateView.m in Sources */,
+				1410A9A7F943AAA2E92311611D608699 /* UIGestureRecognizer+XGesHelper.m in Sources */,
+				2D97C932D0E94A401E911BF507ACC15D /* XAbscissaView.m in Sources */,
+				09E6E8B762ECDA0CD5FF29ACDC4A0883 /* XAlignLabel.m in Sources */,
+				FC010AFEBF11779FFD4D60B1D252DB73 /* XAnimation.m in Sources */,
+				639683FC2FD65122F3A4771B75DB24C7 /* XAnimationLabel.m in Sources */,
+				BBB16A4FA3AC1551DDB093FF7C6B8279 /* XAnimationPath.m in Sources */,
+				5A17F6A91E2F2393FBFA675709085E9E /* XAnimator.m in Sources */,
+				7FC53D7B29AE5F1F65ED6967A99FF8A2 /* XAreaLineChartConfiguration.m in Sources */,
+				2F23743D71187566345A02E20E71447A /* XAreaLineContainerView.m in Sources */,
+				8D038FCE54550E59B8CCF2348D50C1C4 /* XAuxiliaryCalculationHelper.m in Sources */,
+				4A38F2CF2526C4A1C82C28C615B5BA70 /* XBarChart.m in Sources */,
+				FD2C05EBA90CEC82FB846795B9EE9B65 /* XBarChartConfiguration.m in Sources */,
+				C79E35EC0369DBE2187C1A16EED31B43 /* XBarChartView.m in Sources */,
+				919151FE3205B37EC4DBB9469D92D783 /* XBarContainerView.m in Sources */,
+				B1CF852E13869CF13CC131B32D12BF54 /* XBarItem.m in Sources */,
+				0235D2C54BB4DE7375C54B3F9DBF3957 /* XBaseChartConfiguration.m in Sources */,
+				45520360BBC7827DD762CE2C584430A3 /* XColor.m in Sources */,
+				C6C6DF67F9A7DD5F9AA443D7448D4E55 /* XCycleView.m in Sources */,
+				83CC6C54F87E74FD67C421FA9400C8A6 /* XJYChart-dummy.m in Sources */,
+				0BA461B87A4083B33F7F3C6F5433FF46 /* XJYNumberLabelDecoration.m in Sources */,
+				4F1882ECC517B74AC0960F8BBB87F805 /* XLineChart.m in Sources */,
+				8514042B7AA16ACA92A51A87386E10E5 /* XLineChartConfiguration.m in Sources */,
+				B9A950DCD60FE813E9241CE195A77180 /* XLineChartItem.m in Sources */,
+				3E3B37C7BAC9B25DA115CA9B02164A86 /* XLineChartView.m in Sources */,
+				CBBAA3D44EE00F1DAC21025555CDDFEC /* XLineContainerView.m in Sources */,
+				B3574BCFB8675DE2E9CA4AAAC7259C8B /* XNormalLineChartConfiguration.m in Sources */,
+				05C7C6726ECCAD3E68B569BA1ADD9CFC /* XNotificationBridge.m in Sources */,
+				7D74E6C2FF2BE225019413642ACB76C0 /* XPieChart.m in Sources */,
+				B73983D1783097040B57FCD2BD013162 /* XPieItem.m in Sources */,
+				C0439F406C2E172E05ADC5CDB2590474 /* XPointDetect.m in Sources */,
+				D3F4CDE6CCCEF94A5EAD7C5D1AA80074 /* XPositiveNegativeBarChart.m in Sources */,
+				5AFCF81FADE5D01816C1B1FC0697891A /* XPositiveNegativeBarChartView.m in Sources */,
+				AC464935E1147D785D94E14B4D05E8C2 /* XPositiveNegativeBarContainerView.m in Sources */,
+				685663671B0DC7285CF8D778D59DB4E6 /* XRandomNumerHelper.m in Sources */,
+				A11A545B02CB36C2321626958B5C406F /* XStackAreaLineChartConfiguration.m in Sources */,
+				74A31E5DD15794738C2699C63C9A9D30 /* XStackAreaLineContainerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF475662818D2A69AC9BF6E3B04EB75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D18DDB3607636C95C751320260721D8 /* Colours-dummy.m in Sources */,
+				0F9706A30B52967B461EF983F7B9300E /* Colours.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4651873C6ED049EFC2FD38147E7B6D9A /* PBXTargetDependency */ = {
+		08815EF00D6BAE0EBED4DD4ACC024225 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XJYChart;
+			target = 2B6B79D506B561AF3BC77AF33C7B9FDE /* XJYChart */;
+			targetProxy = 681CAE8AB6EB445686E674F32D4D070E /* PBXContainerItemProxy */;
+		};
+		0990020A726E6BE7AAFE5779EC6383D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Colours;
+			target = 2194BB176C539E559DB8A48642253D85 /* Colours */;
+			targetProxy = C721B8A138A9526DA2EC9F55FDE96B55 /* PBXContainerItemProxy */;
+		};
+		4EA073DFC077E362653C708552AA582D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DesignSystem;
 			target = 194A56F2B926B90E05CF289C5AA5A248 /* DesignSystem */;
-			targetProxy = 52534DCCE07D8132D0B9B38FBF6E5EAF /* PBXContainerItemProxy */;
+			targetProxy = B3A1CF41B9A3D901071B440EEB6ABEAE /* PBXContainerItemProxy */;
+		};
+		6ED945FDE763387DC6A2D8BA7D89DB08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Colours;
+			target = 2194BB176C539E559DB8A48642253D85 /* Colours */;
+			targetProxy = C57EB85E51C9923A97C86DE1F7EC0899 /* PBXContainerItemProxy */;
 		};
 		A7E7A305B0C0FC5D86BFE0D28A747B03 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -471,15 +1322,19 @@
 			target = 828F14A5FC34AAA0EBB198E49E27BB99 /* DesignSystem-SalesforceDesignSystem */;
 			targetProxy = 873FA63D730763FF9FD1D8FE5352CCFA /* PBXContainerItemProxy */;
 		};
+		C8E19560E78DC5F49F252482334FFE4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FontAwesomeKit;
+			target = 139014B082BD633E25DA254D0EE0F781 /* FontAwesomeKit */;
+			targetProxy = 85EE9C59E3B5C585ABF7BE1A04EBE5A1 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		026FEA42E3124F3C7AAEFB9825BBFC24 /* Debug */ = {
+		18A79DB78B910C51D774AA715EBAC494 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB76DD363845206EF66ACF921B37DE80 /* Pods-RetoHack.debug.xcconfig */;
+			baseConfigurationReference = BB4D24DA3C459EED0C41C646F09ECE16 /* XJYChart.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -489,23 +1344,22 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RetoHack/Pods-RetoHack-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/XJYChart/XJYChart-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XJYChart/XJYChart-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RetoHack/Pods-RetoHack.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/XJYChart/XJYChart.modulemap";
+				PRODUCT_MODULE_NAME = XJYChart;
+				PRODUCT_NAME = XJYChart;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -514,7 +1368,7 @@
 		};
 		1C5CF5B3C7439EFBA150F97C204329BD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5F0CE1068CD886A4CB9E274B992C89F /* DesignSystem.xcconfig */;
+			baseConfigurationReference = F589B46E229D4A62897FA22C55296444 /* DesignSystem.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -612,6 +1466,78 @@
 			};
 			name = Debug;
 		};
+		25B8665FFA6270A92A738F111D8D92C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B46E0C0B95CD7542DC6AE666A3731F8 /* FontAwesomeKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FontAwesomeKit/FontAwesomeKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FontAwesomeKit/FontAwesomeKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FontAwesomeKit/FontAwesomeKit.modulemap";
+				PRODUCT_MODULE_NAME = FontAwesomeKit;
+				PRODUCT_NAME = FontAwesomeKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		395CB1EB113178EBAFE3FBBC0A270FFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A40B43374B96583334E5991A99C45B15 /* Colours.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Colours/Colours-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Colours/Colours-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Colours/Colours.modulemap";
+				PRODUCT_MODULE_NAME = Colours;
+				PRODUCT_NAME = Colours;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -672,7 +1598,7 @@
 			};
 			name = Release;
 		};
-		464A24792147FA1F629FCDF247EE02F6 /* Release */ = {
+		59E9446B50E06DDF925C4A6483AA7BB3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 890440FF6BCB415E4F25641F0F8D7DB8 /* Pods-RetoHack.release.xcconfig */;
 			buildSettings = {
@@ -711,9 +1637,82 @@
 			};
 			name = Release;
 		};
+		601E766F800EA01A053A2E926173D873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB76DD363845206EF66ACF921B37DE80 /* Pods-RetoHack.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RetoHack/Pods-RetoHack-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RetoHack/Pods-RetoHack.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		77C066A45FF90E00B0E6529EDCF9D76B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A40B43374B96583334E5991A99C45B15 /* Colours.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Colours/Colours-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Colours/Colours-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Colours/Colours.modulemap";
+				PRODUCT_MODULE_NAME = Colours;
+				PRODUCT_NAME = Colours;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		8B37775A862192FA842286803D0F6AE2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5F0CE1068CD886A4CB9E274B992C89F /* DesignSystem.xcconfig */;
+			baseConfigurationReference = F589B46E229D4A62897FA22C55296444 /* DesignSystem.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DesignSystem";
@@ -729,7 +1728,7 @@
 		};
 		93F4B2F7C3FD424F8E6AEC82173DE229 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5F0CE1068CD886A4CB9E274B992C89F /* DesignSystem.xcconfig */;
+			baseConfigurationReference = F589B46E229D4A62897FA22C55296444 /* DesignSystem.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -762,9 +1761,80 @@
 			};
 			name = Debug;
 		};
+		AB637068B3BB409D1A04D982BBB86621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB4D24DA3C459EED0C41C646F09ECE16 /* XJYChart.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XJYChart/XJYChart-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XJYChart/XJYChart-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/XJYChart/XJYChart.modulemap";
+				PRODUCT_MODULE_NAME = XJYChart;
+				PRODUCT_NAME = XJYChart;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D0B20BD282482BAF23A0B142570EB072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B46E0C0B95CD7542DC6AE666A3731F8 /* FontAwesomeKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FontAwesomeKit/FontAwesomeKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FontAwesomeKit/FontAwesomeKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FontAwesomeKit/FontAwesomeKit.modulemap";
+				PRODUCT_MODULE_NAME = FontAwesomeKit;
+				PRODUCT_NAME = FontAwesomeKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		E3BC68102F9EE65130D17DD3D73F6387 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5F0CE1068CD886A4CB9E274B992C89F /* DesignSystem.xcconfig */;
+			baseConfigurationReference = F589B46E229D4A62897FA22C55296444 /* DesignSystem.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DesignSystem";
@@ -781,6 +1851,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1C161DB3E158FBC39C78557620B10538 /* Build configuration list for PBXNativeTarget "FontAwesomeKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B20BD282482BAF23A0B142570EB072 /* Debug */,
+				25B8665FFA6270A92A738F111D8D92C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2ACCE7B7436B19F276C1FFFF6BEB4FB7 /* Build configuration list for PBXNativeTarget "Colours" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77C066A45FF90E00B0E6529EDCF9D76B /* Debug */,
+				395CB1EB113178EBAFE3FBBC0A270FFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -799,20 +1887,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		74D0E3A340BFD5B14496959FEEE1B422 /* Build configuration list for PBXNativeTarget "XJYChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A79DB78B910C51D774AA715EBAC494 /* Debug */,
+				AB637068B3BB409D1A04D982BBB86621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B910A18EE7EA5385F7DF0010D69FB4F4 /* Build configuration list for PBXNativeTarget "Pods-RetoHack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				601E766F800EA01A053A2E926173D873 /* Debug */,
+				59E9446B50E06DDF925C4A6483AA7BB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		CB8EA70D69953DF18860D0F8914EEDF6 /* Build configuration list for PBXNativeTarget "DesignSystem-SalesforceDesignSystem" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E3BC68102F9EE65130D17DD3D73F6387 /* Debug */,
 				8B37775A862192FA842286803D0F6AE2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DC18E8FAD85AB3FEB7BA5CB7FAECD60C /* Build configuration list for PBXNativeTarget "Pods-RetoHack" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				026FEA42E3124F3C7AAEFB9825BBFC24 /* Debug */,
-				464A24792147FA1F629FCDF247EE02F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

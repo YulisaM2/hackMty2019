@@ -1,16 +1,50 @@
 PODS:
+  - Colours (5.13.0):
+    - Colours/ObjC (= 5.13.0)
+  - Colours/ObjC (5.13.0)
   - DesignSystem (3.1.2)
+  - FontAwesomeKit (2.2.1):
+    - FontAwesomeKit/Core (= 2.2.1)
+    - FontAwesomeKit/FontAwesome (= 2.2.1)
+    - FontAwesomeKit/FoundationIcons (= 2.2.1)
+    - FontAwesomeKit/IonIcons (= 2.2.1)
+    - FontAwesomeKit/Material (= 2.2.1)
+    - FontAwesomeKit/Octicons (= 2.2.1)
+    - FontAwesomeKit/Zocial (= 2.2.1)
+  - FontAwesomeKit/Core (2.2.1)
+  - FontAwesomeKit/FontAwesome (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/FoundationIcons (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/IonIcons (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Material (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Octicons (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Zocial (2.2.1):
+    - FontAwesomeKit/Core
+  - XJYChart (2.5.0):
+    - Colours (= 5.13.0)
 
 DEPENDENCIES:
   - DesignSystem
+  - FontAwesomeKit
+  - XJYChart
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Colours
     - DesignSystem
+    - FontAwesomeKit
+    - XJYChart
 
 SPEC CHECKSUMS:
+  Colours: f24220c38f13deac88612667e9b4a7fb96b871d4
   DesignSystem: 4ddd41c78164bba388856a8345509784ecb42a5f
+  FontAwesomeKit: 3614979b3dbb0ec3f7fac1bd760b91f66c31db67
+  XJYChart: ce3180be5e67b107c25f523e279ed5eb8dae1c34
 
-PODFILE CHECKSUM: 1ceeae6ebc111e08317d869c6c16baa271dbf5ff
+PODFILE CHECKSUM: 6f0dc2fc46fd554d4337f30b18fc98583456840f
 
 COCOAPODS: 1.7.5

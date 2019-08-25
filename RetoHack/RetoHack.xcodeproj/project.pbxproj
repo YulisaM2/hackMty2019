@@ -14,6 +14,21 @@
 		A9C733BC2311B28A0074D187 /* RetoHack.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A9C733BA2311B28A0074D187 /* RetoHack.xcdatamodeld */; };
 		A9C733BE2311B28D0074D187 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9C733BD2311B28D0074D187 /* Assets.xcassets */; };
 		A9C733C12311B28D0074D187 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9C733BF2311B28D0074D187 /* LaunchScreen.storyboard */; };
+		A9C733CF2311D3210074D187 /* FacturacionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C733CD2311D3210074D187 /* FacturacionCollectionViewCell.swift */; };
+		A9C733D02311D3210074D187 /* FacturacionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9C733CE2311D3210074D187 /* FacturacionCollectionViewCell.xib */; };
+		A9C733D62311D9280074D187 /* FacturacionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C733D52311D9280074D187 /* FacturacionViewController.m */; };
+		A9C733D92312041A0074D187 /* GastosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C733D82312041A0074D187 /* GastosViewController.m */; };
+		A9C733E2231204BF0074D187 /* VentasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C733E1231204BF0074D187 /* VentasViewController.m */; };
+		A9C733E52312095C0074D187 /* ClientesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C733E32312095C0074D187 /* ClientesTableViewCell.swift */; };
+		A9C733E62312095C0074D187 /* ClientesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9C733E42312095C0074D187 /* ClientesTableViewCell.xib */; };
+		A9C733E923120F8E0074D187 /* ClientesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C733E823120F8E0074D187 /* ClientesViewController.m */; };
+		A9C733EC2312141B0074D187 /* GastosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C733EA2312141B0074D187 /* GastosCollectionViewCell.swift */; };
+		A9C733ED2312141B0074D187 /* GastosCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9C733EB2312141B0074D187 /* GastosCollectionViewCell.xib */; };
+		A9C733F32312190C0074D187 /* GastosResumenCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C733F12312190C0074D187 /* GastosResumenCollectionViewCell.swift */; };
+		A9C733F42312190C0074D187 /* GastosResumenCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9C733F22312190C0074D187 /* GastosResumenCollectionViewCell.xib */; };
+		A9C733F7231221B00074D187 /* GastoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C733F5231221B00074D187 /* GastoTableViewCell.swift */; };
+		A9C733F8231221B00074D187 /* GastoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9C733F6231221B00074D187 /* GastoTableViewCell.xib */; };
+		A9C733FA2312297E0074D187 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C733F92312297E0074D187 /* TabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +42,26 @@
 		A9C733BD2311B28D0074D187 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9C733C02311B28D0074D187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9C733C22311B28D0074D187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9C733CD2311D3210074D187 /* FacturacionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacturacionCollectionViewCell.swift; sourceTree = "<group>"; };
+		A9C733CE2311D3210074D187 /* FacturacionCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FacturacionCollectionViewCell.xib; sourceTree = "<group>"; };
+		A9C733D32311D9280074D187 /* RetoHack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RetoHack-Bridging-Header.h"; sourceTree = "<group>"; };
+		A9C733D42311D9280074D187 /* FacturacionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FacturacionViewController.h; sourceTree = "<group>"; };
+		A9C733D52311D9280074D187 /* FacturacionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacturacionViewController.m; sourceTree = "<group>"; };
+		A9C733D72312041A0074D187 /* GastosViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GastosViewController.h; sourceTree = "<group>"; };
+		A9C733D82312041A0074D187 /* GastosViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GastosViewController.m; sourceTree = "<group>"; };
+		A9C733E0231204BF0074D187 /* VentasViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VentasViewController.h; sourceTree = "<group>"; };
+		A9C733E1231204BF0074D187 /* VentasViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VentasViewController.m; sourceTree = "<group>"; };
+		A9C733E32312095C0074D187 /* ClientesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientesTableViewCell.swift; sourceTree = "<group>"; };
+		A9C733E42312095C0074D187 /* ClientesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ClientesTableViewCell.xib; sourceTree = "<group>"; };
+		A9C733E723120F8E0074D187 /* ClientesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClientesViewController.h; sourceTree = "<group>"; };
+		A9C733E823120F8E0074D187 /* ClientesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClientesViewController.m; sourceTree = "<group>"; };
+		A9C733EA2312141B0074D187 /* GastosCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastosCollectionViewCell.swift; sourceTree = "<group>"; };
+		A9C733EB2312141B0074D187 /* GastosCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GastosCollectionViewCell.xib; sourceTree = "<group>"; };
+		A9C733F12312190C0074D187 /* GastosResumenCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastosResumenCollectionViewCell.swift; sourceTree = "<group>"; };
+		A9C733F22312190C0074D187 /* GastosResumenCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GastosResumenCollectionViewCell.xib; sourceTree = "<group>"; };
+		A9C733F5231221B00074D187 /* GastoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastoTableViewCell.swift; sourceTree = "<group>"; };
+		A9C733F6231221B00074D187 /* GastoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GastoTableViewCell.xib; sourceTree = "<group>"; };
+		A9C733F92312297E0074D187 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		B849558A77AA69B33AF3A7FC /* Pods_RetoHack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetoHack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -66,17 +101,19 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		173E39BA2311CC00001191B2 /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Helpers;
-			sourceTree = "<group>";
-		};
 		173E39BB2311CCC7001191B2 /* MainViews */ = {
 			isa = PBXGroup;
 			children = (
 				173E39BC2311CD04001191B2 /* IVAViewController.swift */,
+				A9C733D42311D9280074D187 /* FacturacionViewController.h */,
+				A9C733D52311D9280074D187 /* FacturacionViewController.m */,
+				A9C733D72312041A0074D187 /* GastosViewController.h */,
+				A9C733D82312041A0074D187 /* GastosViewController.m */,
+				A9C733E0231204BF0074D187 /* VentasViewController.h */,
+				A9C733E1231204BF0074D187 /* VentasViewController.m */,
+				A9C733E723120F8E0074D187 /* ClientesViewController.h */,
+				A9C733E823120F8E0074D187 /* ClientesViewController.m */,
+				A9C733F92312297E0074D187 /* TabBar.swift */,
 			);
 			path = MainViews;
 			sourceTree = "<group>";
@@ -110,17 +147,43 @@
 		A9C733B22311B28A0074D187 /* RetoHack */ = {
 			isa = PBXGroup;
 			children = (
-				173E39BA2311CC00001191B2 /* Helpers */,
+				A9C733CB2311D2E20074D187 /* Helpers */,
+				A9C733CA2311D22C0074D187 /* Cells */,
 				173E39B92311CBF8001191B2 /* Controllers */,
 				173E39B82311CBEA001191B2 /* Models */,
 				A9C733B32311B28A0074D187 /* AppDelegate.swift */,
 				A9C733B72311B28A0074D187 /* Main.storyboard */,
 				A9C733BD2311B28D0074D187 /* Assets.xcassets */,
 				A9C733BF2311B28D0074D187 /* LaunchScreen.storyboard */,
+				A9C733D32311D9280074D187 /* RetoHack-Bridging-Header.h */,
 				A9C733C22311B28D0074D187 /* Info.plist */,
 				A9C733BA2311B28A0074D187 /* RetoHack.xcdatamodeld */,
 			);
 			path = RetoHack;
+			sourceTree = "<group>";
+		};
+		A9C733CA2311D22C0074D187 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A9C733CD2311D3210074D187 /* FacturacionCollectionViewCell.swift */,
+				A9C733CE2311D3210074D187 /* FacturacionCollectionViewCell.xib */,
+				A9C733E32312095C0074D187 /* ClientesTableViewCell.swift */,
+				A9C733E42312095C0074D187 /* ClientesTableViewCell.xib */,
+				A9C733EA2312141B0074D187 /* GastosCollectionViewCell.swift */,
+				A9C733EB2312141B0074D187 /* GastosCollectionViewCell.xib */,
+				A9C733F12312190C0074D187 /* GastosResumenCollectionViewCell.swift */,
+				A9C733F22312190C0074D187 /* GastosResumenCollectionViewCell.xib */,
+				A9C733F5231221B00074D187 /* GastoTableViewCell.swift */,
+				A9C733F6231221B00074D187 /* GastoTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		A9C733CB2311D2E20074D187 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +220,7 @@
 				TargetAttributes = {
 					A9C733AF2311B28A0074D187 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -183,7 +247,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9C733F8231221B00074D187 /* GastoTableViewCell.xib in Resources */,
+				A9C733F42312190C0074D187 /* GastosResumenCollectionViewCell.xib in Resources */,
+				A9C733E62312095C0074D187 /* ClientesTableViewCell.xib in Resources */,
+				A9C733D02311D3210074D187 /* FacturacionCollectionViewCell.xib in Resources */,
 				A9C733C12311B28D0074D187 /* LaunchScreen.storyboard in Resources */,
+				A9C733ED2312141B0074D187 /* GastosCollectionViewCell.xib in Resources */,
 				A9C733BE2311B28D0074D187 /* Assets.xcassets in Resources */,
 				A9C733B92311B28A0074D187 /* Main.storyboard in Resources */,
 			);
@@ -238,9 +307,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9C733E923120F8E0074D187 /* ClientesViewController.m in Sources */,
+				A9C733E52312095C0074D187 /* ClientesTableViewCell.swift in Sources */,
+				A9C733CF2311D3210074D187 /* FacturacionCollectionViewCell.swift in Sources */,
+				A9C733E2231204BF0074D187 /* VentasViewController.m in Sources */,
 				173E39BD2311CD04001191B2 /* IVAViewController.swift in Sources */,
+				A9C733D62311D9280074D187 /* FacturacionViewController.m in Sources */,
 				A9C733BC2311B28A0074D187 /* RetoHack.xcdatamodeld in Sources */,
 				A9C733B42311B28A0074D187 /* AppDelegate.swift in Sources */,
+				A9C733F7231221B00074D187 /* GastoTableViewCell.swift in Sources */,
+				A9C733FA2312297E0074D187 /* TabBar.swift in Sources */,
+				A9C733D92312041A0074D187 /* GastosViewController.m in Sources */,
+				A9C733F32312190C0074D187 /* GastosResumenCollectionViewCell.swift in Sources */,
+				A9C733EC2312141B0074D187 /* GastosCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +466,7 @@
 			baseConfigurationReference = 974D2671A2263EECDEF58DB9 /* Pods-RetoHack.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XYQR9G9T5T;
 				INFOPLIST_FILE = RetoHack/Info.plist;
@@ -396,6 +476,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.break.retoHack.RetoHack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RetoHack/RetoHack-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -406,6 +488,7 @@
 			baseConfigurationReference = 46A0295A80D5E07AC0C3E5BD /* Pods-RetoHack.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XYQR9G9T5T;
 				INFOPLIST_FILE = RetoHack/Info.plist;
@@ -415,6 +498,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.break.retoHack.RetoHack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RetoHack/RetoHack-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

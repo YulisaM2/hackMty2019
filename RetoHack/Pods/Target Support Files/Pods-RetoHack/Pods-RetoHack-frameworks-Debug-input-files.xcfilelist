@@ -1,2 +1,5 @@
 ${PODS_ROOT}/Target Support Files/Pods-RetoHack/Pods-RetoHack-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Colours/Colours.framework
 ${BUILT_PRODUCTS_DIR}/DesignSystem/DesignSystem.framework
+${BUILT_PRODUCTS_DIR}/FontAwesomeKit/FontAwesomeKit.framework
+${BUILT_PRODUCTS_DIR}/XJYChart/XJYChart.framework
