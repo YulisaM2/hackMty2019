@@ -9,6 +9,14 @@
 /* Begin PBXBuildFile section */
 		173E39BD2311CD04001191B2 /* IVAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173E39BC2311CD04001191B2 /* IVAViewController.swift */; };
 		3B620022DCA693D42B1E7280 /* Pods_RetoHack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B849558A77AA69B33AF3A7FC /* Pods_RetoHack.framework */; };
+		A91480892312E62200122ECE /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A91480882312E62200122ECE /* LogInViewController.m */; };
+		A92D9D162312C0F5008EF484 /* VentasCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92D9D142312C0F5008EF484 /* VentasCollectionViewCell.swift */; };
+		A92D9D172312C0F5008EF484 /* VentasCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A92D9D152312C0F5008EF484 /* VentasCollectionViewCell.xib */; };
+		A92D9D1A2312C1AE008EF484 /* VentasDetalleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92D9D182312C1AE008EF484 /* VentasDetalleCollectionViewCell.swift */; };
+		A92D9D1B2312C1AE008EF484 /* VentasDetalleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A92D9D192312C1AE008EF484 /* VentasDetalleCollectionViewCell.xib */; };
+		A9309FF7231266750084A6B7 /* IVATableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9309FF5231266750084A6B7 /* IVATableViewCell.swift */; };
+		A9309FF8231266750084A6B7 /* IVATableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9309FF6231266750084A6B7 /* IVATableViewCell.xib */; };
+		A9309FFA2312A2C20084A6B7 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9309FF92312A2C20084A6B7 /* APIManager.swift */; };
 		A9C733B42311B28A0074D187 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C733B32311B28A0074D187 /* AppDelegate.swift */; };
 		A9C733B92311B28A0074D187 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9C733B72311B28A0074D187 /* Main.storyboard */; };
 		A9C733BC2311B28A0074D187 /* RetoHack.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A9C733BA2311B28A0074D187 /* RetoHack.xcdatamodeld */; };
@@ -35,6 +43,15 @@
 		173E39BC2311CD04001191B2 /* IVAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IVAViewController.swift; sourceTree = "<group>"; };
 		46A0295A80D5E07AC0C3E5BD /* Pods-RetoHack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetoHack.release.xcconfig"; path = "Target Support Files/Pods-RetoHack/Pods-RetoHack.release.xcconfig"; sourceTree = "<group>"; };
 		974D2671A2263EECDEF58DB9 /* Pods-RetoHack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetoHack.debug.xcconfig"; path = "Target Support Files/Pods-RetoHack/Pods-RetoHack.debug.xcconfig"; sourceTree = "<group>"; };
+		A91480872312E62200122ECE /* LogInViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
+		A91480882312E62200122ECE /* LogInViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
+		A92D9D142312C0F5008EF484 /* VentasCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VentasCollectionViewCell.swift; sourceTree = "<group>"; };
+		A92D9D152312C0F5008EF484 /* VentasCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VentasCollectionViewCell.xib; sourceTree = "<group>"; };
+		A92D9D182312C1AE008EF484 /* VentasDetalleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VentasDetalleCollectionViewCell.swift; sourceTree = "<group>"; };
+		A92D9D192312C1AE008EF484 /* VentasDetalleCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VentasDetalleCollectionViewCell.xib; sourceTree = "<group>"; };
+		A9309FF5231266750084A6B7 /* IVATableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IVATableViewCell.swift; sourceTree = "<group>"; };
+		A9309FF6231266750084A6B7 /* IVATableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IVATableViewCell.xib; sourceTree = "<group>"; };
+		A9309FF92312A2C20084A6B7 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		A9C733B02311B28A0074D187 /* RetoHack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetoHack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9C733B32311B28A0074D187 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9C733B82311B28A0074D187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -97,6 +114,8 @@
 			isa = PBXGroup;
 			children = (
 				173E39BB2311CCC7001191B2 /* MainViews */,
+				A91480872312E62200122ECE /* LogInViewController.h */,
+				A91480882312E62200122ECE /* LogInViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -175,6 +194,12 @@
 				A9C733F22312190C0074D187 /* GastosResumenCollectionViewCell.xib */,
 				A9C733F5231221B00074D187 /* GastoTableViewCell.swift */,
 				A9C733F6231221B00074D187 /* GastoTableViewCell.xib */,
+				A9309FF5231266750084A6B7 /* IVATableViewCell.swift */,
+				A9309FF6231266750084A6B7 /* IVATableViewCell.xib */,
+				A92D9D142312C0F5008EF484 /* VentasCollectionViewCell.swift */,
+				A92D9D152312C0F5008EF484 /* VentasCollectionViewCell.xib */,
+				A92D9D182312C1AE008EF484 /* VentasDetalleCollectionViewCell.swift */,
+				A92D9D192312C1AE008EF484 /* VentasDetalleCollectionViewCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -182,6 +207,7 @@
 		A9C733CB2311D2E20074D187 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				A9309FF92312A2C20084A6B7 /* APIManager.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -249,11 +275,14 @@
 			files = (
 				A9C733F8231221B00074D187 /* GastoTableViewCell.xib in Resources */,
 				A9C733F42312190C0074D187 /* GastosResumenCollectionViewCell.xib in Resources */,
+				A92D9D1B2312C1AE008EF484 /* VentasDetalleCollectionViewCell.xib in Resources */,
 				A9C733E62312095C0074D187 /* ClientesTableViewCell.xib in Resources */,
 				A9C733D02311D3210074D187 /* FacturacionCollectionViewCell.xib in Resources */,
 				A9C733C12311B28D0074D187 /* LaunchScreen.storyboard in Resources */,
 				A9C733ED2312141B0074D187 /* GastosCollectionViewCell.xib in Resources */,
 				A9C733BE2311B28D0074D187 /* Assets.xcassets in Resources */,
+				A92D9D172312C0F5008EF484 /* VentasCollectionViewCell.xib in Resources */,
+				A9309FF8231266750084A6B7 /* IVATableViewCell.xib in Resources */,
 				A9C733B92311B28A0074D187 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,12 +340,17 @@
 				A9C733E52312095C0074D187 /* ClientesTableViewCell.swift in Sources */,
 				A9C733CF2311D3210074D187 /* FacturacionCollectionViewCell.swift in Sources */,
 				A9C733E2231204BF0074D187 /* VentasViewController.m in Sources */,
+				A9309FF7231266750084A6B7 /* IVATableViewCell.swift in Sources */,
+				A92D9D162312C0F5008EF484 /* VentasCollectionViewCell.swift in Sources */,
 				173E39BD2311CD04001191B2 /* IVAViewController.swift in Sources */,
 				A9C733D62311D9280074D187 /* FacturacionViewController.m in Sources */,
+				A92D9D1A2312C1AE008EF484 /* VentasDetalleCollectionViewCell.swift in Sources */,
 				A9C733BC2311B28A0074D187 /* RetoHack.xcdatamodeld in Sources */,
 				A9C733B42311B28A0074D187 /* AppDelegate.swift in Sources */,
+				A91480892312E62200122ECE /* LogInViewController.m in Sources */,
 				A9C733F7231221B00074D187 /* GastoTableViewCell.swift in Sources */,
 				A9C733FA2312297E0074D187 /* TabBar.swift in Sources */,
+				A9309FFA2312A2C20084A6B7 /* APIManager.swift in Sources */,
 				A9C733D92312041A0074D187 /* GastosViewController.m in Sources */,
 				A9C733F32312190C0074D187 /* GastosResumenCollectionViewCell.swift in Sources */,
 				A9C733EC2312141B0074D187 /* GastosCollectionViewCell.swift in Sources */,

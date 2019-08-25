@@ -9,7 +9,10 @@
 import UIKit
 
 class ClientesTableViewCell: UITableViewCell {
-
+    @IBOutlet weak var amount: UILabel!
+    @IBOutlet weak var name: UILabel!
+    @IBOutlet weak var clienteNumber: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

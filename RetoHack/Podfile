@@ -9,4 +9,6 @@ target 'RetoHack' do
 pod 'DesignSystem'
 pod 'XJYChart'
 pod 'FontAwesomeKit'
+pod 'PieCharts'
+pod 'Alamofire'
 end

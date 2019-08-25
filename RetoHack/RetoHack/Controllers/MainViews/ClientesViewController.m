@@ -9,10 +9,11 @@
 #import "ClientesViewController.h"
 
 #import <RetoHack-Swift.h>
-
-@interface ClientesViewController () <UITableViewDelegate, UITableViewDataSource>
+#import <PieCharts-Swift.h>
+@interface ClientesViewController ()  <UITableViewDelegate, UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
-
+@property (weak, nonatomic) IBOutlet PieChart *pieChart;
+@property (strong, nonatomic) NSArray * arrayClientes;
 @end
 
 @implementation ClientesViewController
@@ -22,6 +23,12 @@
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
     [self.tableView registerNib:[UINib nibWithNibName:@"ClientesTableViewCell" bundle:nil] forCellReuseIdentifier:@"cell"];
+    [[APIManager shared] getVentasTopWithCompletion:^(NSError * error, NSArray * json) {
+        if(error == nil){
+            self.arrayClientes = json;
+            [self.tableView reloadData];
+        }
+    }];
     
     
     // Do any additional setup after loading the view.
@@ -39,11 +46,14 @@
 
 - (nonnull UITableViewCell *)tableView:(nonnull UITableView *)tableView cellForRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
     ClientesTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
+    [cell.amount setText:[NSString stringWithFormat:@"%@",self.arrayClientes[indexPath.row][@"total"]]];
+    [cell.clienteNumber setText:[@"Tu cliente #" stringByAppendingString: [NSString stringWithFormat:@"%ld", indexPath.row + 1]]];
+    [cell.name setText:self.arrayClientes[indexPath.row][@"receptorname"]];
     return  cell;
 }
 
 - (NSInteger)tableView:(nonnull UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 10;
+    return self.arrayClientes.count;
 }
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     return 140;

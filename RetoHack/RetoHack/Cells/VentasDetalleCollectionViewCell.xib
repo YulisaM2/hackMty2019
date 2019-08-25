@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell2" id="bKE-vc-HIr" customClass="VentasDetalleCollectionViewCell" customModule="RetoHack" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="250" height="300"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="250" height="300"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7JO-1j-K6a">
+                        <rect key="frame" x="0.0" y="0.0" width="250" height="16"/>
+                        <color key="backgroundColor" red="0.0" green="0.86274509799999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bill" translatesAutoresizingMaskIntoConstraints="NO" id="9H9-sM-bmJ">
+                        <rect key="frame" x="88" y="35" width="75" height="53"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="53" id="ynW-1W-x3F"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tu gasto más grande del periodo" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9hK-PX-w9z">
+                        <rect key="frame" x="20" y="132" width="210" height="63"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$11,113,280" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="quR-9N-sUj">
+                        <rect key="frame" x="45" y="90" width="160" height="48"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="48" id="jwl-4e-YIG"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                        <color key="textColor" red="0.0" green="0.86274509799999999" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Mof-ZK-zTI">
+                        <rect key="frame" x="11" y="199" width="228" height="2"/>
+                    </progressView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="compañia" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="70l-az-xl0">
+                        <rect key="frame" x="20" y="207" width="210" height="74"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="74" id="oSu-Uc-NgP"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="9H9-sM-bmJ" firstAttribute="centerX" secondItem="quR-9N-sUj" secondAttribute="centerX" id="1AV-DU-l2z"/>
+                <constraint firstItem="quR-9N-sUj" firstAttribute="leading" secondItem="bKE-vc-HIr" secondAttribute="leading" constant="45" id="2A4-Sx-KHn"/>
+                <constraint firstAttribute="trailing" secondItem="7JO-1j-K6a" secondAttribute="trailing" id="4F8-la-Hoc"/>
+                <constraint firstItem="9H9-sM-bmJ" firstAttribute="top" secondItem="7JO-1j-K6a" secondAttribute="bottom" constant="19" id="4QE-Pm-g7g"/>
+                <constraint firstItem="9hK-PX-w9z" firstAttribute="leading" secondItem="bKE-vc-HIr" secondAttribute="leading" constant="20" id="5iC-p6-DHf"/>
+                <constraint firstItem="7JO-1j-K6a" firstAttribute="centerX" secondItem="9H9-sM-bmJ" secondAttribute="centerX" id="7at-eR-brf"/>
+                <constraint firstItem="70l-az-xl0" firstAttribute="top" secondItem="Mof-ZK-zTI" secondAttribute="bottom" constant="6" id="Dls-cb-7cX"/>
+                <constraint firstItem="7JO-1j-K6a" firstAttribute="top" secondItem="bKE-vc-HIr" secondAttribute="top" id="EaE-tY-tbb"/>
+                <constraint firstItem="9H9-sM-bmJ" firstAttribute="leading" secondItem="bKE-vc-HIr" secondAttribute="leading" constant="88" id="GUZ-0z-yEW"/>
+                <constraint firstItem="Mof-ZK-zTI" firstAttribute="leading" secondItem="bKE-vc-HIr" secondAttribute="leading" constant="11" id="IvV-if-4ax"/>
+                <constraint firstAttribute="bottom" secondItem="70l-az-xl0" secondAttribute="bottom" constant="19" id="QfD-QS-THP"/>
+                <constraint firstItem="Mof-ZK-zTI" firstAttribute="top" secondItem="quR-9N-sUj" secondAttribute="bottom" constant="61" id="Vhk-AI-o7w"/>
+                <constraint firstItem="9hK-PX-w9z" firstAttribute="top" secondItem="9H9-sM-bmJ" secondAttribute="bottom" constant="44" id="X1F-25-hGW"/>
+                <constraint firstItem="quR-9N-sUj" firstAttribute="centerX" secondItem="9hK-PX-w9z" secondAttribute="centerX" id="X3l-TJ-A84"/>
+                <constraint firstItem="7JO-1j-K6a" firstAttribute="leading" secondItem="bKE-vc-HIr" secondAttribute="leading" id="cbx-ZA-1FT"/>
+                <constraint firstItem="Mof-ZK-zTI" firstAttribute="top" secondItem="9hK-PX-w9z" secondAttribute="bottom" constant="4" id="d1l-tq-IUK"/>
+                <constraint firstItem="quR-9N-sUj" firstAttribute="top" secondItem="9H9-sM-bmJ" secondAttribute="bottom" constant="2" id="hR4-zH-5Pf"/>
+                <constraint firstItem="9hK-PX-w9z" firstAttribute="centerX" secondItem="Mof-ZK-zTI" secondAttribute="centerX" id="hmM-nx-iMr"/>
+                <constraint firstItem="9hK-PX-w9z" firstAttribute="leading" secondItem="70l-az-xl0" secondAttribute="leading" id="kcr-nG-w4x"/>
+                <constraint firstItem="9hK-PX-w9z" firstAttribute="trailing" secondItem="70l-az-xl0" secondAttribute="trailing" id="xCy-lU-gOq"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Tqh-2A-dVQ"/>
+            <connections>
+                <outlet property="amount" destination="quR-9N-sUj" id="RPx-2V-1Fw"/>
+                <outlet property="company" destination="70l-az-xl0" id="RDC-9C-Thy"/>
+                <outlet property="descriptionVenta" destination="9hK-PX-w9z" id="7Y7-Q2-84T"/>
+                <outlet property="imagenVenta" destination="9H9-sM-bmJ" id="uZD-JS-Cto"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="51.5625"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="bill" width="401" height="512"/>
+    </resources>
+</document>
