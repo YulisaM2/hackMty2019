@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		173E39BD2311CD04001191B2 /* IVAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173E39BC2311CD04001191B2 /* IVAViewController.swift */; };
+		173E39C12311E4F6001191B2 /* CableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173E39C02311E4F6001191B2 /* CableCell.swift */; };
 		3B620022DCA693D42B1E7280 /* Pods_RetoHack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B849558A77AA69B33AF3A7FC /* Pods_RetoHack.framework */; };
 		A9C733B42311B28A0074D187 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C733B32311B28A0074D187 /* AppDelegate.swift */; };
 		A9C733B92311B28A0074D187 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9C733B72311B28A0074D187 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		173E39BC2311CD04001191B2 /* IVAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IVAViewController.swift; sourceTree = "<group>"; };
+		173E39C02311E4F6001191B2 /* CableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CableCell.swift; sourceTree = "<group>"; };
 		46A0295A80D5E07AC0C3E5BD /* Pods-RetoHack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetoHack.release.xcconfig"; path = "Target Support Files/Pods-RetoHack/Pods-RetoHack.release.xcconfig"; sourceTree = "<group>"; };
 		974D2671A2263EECDEF58DB9 /* Pods-RetoHack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetoHack.debug.xcconfig"; path = "Target Support Files/Pods-RetoHack/Pods-RetoHack.debug.xcconfig"; sourceTree = "<group>"; };
 		A9C733B02311B28A0074D187 /* RetoHack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetoHack.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				173E39BC2311CD04001191B2 /* IVAViewController.swift */,
+				173E39C02311E4F6001191B2 /* CableCell.swift */,
 			);
 			path = MainViews;
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				173E39BD2311CD04001191B2 /* IVAViewController.swift in Sources */,
+				173E39C12311E4F6001191B2 /* CableCell.swift in Sources */,
 				A9C733BC2311B28A0074D187 /* RetoHack.xcdatamodeld in Sources */,
 				A9C733B42311B28A0074D187 /* AppDelegate.swift in Sources */,
 			);

@@ -7,5 +7,6 @@ target 'RetoHack' do
 
   # Pods for RetoHack
 pod 'DesignSystem'
+pod 'PieCharts'
 
 end
