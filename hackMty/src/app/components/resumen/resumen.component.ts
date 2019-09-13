@@ -48,7 +48,7 @@ export class ResumenComponent implements OnInit {
 
   example(rfc) {
     this.exampleData = null;
-    console.log(rfc)
+    console.log(rfc);
     fetch(this.db.baseUrl + 'gastos_totales', {
       method: 'POST',
       body: JSON.stringify({rfc: rfc})
